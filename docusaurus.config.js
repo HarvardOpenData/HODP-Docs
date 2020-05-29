@@ -11,7 +11,7 @@ module.exports = {
       title: 'HODP Docs',
       logo: {
         alt: 'HODP Docs',
-        src: 'logo.png',
+        src: 'img/logo.png',
       },
       links: [
         {
