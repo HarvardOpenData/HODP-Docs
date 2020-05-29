@@ -11,7 +11,7 @@ module.exports = {
       title: 'HODP Docs',
       logo: {
         alt: 'HODP Docs',
-        src: 'img/hodplogoh.png',
+        src: 'logo.png',
       },
       links: [
         {
@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/HarvardOpenData/HODP-Docs',
+            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/HarvardOpenData/HODP-Docs',
+            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
