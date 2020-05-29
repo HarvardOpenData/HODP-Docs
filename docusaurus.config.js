@@ -88,13 +88,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/docs/',
+            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/blog/',
+            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
