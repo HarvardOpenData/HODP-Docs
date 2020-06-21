@@ -78,7 +78,7 @@ Here are the most important directories and files in the codebase. If you're dev
     - pages
     - styles
 ```
-The `hodp-website` repo essentially stores two websites. The `studio` directory controls content structure and frontend of the Sanity studio, and the `web` directory stores the code for our website. All of our content object models are stored in `schemas`, and the frontend structure is specified in `deskStructure.js`. Within `web`, we organize information in a hierarchy of assets (the rare image that we don't want to store in Sanity), components (the building blocks), containers (the wrappers), interactives (the web apps), the library of helpers (for creating image URLs and other useful functions), pages, and styles.
+The `hodp-website` repo essentially stores two websites. The `studio` directory controls the content structure and the frontend of the Sanity studio, and the `web` directory stores the code for our website. All of our content object models are stored in `schemas`, and the frontend structure is specified in `deskStructure.js`. Within `web`, we organize information in a hierarchy of assets (the rare image that we don't want to store in Sanity), components (the building blocks), containers (the wrappers), interactives (the web apps), the library of helpers (for creating image URLs and other useful functions), pages, and styles.
 
 :::note
 
