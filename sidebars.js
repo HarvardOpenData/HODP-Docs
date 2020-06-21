@@ -5,6 +5,7 @@ module.exports = {
       'numpy-pandas',
       'r',
       'stata',
+      'scraping',
     ],
     'Statistical Analysis': [
       'regression',
@@ -20,6 +21,7 @@ module.exports = {
       'react-2',
     ],
     'HODP Guides': [
+      'installation',
       'good-practices',
       'article-guide',
       'webapp-guide',

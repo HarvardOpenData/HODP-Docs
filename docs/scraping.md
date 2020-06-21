@@ -1,7 +1,7 @@
 ---
-id: r
-title: R
-sidebar_label: R
+id: scraping
+title: Scraping
+sidebar_label: Scraping
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

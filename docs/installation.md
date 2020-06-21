@@ -1,7 +1,7 @@
 ---
-id: r
-title: R
-sidebar_label: R
+id: installation
+title: Installation
+sidebar_label: Installation
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
