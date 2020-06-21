@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/hodp-guides',
+          to: 'docs/installation',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

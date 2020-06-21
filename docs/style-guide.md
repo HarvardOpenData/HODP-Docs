@@ -1,7 +1,7 @@
 ---
 id: style-guide
-title: HODP Style Guide
-sidebar_label: HODP Style Guide
+title: Style Guide
+sidebar_label: Style Guide
 ---
 
 By: HODP Board

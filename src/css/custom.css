@@ -5,10 +5,9 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #EB3D3D;
-  --ifm-color-primary-dark: #AF302E;
+  --ifm-color-primary-dark: #C63F47;
   --ifm-color-primary-darker: #6C120A;
   --ifm-color-primary-darkest: #6C120A;
   --ifm-color-primary-light: #F0736B;

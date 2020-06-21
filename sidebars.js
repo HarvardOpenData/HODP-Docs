@@ -5,9 +5,8 @@ module.exports = {
       'good-practices',
       'survey-guide',
       'article-guide',
-      'webapp-guide',
+      'website-guide',
       'style-guide',
-      'hodp-guides',
     ],
     'Data Wrangling': [
       'python',

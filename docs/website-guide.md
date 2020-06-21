@@ -1,7 +1,7 @@
 ---
-id: webapp-guide
-title: Web App Guide
-sidebar_label: Web App Guide
+id: website-guide
+title: Website Guide
+sidebar_label: Website Guide
 ---
 
 By: Melissa Kwan
@@ -10,7 +10,7 @@ By: Melissa Kwan
 
 The [HODP website](https://www.hodp.org/) is built with the following stack:
 - [React](https://reactjs.org/), a JavaScript library for frontend development. It allows us to declare UI elements as components and reuse them in different configurations.
-- [Gatsby](https://www.gatsbyjs.org/), a static site generator that compiles the React code into plain HTML, CSS, and JavaScript before building the site. This, along with other optimizations, makes Gatsby sites extremely fast.
+- [Gatsby](https://www.gatsbyjs.org/), a static site generator that compiles the React code into plain HTML, CSS, and JavaScript as part of the build process. This, along with other optimizations, makes Gatsby sites extremely fast.
 - [Sanity](https://www.sanity.io/), a content management system (CMS) that stores the website data for articles, blog posts, team members, datasets, and pages in structured JSON objects. Unlike Wix or Squarespace, Sanity is a *headless* CMS, which means that it only controls the data, not the presentation. As a result, we can query Sanity's API and plug in the data into any frontend that we want.
 - [GraphQL](https://graphql.org/), a querying language that allows us to retrieve data from Sanity in a predictable format.
 - [Firebase](https://firebase.google.com/), a database that stores our user data for the survey group and the predictions game. We connect the Firebase data to the React frontend using a library called [react-redux-firebase](http://react-redux-firebase.com/).
