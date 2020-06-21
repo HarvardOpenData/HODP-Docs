@@ -61,7 +61,7 @@ sanity login
 [login info here]
 ```
 
-## Codebase overview
+## Codebase outline
 Here are the most important directories and files in the codebase. If you're developing a web app or interactive article, you'll probably be working in the `interactives` directory.
 ```
 - studio
