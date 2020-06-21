@@ -91,9 +91,11 @@ We recommend developing your component in a separate repository before transferr
 
 1. Create a short, descriptive branch off of the main branch with your initials and the feature
     - E.g. `git checkout -b mk-homepage`
-2. Navigate to `web > src > interactives` and create a file for your component. Follow the file and component-naming conventions: if your component name is `BlogPost`, your file should be named `blog-post.js`. If your component requires multiple sub-components, create a folder within `interactives` to keep everything organized.
-3. Test your component by importing and adding it to the `404.js` page within `web > src > pages`. Since we don't have a dedicated testing page, this is our makeshift way of checking whether the component renders properly. Make sure to delete the component and the import once you've verified that it's working!
-4. Next, add your component as an input option for Sanity. This will allow your content editor to pull your React component directly into the story. In `components > block-content > react-component.js`, import your component and add it to the switch statement. Make sure to follow the existing formatting.
+2. Navigate to `web > src > interactives` and create a file for your component.
+    - Follow the file and component-naming conventions: if your component is named `BlogPost`, your file should be named `blog-post.js`.
+    - If your component requires multiple sub-components, create a folder within `interactives` to keep everything organized.
+3. Test your component by importing and adding it to the `404.js` page within `web > src > pages`. Since we don't have a dedicated preview page, this is our makeshift way of checking whether the component renders properly. Make sure to delete the component and the import once you've verified that it's working!
+4. Add your component as an option to the general `ReactComponent` type of block content. This will allow your content editor to pull your React component directly into the Sanity project. In `components > block-content > react-component.js`, import your component and add it to the switch statement.
 5. Run `prettier --write "**/*.js"` in the `hodp-website` directory to fix any formatting issues.
 6. Push your changes and make a pull request in GitHub so we can review your code. Once we've approved your changes, we'll merge them into the main branch. Congrats! 🎉
 
@@ -111,7 +113,7 @@ Make sure you've imported all the components / dependencies you need. Common dep
 
 Use `console.log` to help you understand how informations is stored in  different fields.
 
-### D3 development issues?
+### D3 development issues
 Is your component implemented as a class, and if so, did you bind your event handlers in the constructor?
 ```js {7}
 constructor(props) {
