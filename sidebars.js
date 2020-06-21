@@ -3,10 +3,10 @@ module.exports = {
     'HODP Guides': [
       'installation',
       'good-practices',
-      'survey-guide',
       'article-guide',
-      'website-guide',
       'style-guide',
+      'website-guide',
+      'survey-guide',
     ],
     'Data Wrangling': [
       'python',
