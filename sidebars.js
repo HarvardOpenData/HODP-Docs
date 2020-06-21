@@ -1,7 +1,16 @@
 module.exports = {
   someSidebar: {
+    'HODP Guides': [
+      'installation',
+      'good-practices',
+      'survey-guide',
+      'article-guide',
+      'webapp-guide',
+      'style-guide',
+      'hodp-guides',
+    ],
     'Data Wrangling': [
-      'python-programming',
+      'python',
       'numpy-pandas',
       'r',
       'stata',
@@ -20,14 +29,5 @@ module.exports = {
       'react-1',
       'react-2',
     ],
-    'HODP Guides': [
-      'installation',
-      'good-practices',
-      'survey-guide',
-      'article-guide',
-      'webapp-guide',
-      'style-guide',
-      'hodp-guides',
-    ]
   },
 };

@@ -1,6 +1,6 @@
 ---
-id: python-programming
-title: Programming Concepts in Python
+id: python
+title: Python
 sidebar_label: Python
 ---
 

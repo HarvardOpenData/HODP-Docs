@@ -4,197 +4,125 @@ title: Web App Guide
 sidebar_label: Web App Guide
 ---
 
-By: Daniela Shuman & Melissa Kwan
+By: Melissa Kwan
 
-## Markdown Syntax
+## Overview
 
-To serve as an example page when styling markdown based Docusaurus sites.
+The [HODP website](https://www.hodp.org/) is built with the following stack:
+- [React](https://reactjs.org/), a JavaScript library for frontend development. It allows us to declare UI elements as components and reuse them in different configurations.
+- [Gatsby](https://www.gatsbyjs.org/), a static site generator that compiles the React code into plain HTML, CSS, and JavaScript before building the site. This, along with other optimizations, makes Gatsby sites extremely fast.
+- [Sanity](https://www.sanity.io/), a content management system (CMS) that stores the website data for articles, blog posts, team members, datasets, and pages in structured JSON objects. Unlike Wix or Squarespace, Sanity is a *headless* CMS, which means that it only controls the data, not the presentation. As a result, we can query Sanity's API and plug in the data into any frontend that we want.
+- [GraphQL](https://graphql.org/), a querying language that allows us to retrieve data from Sanity in a predictable format.
+- [Firebase](https://firebase.google.com/), a database that stores our user data for the survey group and the predictions game. We connect the Firebase data to the React frontend using a library called [react-redux-firebase](http://react-redux-firebase.com/).
+- [Theme UI](https://theme-ui.com/), a styling framework that stores our style guide in one file. It handles sitewide themes with the `theme.js` file, inline styles with the `sx` prop, and styled components with syntax like `<Styled.h1></Styled.h1>`.
 
-## Headers
+If you're curious, all of these frameworks / tools have great tutorials on their websites. For the purposes of developing a web app, you'll only need to know React.
 
-# H1 - Create the best documentation
+## Running the site locally
+First, clone the website repo.
 
-## H2 - Create the best documentation
+```sh
+git clone https://github.com/HarvardOpenData/HarvardOpenData.github.io.git
+```
+Navigate into the `hodp-website` directory.
 
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
+```sh
+cd hodp-website
 ```
 
-```python
-s = "Python syntax highlighting"
-print(s)
+Temporary pre-launch step: Switch branches to `v2-styling`.
+
+```sh
+git checkout v2-styling
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
+Install the dependencies (should take a couple minutes).
+```sh
+npm install
 ```
 
----
+Run the site!
+```sh
+npm start
+```
 
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
+The website will run locally at `localhost:8000`, the GraphQL playground at `localhost:8000/___graphql`, and the Sanity Studio at `localhost:3333`. Since Gatsby has hot reloading, your frontend changes will render instantly.
 
 :::note
 
-This is a note
+If you modify the GraphQL layer, you need to rebuild the site. Quit running it locally (`Ctrl C`) and run `npm start` again.
 
 :::
 
-:::tip
+**Authorized users only**: If you have access to the Sanity Studio, run the following commands:
+```sh
+npm install -g @sanity/cli
+sanity login
+[login info here]
+```
 
-This is a tip
+## Codebase overview
+Here are the most important directories and files in the codebase. If you're developing a web app or interactive article, you'll probably be working in the `interactives` directory.
+```
+- studio
+  - schemas
+  - static
+  - deskStructure.js
+- web
+  - src
+    - assets
+    - components
+    - containers
+    - interactives
+    - lib
+    - pages
+    - styles
+```
+The `hodp-website` repo essentially stores two websites. The `studio` directory controls content structure and frontend of the Sanity studio, and the `web` directory stores the code for our website. All of our content object models are stored in `schemas`, and the frontend structure is specified in `deskStructure.js`. Within `web`, we organize information in a hierarchy of assets (the rare image that we don't want to store in Sanity), components (the building blocks), containers (the wrappers), interactives (the web apps), the library of helpers (for creating image URLs and other useful functions), pages, and styles.
+
+:::note
+
+Don't modify anything in `studio` unless you've gotten the OK from a board member. You should primarily be working in the `web` directory.
 
 :::
 
-:::important
+## Developing an interactive component
+We recommend developing your component in a separate repository before transferring it to the HODP codebase. It'll be easier to preview and test without disrupting other parts of the site.
 
-This is important
+1. Create a short, descriptive branch off of the main branch with your initials and the feature
+    - E.g. `git checkout -b mk-homepage`
+2. Navigate to `web > src > interactives` and create a file for your component. Follow the file and component-naming conventions: if your component name is `BlogPost`, your file should be named `blog-post.js`. If your component requires multiple sub-components, create a folder within `interactives` to keep everything organized.
+3. Test your component by importing and adding it to the `404.js` page within `web > src > pages`. Since we don't have a dedicated testing page, this is our makeshift way of checking whether the component renders properly. Make sure to delete the component and the import once you've verified that it's working!
+4. Next, add your component as an input option for Sanity. This will allow your content editor to pull your React component directly into the story. In `components > block-content > react-component.js`, import your component and add it to the switch statement. Make sure to follow the existing formatting.
+5. Run `prettier --write "**/*.js"` in the `hodp-website` directory to fix any formatting issues.
+6. Push your changes and make a pull request in GitHub so we can review your code. Once we've approved your changes, we'll merge them into the main branch. Congrats! 🎉
+
+:::note
+
+If you need to install node packages, install them in the `web` directory, *not* the general `hodp-website` directory. If you install them in the general directory, they’ll work locally, but they won’t be recognized in deployment.
 
 :::
 
-:::caution
 
-This is a caution
+## Troubleshooting
 
-:::
+### General errors
+Make sure you've imported all the components / dependencies you need. Common dependencies include `react`, `Styled`, various components from `theme-ui`, etc.
 
-:::warning
+Use `console.log` to help you understand how informations is stored in  different fields.
 
-This is a warning
+### D3 development issues?
+Is your component implemented as a class, and if so, did you bind your event handlers in the constructor?
+```js {7}
+constructor(props) {
+    super(props)
+    this.state = {
+      rotation: 0,
+      initialized: false,
+    }
+    this.initialize = this.initialize.bind(this)
+  }
+```
 
-:::
+### Reach out to the tech team!
+Getting stuck sucks. If you have any questions, please contact us over email or on Slack :)
