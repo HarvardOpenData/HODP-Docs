@@ -4,7 +4,7 @@ title: React II
 sidebar_label: React II
 ---
 
-By: Melissa Kwan
+By: Daniela Shuman
 
 ## Markdown Syntax
 
