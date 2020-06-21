@@ -23,6 +23,7 @@ module.exports = {
     'HODP Guides': [
       'installation',
       'good-practices',
+      'survey-guide',
       'article-guide',
       'webapp-guide',
       'style-guide',
