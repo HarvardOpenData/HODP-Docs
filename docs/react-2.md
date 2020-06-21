@@ -4,7 +4,7 @@ title: React II
 sidebar_label: React II
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Melissa Kwan
 
 ## Markdown Syntax
 

@@ -4,7 +4,7 @@ title: Numpy + Pandas
 sidebar_label: Numpy + Pandas
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Matthew Qu & Asher Noel
 
 ## Markdown Syntax
 

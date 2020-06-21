@@ -4,6 +4,8 @@ title: How to Write a HODP Guide
 sidebar_label: Meta Guide
 ---
 
+By: Melissa Kwan
+
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax

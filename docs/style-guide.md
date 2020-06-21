@@ -4,7 +4,7 @@ title: HODP Style Guide
 sidebar_label: HODP Style Guide
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: HODP Board
 
 ## Markdown Syntax
 

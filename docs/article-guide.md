@@ -4,7 +4,7 @@ title: Article Guide
 sidebar_label: Article Guide
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Sahana Srinivasan, Henry Austin, Alison Hu & Asher Noel
 
 ## Markdown Syntax
 

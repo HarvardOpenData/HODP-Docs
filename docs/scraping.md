@@ -4,7 +4,7 @@ title: Scraping
 sidebar_label: Scraping
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Ashley Wong & Ethan Lee
 
 ## Markdown Syntax
 

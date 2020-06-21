@@ -4,7 +4,7 @@ title: Web Development 101
 sidebar_label: Web Development
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Kevin Huang, Charles Onesti & Melissa Kwan
 
 ## Markdown Syntax
 

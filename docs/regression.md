@@ -4,7 +4,7 @@ title: Regression
 sidebar_label: Regression
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Asher Noel & Leo Saenger
 
 ## Markdown Syntax
 

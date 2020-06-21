@@ -4,7 +4,7 @@ title: Good Practices
 sidebar_label: Good Practices
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Alison Hu, Sahana Srinivasan, and Melissa Kwan
 
 ## Markdown Syntax
 

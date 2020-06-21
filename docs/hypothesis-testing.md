@@ -4,6 +4,8 @@ title: Hypothesis Testing
 sidebar_label: Hypothesis Testing
 ---
 
+By: Asher Noel & Leo Saenger
+
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax

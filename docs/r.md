@@ -4,7 +4,7 @@ title: R
 sidebar_label: R
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Alison Hu, Ethan Lee & Kelsey Wu
 
 ## Markdown Syntax
 

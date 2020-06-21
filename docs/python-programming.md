@@ -4,7 +4,7 @@ title: Programming Concepts in Python
 sidebar_label: Python
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+By: Yijiang Zhao & Matthew Qu
 
 ## Markdown Syntax
 
