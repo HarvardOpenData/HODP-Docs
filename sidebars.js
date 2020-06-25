@@ -22,6 +22,7 @@ module.exports = {
     'Visualization': [
       'ggplot',
       'd3-1',
+      'qgis'
     ],
     'Web Development': [
       'webdev',
