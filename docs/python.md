@@ -6,7 +6,47 @@ sidebar_label: Python
 
 By: Yijiang Zhao & Matthew Qu
 
+
+
+## Complete beginner topics 
+
+Plan: Allocate more time to presentation, less time for activity
+
+### Variables (strings, ints, floats, booleans) and Operations
+
+### Lists and List methods
+
+### Dictionaries (+ Sets)
+
+### Conditionals
+
+### Loops
+
+### Functions
+
+### Modules and Packages
+
+
+
+## More comfortable topics
+
+Plan: Normal-length presentation, similar activity to last year (read in csv dataset and do some stuff with it)
+
+### File I/O
+
+### Classes and Objects?
+
+### List Comprehension
+
+### Map, Filter, Reduce (and Lambda functions)
+
+
+
+
+
 ## Markdown Syntax
+
+### 
 
 To serve as an example page when styling markdown based Docusaurus sites.
 
