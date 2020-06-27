@@ -6,23 +6,17 @@ sidebar_label: R
 
 By: Alison Hu, Ethan Lee & Kelsey Wu
 
-## Markdown Syntax
+## Difference between Python and R
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## Installing RStudio + Setup
 
-## Headers
+## Layout of RStudio environment
 
-# H1 - Create the best documentation
+## Basics
 
-## H2 - Create the best documentation
+## Reading in files
 
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
+## Cleaning datasets (NA values)
 
 ---
 
