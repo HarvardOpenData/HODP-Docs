@@ -6,6 +6,14 @@ sidebar_label: Scraping
 
 By: Ashley Wong & Ethan Lee
 
+## H2 - Scraping and its applications
+## H2 - Don't break the internet
+## H2 - Basic Regex
+## H2 - Set up
+## H2 - Scraping and cleaning
+## H2 - Headless browsers
+## H2 - Practicla tips
+
 ## Markdown Syntax
 
 To serve as an example page when styling markdown based Docusaurus sites.
