@@ -6,174 +6,80 @@ sidebar_label: Regression
 
 By: Asher Noel & Leo Saenger
 
-## Markdown Syntax
+## Regression
 
-To serve as an example page when styling markdown based Docusaurus sites.
+Regression is defined as the best linear predictor of $Y_i$ given $X_i$, specifically, regression gives us $\alpha$ and $\beta$ that minimize $a$ and $b$ in the mean squared error $E(Y_i - a - b X_i)^2$. Regression is perhaps a blunt instrument, but a very useful one. It has many attractive properties and does not require many strong assumptions about the distribution of our data, and gives answers that are easy to interpret.
 
-## Headers
+We can easily derive $\beta$ and $\alpha$ simply by taking the first order conditions of the Mean Squared Error (MSE) expression above, and solving them. This shows us (with a little algebra) that 
 
-# H1 - Create the best documentation
+$$\beta = \frac{E[(Y_i-E(Y_i))X]}{E[(X_i-E(X_i))X_i]} = \frac{C(X_i,Y_i)}{V(X_i)}$$
+$$\alpha = E[Y_i] - E[X_i]\beta$$
 
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
+Phew! We will not go too in depth through these derivations, although there are many good ones out there.
 
 :::note
 
-This is a note
+**Asymptotic Inference**
+
+In practice, of course, we do not have data on the population, we make inferences through samples. This is much of a traditional statistics or econometrics textbook, and not worth rehashing here. The intuition you have about the distribution of test statistics and sampling applies directly to the OLS case — whatever a regression coefficient means, it has a sampling distribution that is easy to describe and understand. We are indeed playing it a bit fast and loose with population and sample concepts here, and are apologetic for this.
 
 :::
+
+### Making Regression Make Sense 
+
+This section is borrowed heavily from the textbook “Mostly Harmless Econometrics”, which I highly recommend. Perhaps the most intuitive way to understand why we like regression is the Linear Approximation Theorem, which shows us that $\alpha$ and $\beta$ are the values of $a$ and $b$ that minimize 
+
+$$MSE_{E[Y|X]}(a,b) = E(E[Y_i|X_i]-a-bX_i)^2$$
+
+The conditional expectation function — $E[Y_i|X_i]$ — is also fitted by the regression slope and intercept. Why do we care about the CEF? It describes the essential features of the relationship we are attempting to investigate – it is **by construction** the best predictor of the dependent variable. (Recall also that in fact $E[E[Y_i|X_i]] = E[Y_i]$ by the Law of Iterated Expectations, which bolsters this). 
+
+In other words, even if the CEF is bumpy and nonlinear, the regression line will always thread it. Regression describes the *essential features* of statistical relationships, even if it doesn’t pin them down directly. We’re interested in the *distribution* of $Y_i$, not individual data points — so we shouldn’t lose (too much) sleep over potential CEF nonlinearities, or binary outcome variables.
+
+:::important
+
+Regression is as good as the CEF we are trying to approximate and the variables we choose. We might find a relationship that could end up entirely being the result of unobservables. You should *always* be suspicious of results that seem “too good” or “too significant” – the default assumption, as always, is that no such relationship exists (and you have made a mistake). 
+
+:::
+
+So, we’ve seen that regression “inherits” the CEF. That is, we have a casual regression when the CEF is causal. But what does it mean for the CEF to be causal? When is that true?
+
+### Potential Outcomes and Causation 
+
+#### Framework
+
+#### Selection Bias and Random Assignment
+
+### Understanding Regression Output 
+
+#### $R^2$
+
+### Roadblocks
+
+#### Omitted Variables Bias 
+
+#### Bad Control 
+
+#### Heteroskedasticity, Serial Correlation
+
+### Multivariate Regression
+
+#### Multivariate Regression as an Automatic Matchmaker
+
+### Non-linear methods and Extensions
+
+#### Instrumental Variables
+
+#### Differences in Differences
+
+#### Regression Discontinuities
+
+#### Non-linear methods
+
+## Images
+
+—
+
+## Admonitions
 
 :::tip
 
@@ -181,11 +87,6 @@ This is a tip
 
 :::
 
-:::important
-
-This is important
-
-:::
 
 :::caution
 
