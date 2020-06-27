@@ -6,27 +6,18 @@ sidebar_label: Good Practices
 
 By: Alison Hu, Sahana Srinivasan, and Melissa Kwan
 
-## Markdown Syntax
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## Data best practices
 
-## Headers
+## Visualization best practices
 
-# H1 - Create the best documentation
+## Analysis best practices
 
-## H2 - Create the best documentation
+## Writing best practices
 
-### H3 - Create the best documentation
+## What HODP does
 
-#### H4 - Create the best documentation
 
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
