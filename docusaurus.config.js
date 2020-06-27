@@ -1,3 +1,6 @@
+const math = require('remark-math')
+const katex = require('rehype-katex')
+
 module.exports = {
   title: 'HODP Docs',
   tagline: 'Resources for data science, statistical principles, visualization, and writing created by HODP members.',
@@ -6,6 +9,14 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'Harvard Open Data Project', // Usually your GitHub org/user name.
   projectName: 'HODP-docs', // Usually your repo name.
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig: {
     navbar: {
       title: 'HODP Docs',
@@ -89,6 +100,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/HarvardOpenData/HODP-Docs/tree/master/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
