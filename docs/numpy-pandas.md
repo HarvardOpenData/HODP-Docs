@@ -6,9 +6,43 @@ sidebar_label: Numpy + Pandas
 
 By: Matthew Qu & Asher Noel
 
-## Markdown Syntax
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## NumPy 
+
+### Introduction and Motivation
+ 
+### Arrays 
+#### Array methods 
+#### Random methods 
+
+### NumPy vs. Python 
+
+
+### Getting Started
+
+
+
+## Pandas  
+
+
+### Introduction and Motivation 
+
+
+### Why is Pandas so fast? 
+Pandas is built on NumPy, which is fast.
+
+### How do these compare to “Dataframes” in R?
+
+
+
+### Example: House Rankings 
+
+
+
+
+## References:
+
+
 
 ## Headers
 
