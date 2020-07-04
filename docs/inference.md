@@ -8,7 +8,10 @@ By: Asher Noel & Leo Saenger
 
 # Introduction 
 
-Beyond getting data, one usually needs to interpret it, to some degree. For this, we have statistics: a discipline centered around exploring data and a phenomenon of interest, describing causal conclusions about the effect of changing one variable on another, and predicting one variable using another. The purpose of the Statistical Analyses HODP docs is to give bootcampers enough of a working understanding of statistics to intelligently work with data, without assuming any familiarity with statistics at Harvard. As such, there are three Statistical Analyses docs:
+Beyond getting data, one usually needs to interpret it, to some degree. For this, we have statistics: a discipline centered around exploring data and a phenomenon of interest, describing causal conclusions about the effect of changing one variable on another, and predicting one variable using another. 
+:::important 
+The purpose of the Statistical Analyses HODP docs is to give bootcampers enough of a working understanding of statistics to intelligently work with data, without assuming any familiarity with statistics at Harvard. As such, there are three Statistical Analyses docs:
+:::
 
 The first doc is Inference, which aims to give the basic tools and understanding necessary to explore data. More broadly, inference is the branch of statistics that extracts information from already generated data. 
 
@@ -20,7 +23,7 @@ The third doc is Regression. Regression is only one form of prediction, but fair
 
 When conducting data analysis, one is often interested in a phenomenon of interest. They might want to know the average amount of water that Harvard students drink each day, the maximal number of trips to Mount Auburn that each Harvard first-year took, or the probability that they have covid given a variety of factors, for example. 
 
-In each of these cases, there is the true “god-given” value: this is the estimand $\theta$. Before sampling data, the exact crystallization of the data is a random variable $X$, and all of the $n$ data can be represented by $\vec{X} \in \mathcal{R}^n$. One does not know if the first person they survey will have drank 14 or 16 oz of water, or something else entirely. Once the value does crystalize, it is often notationally referred to as $y$. An estimator \hat{\theta} is the output of a function $g(\vec{X})$ that attempts to estimate the estimand $\theta$. Because an estimator is a function of unobserved data, it is also a random variable. After observing the data, the estimate is the output of the function $g(\vec{y})$. 
+In each of these cases, there is the true “god-given” value: this is the estimand $\theta$. Before sampling data, the exact crystallization of the data is a random variable $X \in \mathcal{R}$, and all of the $n$ data can be represented by $\vec{X} \in \mathcal{R}^n$. One does not know if the first person they survey will have drank 14 or 16 oz of water, or something else entirely. Once the value does crystalize, it is often notationally referred to as $y$. An estimator $\hat{\theta}$ is the output of a function $g(\vec{X})$ that attempts to estimate the estimand $\theta$. Because an estimator is a function of unobserved data, it is also a random variable. After observing the data, the estimate is the output of the function $g(\vec{y})$. 
 
 ```sh
 import numpy as np
