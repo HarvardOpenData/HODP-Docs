@@ -16,6 +16,7 @@ module.exports = {
       'scraping',
     ],
     'Statistical Analysis': [
+      'inference',
       'regression',
       'hypothesis-testing',
     ],
