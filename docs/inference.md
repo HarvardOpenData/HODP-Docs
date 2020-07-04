@@ -213,7 +213,7 @@ plot_means(0.7, 30, 50000)
 
 If ever unsure about the interpretation of statistics or confidence intervals, or whether the technique you are applying works well with your data, feel free to reach out to anyone in HODP in the slack. We recognize that people have varying degrees of expertise when it comes to statistics and drawing inferences from data, and we would love to help!  
 
-#The Benefits of Large Samples
+# The Benefits of Large Samples
 
 Sample size is one of the most important considerations in many experiments in statistics. More data is great for a lot of reasons: the Strong Law of Large Numbers states that sample means probabilistically converge to their true means, the central limit theorem starts to take stronger effect as asymptotics kick in, and, anytime either the variance or bias of an estimator is indirectly related to sample size, the mean squared error of an estimator decreases. 
 
