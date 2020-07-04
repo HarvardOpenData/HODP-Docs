@@ -67,7 +67,7 @@ Bias 1: -0.02
 MSE 1: 0.003
 ```
 
-Ideally, this estimate would converge to the estimand for asymptotically large values of $n$. We call this consistency: an estimator $\hat{\theta}}$ is consistent if $\hat{\theta} \overset{p}{\longrightarrow}} {\theta}.$. An estimator can be consistent but biased (e.g., estimating the mean with $\sum{n} x_n + \frac{1}{n}$) and inconsistent but unbiased (e.g., estimating the mean with $g(\vec{X}) = x_1 \forall n \geq 2$). 
+Ideally, this estimate would converge to the estimand for asymptotically large values of $n$. We call this consistency: an estimator $\hat{\theta}}$ is consistent if $\hat{\theta} \overset{p}{\longrightarrow}} {\theta}.$. An estimator can be consistent but biased (e.g., estimating the mean with $\sum x_n + \frac{1}{n}$) and inconsistent but unbiased (e.g., estimating the mean with $g(\vec{X}) = x_1 \hspace{2mm} \forall n \geq 2$). 
 
 ```sh
 # Inconsistent but Unbiased
