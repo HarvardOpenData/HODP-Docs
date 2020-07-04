@@ -16,13 +16,28 @@ By: Alison Hu, Ethan Lee & Kelsey Wu
 
 ### Simple calculations
 
+Similar to other programming languages, R can perform simple math calculations, both directly in the console and as a part of your script. The basic operators are: + (addition), - (subtraction), * (multiplication), / (division), ^ (exponentiation), and %% (modulo). For example,
+```r
+(4 - 6 / 3) * 7 ^ 2
+```
+outputs
+```r
+[1] 108
+```
+There are also a number of built-in basic math functions, including abs(x) (absolute value of x), sqrt(x) (squart root), log10(x) (logarithm of x base 10), cos(x), sin(x), and tan(x). A full list can be found [here](https://www.rdocumentation.org/packages/pbdDMAT/versions/0.5-1/topics/math).
+
+
 ### Variables
 
 ### Data Types
 
 #### Vectors
 
+#### Lists
+
 #### Matrices
+
+#### Arrays
 
 #### Factors
 
@@ -97,36 +112,6 @@ Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src
 Reference-style: ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```r
-title <- "R syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
 
 ---
 
