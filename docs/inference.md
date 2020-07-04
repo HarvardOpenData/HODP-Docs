@@ -67,7 +67,7 @@ Bias 1: -0.02
 MSE 1: 0.003
 ```
 
-Ideally, this estimate would converge to the estimand for asymptotically large values of $n$. We call this consistency: an estimator $\hat{\theta}}$ is consistent if $\hat{\theta} \overset{p}{\longrightarrow}} {\theta}.$. An estimator can be consistent but biased (e.g., estimating the mean with $\sum x_n + \frac{1}{n}$) and inconsistent but unbiased (e.g., estimating the mean with $g(\vec{X}) = x_1 \hspace{2mm} \forall n \geq 2$). 
+Ideally, this estimate would converge to the estimand for asymptotically large values of $n$. We call this consistency: an estimator $\hat{\theta}$ is consistent if $\hat{\theta} \overset{p}{\longrightarrow} \theta.$. An estimator can be consistent but biased (e.g., estimating the mean with $\sum x_n + \frac{1}{n}$) and inconsistent but unbiased (e.g., estimating the mean with $g(\vec{X}) = x_1 \hspace{2mm} \forall n \geq 2$). 
 
 ```sh
 # Inconsistent but Unbiased
@@ -116,12 +116,13 @@ Bias 3: -0.01
 MSE 3: 0.002
 ```
 
-
+:::caution
 When doing work in HODP, it is important to be cognizant about as many potential sources of bias as possible whenever collecting or analyzing data and to choose, as best as possible, consistent estimators of a phenomenon of interest. 
+:::
 
 # Confidence Intervals 
 
-Point estimates and standard errors are great fits for some phenomenon of interest, but sometimes it is better to have a range of values that describe possible values a fixed yet unknown estimand $\theta$ could take. In the frequentist paradigm, where probabilities describe frequencies, these ranges are called confidence intervals: formally, a confidence interval of an estimand $\theta$ is an interval $C_n = (a,b)$ where the bounds are functions of the data such that $$\mathbb{P}_{\theta}(\theta \in C_n) \geq 1 - \alpha \textrm{for all} \theta \in \Theta$$ where $\Theta is the parameter space and $\alpha$ is the confidence level. 
+Point estimates and standard errors are great fits for some phenomenon of interest, but sometimes it is better to have a range of values that describe possible values a fixed yet unknown estimand $\theta$ could take. In the frequentist paradigm, where probabilities describe frequencies, these ranges are called confidence intervals: formally, a confidence interval of an estimand $\theta$ is an interval $C_n = (a,b)$ where the bounds are functions of the data such that $$\mathbb{P}_{\theta}(\theta \in C_n) \geq 1 - \alpha \textrm{for all} \theta \in \Theta$$ where $\Theta$ is the parameter space and $\alpha$ is the confidence level. 
 
 ```sh
 # Confidence Interval 
@@ -147,8 +148,9 @@ St. Error: 0.047
 Confidence Internal: [0.58857235 0.77142765]
 ```
 
-
+:::important
 Because the interval is a function of the data and therefore random, a correct interpretation of a 95% confidence level (with the arbitrary confidence level of 0.05 chosen for its popularity) is that the random interval would contain the true estimand in 95% of its crystallizations after observing the data. 
+:::
 
 ```sh
 # How often does this random interval cover the true value of 0.7?
@@ -178,8 +180,13 @@ print(str(round(results, 4)))
 0.9524
 ```
 
+:::warning
+Many times in practice, people will define a 95% confidence interval of the mean to be the range of values within two standard errors of the mean. This assumes that the parameter of interest is normally distributed. 
+::: 
 
-Many times in practice, people will define a 95% confidence interval of the mean to be the range of values within two standard errors of the mean. This biggest assumption that this makes is that the parameter of interest is normally distributed. Fortunately, there are many cases in the real world where the normal distribution shows up. However, there are also many cases when it does not, so it good to know when it might appear. Generally, a reasonably large (in practice, this means loosely $n \geq 30$) sum of random variables sampled from an arbitrary random distribution is approximately normally distributed, per the central limit theorem (proof omitted), implying that the mean, or the sum scaled by a constant factor, is also approximately normally distributed. 
+:::tip 
+Fortunately, the normal distribution shows up many times in real life. Generally, a reasonably large (in practice, this means loosely $n \geq 30$) sum of random variables sampled from an arbitrary random distribution is approximately normally distributed, per the central limit theorem (proof omitted), implying that the mean, or the sum scaled by a constant factor, is also approximately normally distributed. 
+:::
 
 ```sh
 # Central Limit Theorem 
@@ -217,4 +224,7 @@ If ever unsure about the interpretation of statistics or confidence intervals, o
 
 Sample size is one of the most important considerations in many experiments in statistics. More data is great for a lot of reasons: the Strong Law of Large Numbers states that sample means probabilistically converge to their true means, the central limit theorem starts to take stronger effect as asymptotics kick in, and, anytime either the variance or bias of an estimator is indirectly related to sample size, the mean squared error of an estimator decreases. 
 
-Small sample sizes do not mean that an experiment is worthless; it just means that the statistician must be ever more careful when interpreting results. With this in mind, and the language from above, any statistician is ready to dive into analyzing their data. To help with claims about significance and causality, we have created the next docs: Hypothesis Testing. 
+:::warning
+Small sample sizes do not mean that an experiment is worthless; it just means that the statistician must be ever more careful when interpreting results. 
+:::
+With this in mind, and the language from above, any statistician is ready to dive into analyzing their data. To help with claims about significance and causality, we have created the next docs: Hypothesis Testing. 
