@@ -1,7 +1,7 @@
 ---
 id: inference
 title: Inference
-sidebar_label: inference
+sidebar_label: Inference
 ---
 
 By: Asher Noel & Leo Saenger
@@ -14,7 +14,7 @@ The first doc is Inference, which aims to give the basic tools and understanding
 
 The second doc  is Hypothesis Testing. Hypothesis testing has been used to validate the work of many experiments, but it is also vulnerable to manipulation and misinterpretation. Broadly, hypothesis testing is the process of testing one hypothesis by comparing it to a null hypothesis. 
 
-The third doc is Regression. Regression is only one form of prediction, but fairly common and can be simple to implement. More generally, regression is the task where a computer program is asked to predict a numerical value given some input, outputting a function $f : \mathcal{R}^n \to \mathcal{R}.$. 
+The third doc is Regression. Regression is only one form of prediction, but fairly common and can be simple to implement. More generally, regression is the task where a computer program is asked to predict a numerical value given some input, outputting a function $f : \mathcal{R}^n \to \mathcal{R}$. 
 
 # Estimation 
 
@@ -44,6 +44,10 @@ standard_error = math.sqrt(p_hat*(1-p_hat)/ss) # Variance of binomial mean is p(
 print("Estimate: " + str(estimate))
 print("Standard Error " + str(round(standard_error, 3)))
 ```
+```sh
+Estimate: 0.69
+Standard Error 0.046
+```
 
 If the phenomenon of interest is the daily average water intake of Harvard students, then the “true” value, the estimand $\theta$, may be some irrational number close to 64.43 oz, which could only be known if an analyst had perfect information and measurements about the exact water intake of every student. An estimator of $\theta$ may be the mean. In addition to the point estimate, the estimator has an associated standard error $s = \sqrt{Variance(\hat{\theta})}$, where the “e” in error is for “estimator.” In practice, standard error can be estimated with the standard deviation of the sample, which many packages can calculate.  
 
@@ -58,12 +62,14 @@ print("Bias 1: " + str(round(bias, 3)))
 mse = bias**2 + standard_error**2 
 print("MSE 1: " + str(round(mse, 3)))
 ```
-
+```sh
+Bias 1: -0.02
+MSE 1: 0.003
+```
 
 Ideally, this estimate would converge to the estimand for asymptotically large values of $n$. We call this consistency: an estimator $\hat{\theta}}$ is consistent if $\hat{\theta} \overset{p}{\longrightarrow}} {\theta}.$. An estimator can be consistent but biased (e.g., estimating the mean with $\sum{n} x_n + \frac{1}{n}$) and inconsistent but unbiased (e.g., estimating the mean with $g(\vec{X}) = x_1 \forall n \geq 2$). 
 
 ```sh
-
 # Inconsistent but Unbiased
 
 # Estimator: The first data point
@@ -98,7 +104,16 @@ print("Estimate 3: " + str(p_hat3))
 print("Standard Error 3: " + str(round(standard_error3, 3)))
 print("Bias 3: " + str(round(bias3, 3)))
 print("MSE 3: " + str(round(mse3, 3)))
-
+```
+```sh
+Estimate 2: 1
+Standard Error 2: 0.0
+Bias 2: 0.3
+MSE 2: 0.09
+Estimate 3: 0.69
+Standard Error 3: 0.046
+Bias 3: -0.01
+MSE 3: 0.002
 ```
 
 
@@ -124,8 +139,12 @@ CI = np.array([estimate + a*standard_error, estimate + b*standard_error])
 print("Mean: " + str(estimate))
 print("St. Error: " + str(round(standard_error, 3))) 
 print("Confidence Internal: " + np.array_str(CI))
-
-
+```
+```sh
+Normal Quantiles: -1.96, 1.96
+Mean: 0.68
+St. Error: 0.047
+Confidence Internal: [0.58857235 0.77142765]
 ```
 
 
@@ -154,7 +173,9 @@ def confidence_interval_95(estimand, sample_size, trials):
 
 results = confidence_interval_95(0.7, 100, 10000)
 print(str(round(results, 4)))
-
+```
+```sh
+0.9524
 ```
 
 
@@ -187,7 +208,6 @@ plot_means(0.7, 30, 50)
 plot_means(0.7, 30, 500)
 plot_means(0.7, 30, 5000)
 plot_means(0.7, 30, 50000)
-
 ```
 
 
