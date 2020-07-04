@@ -14,6 +14,21 @@ By: Alison Hu, Ethan Lee & Kelsey Wu
 
 ## Basics
 
+### Simple calculations
+
+### Variables
+
+### Data Types
+
+#### Vectors
+
+#### Matrices
+
+#### Factors
+
+#### Data Frames
+
+
 ## Reading in files
 
 ## Cleaning datasets (NA values)
