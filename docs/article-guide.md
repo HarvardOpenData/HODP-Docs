@@ -4,26 +4,77 @@ title: Article Guide
 sidebar_label: Article Guide
 ---
 
-By: Sahana Srinivasan, Henry Austin, Alison Hu & Asher Noel
+By: Sahana Srinivasan and Alison Hu
 
-## Markdown Syntax
+In this tutorial, you'll learn the types of articles you can write for HODP, the goal of our articles, how to write one, and what our publishing process looks like.
 
-To serve as an example page when styling markdown based Docusaurus sites.
+At the end, you'll be ready to publish your work with HODP!
 
-## Headers
+---
 
-# H1 - Create the best documentation
+## Types of Articles
 
-## H2 - Create the best documentation
 
-### H3 - Create the best documentation
+#### 1. Traditional Analysis
 
-#### H4 - Create the best documentation
+#### 2. Survey Write-up
+HODP has its own survey group, and we occasionally send surveys to the student body at large. After working with our Survey Group PM to craft and send your survey, and you analyze your results in an article. Examples include our pieces on the 2020 Presidential Primaries and on students' COVID-19 situations. TODO: link these to new site.
 
-##### H5 - Create the best documentation
+#### 3. Scrollytelling
 
-###### H6 - Create the best documentation
+---
 
+## Goals of a HODP Article
+
+---
+
+## How to Write an Article
+
+What's supposed to go in your article? Usually graphs and cool insights. Regardless of the type of article, we recommend the following flow. Your lead editor can give you more individualized advice for your project.
+
+### Introduction and the Question
+
+What questions are you trying to answer? Why did you send out this survey? What interesting info might this dataset contain? Are you trying to investigate or shed light on some campus phenomenon?
+
+This section should make clear what you were trying to find out via this project. It should give the reader an idea for what they're in for, and why it's important or relevant to them.
+
+### The Data and Your Methods
+
+Briefly, what's your data and where did you get it from? If your data collection methods were somewhat involved, briefly described how you acquired your data. If there was something special about your methods (e.g. you employed some complex ML, you scraped something live), talk about it.
+
+We don't want this section to be so long it distracts from getting to the insights. But we want to briefly describe the data so readers can trust your analysis. And if your methods are important to or somehow qualify the validity of your insights, you should acknowledge that upfront. 
+
+If you have a whole lot of info for this section, summarize it quickly and move the rest to an appendix.
+
+### The Insights
+
+Start answering the questions you initially proposed by presenting the results of your analysis (statistical tests, averages, garphs, trends) both visually and numerically.
+
+Explain what each result means, rather than stating a number or the result of a test. Explain and caption graphs, and if explain (briefly) how you got results, if it's something more involved than aggregation or summary statistics.
+
+Feel free to suggeest hypotheses behind your results, but don't speculate too much, and make sure everything you say is related to and supported by data. If you're speculating, say so.
+
+Be sure to note any unexpected results and key trends.
+
+This section should be the bulk of your article.
+
+### Unsanswered Questions
+
+This can happen in the insights section or at the end of it. It's ok to talk about how the data doesn't answer all your questions, or how your results are inconclusive. 
+
+### Conclusion, Significance, Future Work
+
+So what was the point of this project? Overall, what did the data show us, and where does it leave us with respect to your original question? Is there any further work you might want to do? How was your work interesting or important?
+
+Overall, this section should synthesize your key results and connect them back to what you initially set out to learn.
+
+---
+
+## Publishing with HODP
+
+#### What to Turn in
+
+#### Editing
 ---
 
 ## Emphasis
