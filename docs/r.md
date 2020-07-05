@@ -48,6 +48,30 @@ There are also a number of built-in basic math functions, including abs(x) (abso
 
 ## Cleaning datasets (NA values)
 
+Before you start cleaning your dataset, it's a good idea to get a feel for the data. The tidyverse package contains many very useful functions, including omitting NA values, filtering variables, sorting variables, etc. 
+
+To install the tidyverse package, type the following into the console:
+```r
+install.packages("tidyverse")
+```
+
+After installing the package, type the following to use its functions:
+```r
+library(tidyverse)
+```
+
+To import a dataset into R, place the csv/Excel file in the same folder as your R file. Then, use the following command:
+```r
+df <- read_csv("telecom.csv")
+```
+This means you are reading in a csv titled "telecom.csv", and you are assigning this dataset the reference "df". When you manipulate the dataset later, you will refer to this dataset as "df".
+
+To take a quick look at your data, you can use the following functions:
+```r
+glimpse(df)
+summary(df)
+```
+
 ---
 
 ## Emphasis
