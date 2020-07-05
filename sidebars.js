@@ -10,6 +10,7 @@ module.exports = {
     ],
     'Data Wrangling': [
       'python',
+      'intermediate-python',
       'numpy-pandas',
       'r',
       'stata',
