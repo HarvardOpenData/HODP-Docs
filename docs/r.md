@@ -10,6 +10,8 @@ By: Alison Hu, Ethan Lee & Kelsey Wu
 
 ## Installing RStudio + Setup
 
+You can install RStudio at https://rstudio.com/products/rstudio/download/#download
+
 ## Layout of RStudio environment
 
 ## Basics
