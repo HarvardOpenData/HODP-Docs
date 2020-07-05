@@ -1,6 +1,10 @@
-## Regression
+---
+id: regression
+title: Regression
+sidebar_label: Regression
+---
 
-Regression, for our purposes, gives us the best linear predictor of $Y_i$ given $X_i$. That is, regressions tell us the $\alpha$ and $\beta$ that minimize $a$ and $b$ in the mean squared error $E(Y_i - a - b X_i)^2$. This might seem arbitrary at first, but despite being a blunt instrument, regression is a very useful one. Regression does not require us to make many strong assumptions about the distribution of our data, and it gives us answers that are easy to interpret and understand. We use this process to explain and summarize relationships between random variables, for instance, the relationship between schooling and wages or characteristics of Harvard houses and student preferences.
+Regression gives us the best linear predictor of $Y_i$ given $X_i$. That is, regressions tell us the $\alpha$ and $\beta$ that minimize $a$ and $b$ in the mean squared error $E(Y_i - a - b X_i)^2$. This might seem arbitrary at first, but despite being a blunt instrument, regression is a very useful one. Regression does not require us to make many strong assumptions about the distribution of our data, and it gives us answers that are easy to interpret and understand. We use this process to explain and summarize relationships between random variables, for instance, the relationship between schooling and wages or characteristics of Harvard houses and student preferences.
 
 We can easily derive $\beta$ and $\alpha$ simply by solving the above Mean Squared Error (MSE) expression by taking a derivative or first order condition. This shows us (with a little algebra) that 
 
@@ -32,7 +36,7 @@ $$MSE_{E[Y|X]}(a,b) = E(E[Y_i|X_i]-a-bX_i)^2$$
 
 The conditional expectation function — $E[Y_i|X_i]$ — is also fitted by the regression slope and intercept. Why do we care about the CEF? It describes the essential features of the relationship we are attempting to investigate – it is **by construction** the best predictor of the dependent variable. (Recall also that in fact $E[E[Y_i|X_i]] = E[Y_i]$ by the Law of Iterated Expectations, which bolsters this). In other words, even if the CEF is bumpy and nonlinear, the regression line will always thread it. 
 
-![DK2002 Table 5b](https://github.com/HarvardOpenData/HODP-Docs/tree/master/static/img/cef.png ‘Regression threading the (bumpy) CEF of log weekly earnings given years of education')
+![cef](/img/cef.png)
 
 Regression describes the *essential features* of statistical relationships, even if it doesn’t pin them down directly. We’re interested in the *distribution* of $Y_i$, not individual data points — so we shouldn’t lose (too much) sleep over potential CEF nonlinearities, or binary outcome variables.
 
@@ -90,7 +94,7 @@ Ok, now back our causal CEF! Our conditional independence assumption (CIA) tells
 
 $$E[Y_i|X_i, D_i = 1] - E[Y_i | X_i, D_i = 0] = E[Y_{0i} - Y_{0i} | X_i]$$
 
-So, our CEF is causal when we have the CIA, that is, when we can recover the true TOT from the “naive” comparisons regression produces.
+So, our CEF is causal when we have the CIA, that is, when we can recover the true TOT from the “naive” comparisons regression produces. We can extend this to a case with continuous $D_i$, but that is beyond the scope of this doc, and the intuition is the same. See MHE 3.2.1 for more.
 
 :::important
 
@@ -108,7 +112,7 @@ The first question to be answered when thinking about causal effects is thus alw
 
 How do we interpret regression outputs? It’s easiest to think through this with an example. Let’s go back to our Harvard example, and look at a design developed by Stacy Dale and Alan Kreuger (hereafter DK) to answer precisely this question. They compare the average wages of those who attend highly selective schools with those that did not, conditional on a few other characteristics. Then, they compare students, conditional on the types of schools (using Barron’s categories) that they applied and/or were admitted to. They produce the following regression table: 
 
-![DK2002 Table 5b](https://github.com/HarvardOpenData/HODP-Docs/tree/master/static/img/dk2002.png ‘DK2002 Table 5b')
+![DK2002 Table 5b](/img/dk2002.png)
 
 Let’s interpret this. In the first column, “Basic Model”, DK observe a coefficient of 0.071 on school-average SAT Score/100 regressed on log earnings. That is, every 100 points higher the average SAT score of your school predicts approximately a 7.1% difference in your future earnings. Nice! Seems like Harvard was a pretty good deal.
 
