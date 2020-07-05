@@ -52,11 +52,10 @@ Before you start cleaning your dataset, it's a good idea to get a feel for the d
 
 To install the tidyverse package, type the following into the console:
 ```r
+# To install the tidyverse package:
 install.packages("tidyverse")
-```
 
-After installing the package, type the following to use its functions:
-```r
+# To start using the tidyverse package:
 library(tidyverse)
 ```
 
