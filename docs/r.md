@@ -67,7 +67,10 @@ This means you are reading in a csv titled "telecom.csv", and you are assigning 
 
 To take a quick look at your data, you can use the following functions:
 ```r
+# Look at variable names and types
 glimpse(df)
+
+# Find max, min, mean values of each variable
 summary(df)
 ```
 
