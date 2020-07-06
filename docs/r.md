@@ -22,6 +22,8 @@ Your workspace should look something like this:
 
 ![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RWorkspace.png 'R Workspace')
 
+In RStudio, you're primarily working with four panels. At the top left is your code editor, where you can write out code in R and save it as a file (typically R Script or Markdown). At the top right, the "Environment" tab shows what variables/objects you have defined in your current environment, while the "History" tab shows the R commands you last conducted. At the bottom left, the "Console" tab is the R Console where you can write out R commands and see the results of all R code that is processed, while the "Terminal" provides access to a new terminal session from within the RStudio IDE. Lastly, at the bottom right, the "Files" tab shows files in your working directory, the "Plots" tab shows any plots you've created in your R session, and the "Packages" tab shows the R packages available to you.
+
 ## Basics
 
 ### Simple calculations
