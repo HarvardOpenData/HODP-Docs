@@ -90,13 +90,14 @@ To get a basic idea of how cleaning might work with a dataset in R, imagine we'r
 v <- c(1,2,5,NA,4)
 ```
 Perhaps v is a set of responses from a survey, and certain responses caused the non-numeric "not available" value NA to appear. If we simply try to the find the mean of v, we get the following result:
+![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RBadMean.png 'R Bad Mean')
 
 To get the mean of only numeric responses, we can use the "na.omit" function, which returns its input vector with NA values omitted.
 ```r
 v <- na.omit(v)
 ```
 Now, we can find the mean of just the numeric values!
-
+![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RGoodMean.png 'R Good Mean')
 
 ---
 
