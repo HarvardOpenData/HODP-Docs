@@ -85,6 +85,18 @@ glimpse(df)
 # Find max, min, mean values of each variable
 summary(df)
 ```
+To get a basic idea of how cleaning might work with a dataset in R, imagine we're working with the following vector v:
+```r
+v <- c(1,2,5,NA,4)
+```
+Perhaps v is a set of responses from a survey, and certain responses caused the non-numeric "not available" value NA to appear. If we simply try to the find the mean of v, we get the following result:
+
+To get the mean of only numeric responses, we can use the "na.omit" function, which returns its input vector with NA values omitted.
+```r
+v <- na.omit(v)
+```
+Now, we can find the mean of just the numeric values!
+
 
 ---
 
