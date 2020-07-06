@@ -16,6 +16,12 @@ You can install RStudio, the integrated development environment for R, at https:
 
 ## Layout of RStudio environment
 
+Once you have RStudio fully installed, open it and create a new R Script document by going to "File -> New File -> R Script". 
+
+Your workspace should look something like this:
+
+![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RWorkspace.png 'R Workspace')
+
 ## Basics
 
 ### Simple calculations
