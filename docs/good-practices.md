@@ -9,6 +9,14 @@ By: Alison Hu, Sahana Srinivasan, and Melissa Kwan
 
 ## Data best practices
 
+As a data scientist, you have a responsibility to understand your data, handle it properly, and communicate your findings with honesty and transparency. The first piece - understanding your data - is one of the most important but often overlooked steps to the data science process.
+
+When you find a data set of interest, it may be tempting to hit the ground running, but first it's important to check where your data is coming from. Consider [this](https://fivethirtyeight.com/features/nigeria-kidnapping/) FiveThirtyEight article, in which the author relied on data from a news reporting database to count the number of kidnappings occurring in Nigeria. It turned out that the database was counting the number of instances kidnappings appeared on the news rather than distinct events; thus, the author misrepresented the magnitude of kidnappings by an exponential amount.
+
+This example also illustrates the importance of understanding the context of your data. Oftentimes, your data points will represent living, breathing individuals, and it is important to keep this in mind as you're working with your data. Who or what is represented by your data? Who or what is *not* represented in your data? [Here](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) is a good framework to follow in gaining a clearer understanding of your data.
+
+Finally, before diving into your work, ask yourself: What am I trying to achieve through this analysis? What is the end goal, and what do I hope to convey to my readers? This doesn't mean you should know the "answer" to your research question(s) -- that's where the data analysis comes in! -- but it's important to acknowledge the motivation behind your work and lay the foundation for a successful project.
+
 ## Visualization best practices
 
 ## Analysis best practices
