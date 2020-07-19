@@ -6,13 +6,32 @@ sidebar_label: Scraping
 
 By: Ashley Wong & Ethan Lee
 
-## H2 - Scraping and its applications
-## H2 - Don't break the internet
-## H2 - Basic Regex
+## Scraping and its applications
+Web scraping is a useful technique for collecting data when it isn’t available for download or doesn’t exist in an aggregated form. When we scrape websites we build spiders which help us crawl through webpages and collect the information we want. A simple scraper like the one below takes a url, loads up the page, and uses regex to store certain parts of the HTML (more on what regex is later). More complex scrapers might clickthrough links for you or they might be able to interact with Javascript elements. 
+
+Examples of scraping include: how student organisations seem to get every Harvard student’s email without ever asking for it, HODP’s crime map (we scrape the HUPD police logs). 
+
+```python
+from urllib.request import urlopen
+import re #Regex Library
+
+def getHtmlFromUrl(url): 
+    return urlopen(url).read().decode("utf-8")
+    
+people = re.findall("<h4 class=\"media-heading\" .*>(.+?)<\/h4>", hodpHtml)
+print(people)
+```
+
+## Don't break the internet: good practices
+
+### Respect robots.txt
+This file contains instructions for scrapers, letting you know which pages on the site can and cannot be scraped. You can find the robots.txt file by adding $$\texttt{/robots.txt}$$ to any domain name (e.g facebook.com/robots.txt, reddit.com/robots.txt). Sometimes this is enforced (by blocking bots) and sometimes it isn’t. Either way, you should always follow a website’s policy. 
+
+## H2 - Basic regex
 ## H2 - Set up
 ## H2 - Scraping and cleaning
 ## H2 - Headless browsers
-## H2 - Practicla tips
+## H2 - Practical tips
 
 ## Markdown Syntax
 
