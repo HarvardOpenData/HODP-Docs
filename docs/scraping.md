@@ -23,11 +23,38 @@ print(people)
 ```
 
 ## Don't break the internet: good practices
+:::important
+
+Always follow a site's terms of service when doing a HODP project!
+
+:::
 
 ### Respect robots.txt
-This file contains instructions for scrapers, letting you know which pages on the site can and cannot be scraped. You can find the robots.txt file by adding $$\texttt{/robots.txt}$$ to any domain name (e.g facebook.com/robots.txt, reddit.com/robots.txt). Sometimes this is enforced (by blocking bots) and sometimes it isn’t. Either way, you should always follow a website’s policy. 
+This file contains instructions for scrapers, letting you know which pages on the site can and cannot be scraped. You can find the robots.txt file by adding $$\texttt{/robots.txt}$$ to any domain name (e.g [facebook.com/robots.txt](facebook.com/robots.txt), [reddit.com/robots.txt](reddit.com/robots.txt)). Sometimes this is enforced (by blocking bots) and sometimes it isn’t. Either way, you should always follow a website’s policy. 
 
-## H2 - Basic regex
+### Check the websites policy
+That brings us to our second point, always check the website’s policy! While robots.txt specifies which specific pages bots can and cannot access, you should always check the website’s policy for more human-readable information and to see how the data you scrape can be used. For example, Facebook disallows any automated collection of its data. 
+
+### Don't break anything
+Make sure other (human) users have enough bandwidth to use the site. Scrapers can send dozens of requests a second, so it’s good practice to set a delay between requests (e.g 10 seconds). Be especially mindful of this if you’re scraping a small website that might not be built for large amounts of traffic. 
+
+:::tip
+
+If your scraper can follow links (e.g you're using the Python package scrapy), make sure to restrict the domain of the links it will acess to prevent your spider from crawling the entire internet!
+
+:::
+
+## H2 Basic regex
+Regular expressions (or regex for short) are search patterns that allow you to to match strings and substrings. Regex is very useful if your HTML page follows a standard naming convention (e.g $$\texttt{id_1}$$, $$\texttt{id_2}$$, $$\texttt{id_3}$$) and you’re trying to capture all of those id’s in one quick search.
+
+We would strongly recommend [regexone.com](regexone.com) to anyone who’s trying to learn regex! It walks you through all the different types of pattern matching and has a lot of interactive exercises. If you want to test whether your own regular expression is correct, there are easier ways than running it through an actual scraper. You could always test it out with some dummy text on [regex101.com](regex101.com), just make sure that your language preferences are set correctly!
+
+### Quick regex
+Here are some expressions you can use if you’re looking to match something right now (we would still recommend actually learning regex through [regexone.com](regexone.com) though)! 
+
+Depending on what information you want to capture from a match, you may need to use capture groups (also covered on regexone). These are denoted by parenthesis $$\texttt{()}$$ and tell the program what information to give back to you. For example, $$\texttt{b(a).*}$$ will match ‘bat’, ‘baa’, ‘bar’, and ‘ba’ but will only return a single ‘a’ to you. 
+
+
 ## H2 - Set up
 ## H2 - Scraping and cleaning
 ## H2 - Headless browsers
