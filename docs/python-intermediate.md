@@ -1,7 +1,7 @@
 ---
 id: python-intermediate
-title: Python: Intermediate
-sidebar_label: Python: Intermediate
+title: Python - Intermediate
+sidebar_label: Python - Intermediate
 ---
 
 By: Yijiang Zhao & Matthew Qu
