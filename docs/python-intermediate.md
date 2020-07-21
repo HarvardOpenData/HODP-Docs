@@ -390,7 +390,7 @@ defined outside the ```__init__()``` method.
 
 :::tip
 
-The ```var()``` function returns a dictionary of all instance variables and their values:
+The ```vars()``` function returns a dictionary of all instance variables and their values:
 
 ```python
 frac1 = Fraction(3, 4)
