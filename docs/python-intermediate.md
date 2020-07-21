@@ -999,7 +999,7 @@ This simply splits our code into two more readable chunks.
 
 :::note
 
-Note that when there is an ```else``` clause in our conditional (signifying changing elements instead of filtering), the
+When there is an ```else``` clause in our conditional (signifying changing elements instead of filtering), the
 conditional statement is moved to be before the ```for``` statement.
 
 :::
