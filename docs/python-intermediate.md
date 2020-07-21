@@ -235,7 +235,8 @@ with open("students.csv") as f:
     reader = csv.reader(f, delimiter=",")
     for row in reader:
         print(row)
-
+```
+```
 # Output:
 ['name', 'grade', 'concentration']
 ['Albert', 'junior', 'computer science']
