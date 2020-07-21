@@ -1,6 +1,6 @@
 ---
-id: python_intermediate
-title: Python_Intermediate
+id: python-intermediate
+title: Python: Intermediate
 sidebar_label: Python: Intermediate
 ---
 
