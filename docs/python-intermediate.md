@@ -110,10 +110,11 @@ split large files into smaller, more manageable, pieces.
 with open("file.txt", "r+") as f:
     print(f.read(6))
     print(f.read(6))
-
+```
+```
 # Output:
-# This i
-# s line
+This i
+s line
 ```
 
 We can use the ```tell()``` function to return the current position of the file pointer. If we want to change the
@@ -152,11 +153,12 @@ loop through every line in the file, we can loop through the file object directl
 with open("file.txt", "r+") as f:
     for line in f:
         print(line.replace("\n", "")) # removes the newline character from each line
-
+```
+```
 # Output
-# This is line 1
-# This is line 2
-# This is line 3
+This is line 1
+This is line 2
+This is line 3
 ```
 
 We can also write to a file using the ```write()``` function. Remember that using the write mode will completely
@@ -217,7 +219,7 @@ comma-separated values (CSV) file. Python has two functions that allow us to eas
 
 ```reader()``` is best suited for small CSV files. Each row in the CSV is returned as a list of strings, so we can
 access data using indices. For example, suppose we had a CSV file ```students.txt``` with the following information:
-```python
+```
 name,grade,concentration
 Albert,junior,computer science
 Brianna,sophomore,economics
@@ -254,7 +256,8 @@ with open("students.csv") as f:
             line += 1
         else:
             print("{} is a {} concentrating in {}".format(row[0], row[1], row[2]))
-
+```
+```
 # Output:
 This is a summary of students' name, grade, and concentration
 Albert is a junior concentrating in computer science
@@ -272,7 +275,8 @@ with open("students.csv") as f:
     reader = csv.DictReader(f, delimiter=",")
     for row in reader:
         print(row)
-
+```
+```
 # Output
 {'name': 'Albert', 'grade': 'junior', 'concentration': 'computer science'}
 {'name': 'Brianna', 'grade': 'sophomore', 'concentration': 'economics'}
@@ -390,7 +394,8 @@ The ```var()``` function returns a dictionary of all instance variables and thei
 ```python
 frac1 = Fraction(3, 4)
 print(vars(frac1))
-
+```
+```
 # Output:
 {'numer': 3, 'denom': 4}
 ```
@@ -439,7 +444,8 @@ more like a rational number! But let's say we wanted to print our ```Fraction```
 ```python
 frac = Fraction(1, 2)
 print(frac)
-
+```
+```
 # Output
 <__main__.Fraction object at 0x000001E6A90C0C70>
 ```
@@ -567,7 +573,8 @@ tri = Triangle(3, 4, 5)
 eq_tri = EquilateralTriangle(4)
 print(tri.area())
 print(eq_tri.area())
-
+```
+```
 # Output:
 Using Heron's formula
 6.0
