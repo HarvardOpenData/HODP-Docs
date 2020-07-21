@@ -83,7 +83,7 @@ There are several methods to read files. One way of reading a file is to use the
 objects (in binary mode). If we specify the ```size``` argument, ```read()``` will only read the next ```size```
 characters in the file. For example, suppose we have a file, ```file.txt```, with the following text:
 
-```python
+```
 This is line 1
 This is line 2
 This is line 3
@@ -97,9 +97,9 @@ with open("file.txt", "r+") as f:
     print(text)
 
 # Output:
-This is line 1
-This is line 2
-This is line 3
+# This is line 1
+# This is line 2
+# This is line 3
 ```
 
 If we read from the same file object multiple times, it will continue reading from where we left off. This allows us to
@@ -111,8 +111,8 @@ with open("file.txt", "r+") as f:
     print(f.read(6))
 
 # Output:
-This i
-s line
+# This i
+# s line
 ```
 
 We can use the ```tell()``` function to return the current position of the file pointer. If we want to change the
@@ -153,9 +153,9 @@ with open("file.txt", "r+") as f:
         print(line.replace("\n", "")) # removes the newline character from each line
 
 # Output
-This is line 1
-This is line 2
-This is line 3
+# This is line 1
+# This is line 2
+# This is line 3
 ```
 
 We can also write to a file using the ```write()``` function. Remember that using the write mode will completely
@@ -169,7 +169,7 @@ with open("file.txt", "a+") as f:
 Note that we must include any newline characters ourselves. Because our text file did not have a new line at the end,
 we first add it at the start of our string. Now, ```file.txt``` has the following:
 
-```python
+```
 This is line 1
 This is line 2
 This is line 3
@@ -200,7 +200,7 @@ with open("file.txt", "w") as f:
 
 Now, when we inspect ```file.txt```, we can see that our changes have been successful:
 
-```python
+```
 This is line 1
 This is line 2
 This is line 3
