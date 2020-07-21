@@ -95,11 +95,12 @@ Then, we can use ```read()``` to print out the entire text:
 with open("file.txt", "r+") as f:
     text = f.read()
     print(text)
-
+```
+```
 # Output:
-# This is line 1
-# This is line 2
-# This is line 3
+This is line 1
+This is line 2
+This is line 3
 ```
 
 If we read from the same file object multiple times, it will continue reading from where we left off. This allows us to
