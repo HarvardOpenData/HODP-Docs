@@ -97,7 +97,7 @@ with open("file.txt", "r+") as f:
     print(text)
 ```
 ```
-# Output:
+# Output
 This is line 1
 This is line 2
 This is line 3
@@ -112,7 +112,7 @@ with open("file.txt", "r+") as f:
     print(f.read(6))
 ```
 ```
-# Output:
+# Output
 This i
 s line
 ```
@@ -237,7 +237,7 @@ with open("students.csv") as f:
         print(row)
 ```
 ```
-# Output:
+# Output
 ['name', 'grade', 'concentration']
 ['Albert', 'junior', 'computer science']
 ['Brianna', 'sophomore', 'economics']
@@ -397,7 +397,7 @@ frac1 = Fraction(3, 4)
 print(vars(frac1))
 ```
 ```
-# Output:
+# Output
 {'numer': 3, 'denom': 4}
 ```
 
@@ -576,7 +576,7 @@ print(tri.area())
 print(eq_tri.area())
 ```
 ```
-# Output:
+# Output
 Using Heron's formula
 6.0
 Using equilateral triangle formula
