@@ -141,8 +141,7 @@ TODO: Asher (if you don't think this section is necessary we can delete it)
 We don't usually create DataFrames from scratch using dictionaries or lists - most of the time, we'll want to read
 external data stored in another file. Let's work with a real example. The data we'll be using comes from the U.S.
 Geological Survey of all earthquakes with magnitude 2.5 or greater that occurred on a randomly chosen day in 2020 (June 14).
-[data](https://earthquake.usgs.gov/earthquakes/search/#%7B%22autoUpdate%22%3A%5B%5D%2C%22basemap%22%3A%22grayscale%22%2C%22feed%22%3A%221595736587830%22%2C%22listFormat%22%3A%22default%22%2C%22mapposition%22%3A%5B%5B-88.56627947154443%2C-246.796875%5D%2C%5B88.54857855448348%2C607.5%5D%5D%2C%22overlays%22%3A%5B%22plates%22%5D%2C%22restrictListToMap%22%3A%5B%22restrictListToMap%22%5D%2C%22search%22%3A%7B%22id%22%3A%221595736587830%22%2C%22name%22%3A%22Search%20Results%22%2C%22isSearch%22%3Atrue%2C%22params%22%3A%7B%22starttime%22%3A%222020-06-14%2000%3A00%3A00%22%2C%22endtime%22%3A%222020-06-14%2023%3A59%3A59%22%2C%22minmagnitude%22%3A2.5%2C%22orderby%22%3A%22time%22%7D%7D%2C%22sort%22%3A%22newest%22%2C%22timezone%22%3A%22utc%22%2C%22viewModes%22%3A%5B%22list%22%2C%22map%22%5D%2C%22event%22%3Anull%7D)
-TODO: figure out best way for users to access data
+You can download the data [here](/static/img/earthquakes.csv).
 
 Pandas has a ```read_csv()``` function that automatically converts CSVs to DataFrames, using the first line as column
 names:
@@ -170,9 +169,9 @@ earthquakes.to_csv("new_earthquakes.csv")
 
 ### Working with data in Pandas
 
-For large DataFrames, we can use the ```head()``` function to examine the first five rows. We can also specify a different
-number of rows; for example, ```earthquakes.head(3)``` would print only the first three rows. Similarly, the
-```tail()``` function can be used for viewing the end of the DataFrame.
+We often work with data that contains an abundance of information. For large DataFrames, we can use the ```head()```
+function to examine the first five rows. We can also specify a different number of rows; for example, ```earthquakes.head(3)```
+would print only the first three rows. Similarly, the ```tail()``` function can be used for viewing the end of the DataFrame.
 
 ```python
 print(earthquakes.head())
