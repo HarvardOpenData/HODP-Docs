@@ -364,7 +364,7 @@ cmap = go.Figure(data=[data], layout=layout)
 iplot(cmap)
 ```
 
-![map](map.png)
+![World map depicting earthquakes on June 14, 2020](static/img/map.png 'Earthquakes on June 14, 2020')
 
 Hopefully this guide has served as an introduction to numpy and pandas as well as their widespread usefulness in data
 science. Another concluding sentence here
