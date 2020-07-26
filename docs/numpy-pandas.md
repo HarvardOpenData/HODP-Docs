@@ -6,11 +6,23 @@ sidebar_label: Numpy + Pandas
 
 By: Matthew Qu & Asher Noel
 
+### Getting Started
+
+Before we begin, we must first install the numpy and pandas libraries as they are not included in the standard Python
+library (check out our [guide](www.google.com) if you have any questions about installation TODO update link). When we
+import these libraries, we typically abbreviate them as follows:
+
+```python
+import numpy as np
+import pandas as pd
+```
+
+This isn't necessary, but since we'll be calling functions from these libraries so often, it saves us quite a bit of typing!
 
 ## NumPy 
 
 ### Introduction and Motivation
- 
+
 ### Arrays 
 #### Array methods 
 #### Random methods 
@@ -18,217 +30,341 @@ By: Matthew Qu & Asher Noel
 ### NumPy vs. Python 
 
 
-### Getting Started
 
+## Pandas
 
+### Introduction 
 
-## Pandas  
+**Pandas** is a powerful Python library that is specifically designed for data manipulation and analysis. Its name comes
+from the term *panel data*, which is data that contains information of individuals over a period of time. 
 
+#### Why use Pandas? 
 
-### Introduction and Motivation 
+In general, Pandas makes it easy and intuitive to work with data; this includes cleaning, transforming, and analyzing
+data. Data from Pandas is also commonly used alongside other Python libraries such as **SciPy**, **Matplotlib**, and
+**Scikit-learn** for use in statistical analysis, data visualization, and machine learning, respectively.
 
+NumPy and Pandas are almost always used in conjunction. In fact, Pandas is built on top of NumPy, and the two libraries
+work together internally as well. Because NumPy objects and operations are highly efficient, Pandas also executes very
+quickly.
 
-### Why is Pandas so fast? 
-Pandas is built on NumPy, which is fast.
+### Data Structures in Pandas
 
-### How do these compare to “Dataframes” in R?
-
-
-
-### Example: House Rankings 
-
-
-
-
-## References:
-
-
-
-## Headers
-
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
+The two main data structures in pandas are **Series** and **Dataframes**. Series can be thought of as columns; they are
+a one-dimensional array of values. We can create a Series by passing in an iterable to the argument ```data```:
 
 ```python
-s = "Python syntax highlighting"
+import pandas as pd
+
+s = pd.Series(data=[5, 10, 15, 20])
 print(s)
 ```
-
 ```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
+# Output
+0     5
+1    10
+2    15
+3    20
+dtype: int64
 ```
 
----
+The first column is the index; by default, it is numerically indexed starting from 0. We can create custom indices by
+setting the optional argument ```index``` equal to another iterable. This iterable must be of the same length as that
+passed into the ```data``` argument. If ```data``` is a dictionary, the keys become indices and the values make up the data.
 
-## Tables
+If Series are like columns, then Dataframes are like tables with both rows and columns. As with a Series, we can create
+a Dataframe from scratch:
 
-Colons can be used to align columns.
+```python
+df = pd.DataFrame(data={'col1': [1, 2, 3, 4],
+                        'col2': [5, 6, 7, 8]},
+                  index=["row1", "row2", "row3", "row4"])
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+print(df)
+```
+```
+# Output
+      col1  col2
+row1     1     5
+row2     2     6
+row3     3     7
+row4     4     8
+```
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+For a DataFrame, the keys of the dictionary become column names, not indices. We'll be working with DataFrames most of
+the time, but Series can arise when we extract data from a DataFrame. We can use the ```loc[]``` function to extract
+data based on the label of the index:
+```python
+print(df.loc["row1"])
+```
+```
+# Output
+col1    1
+col2    5
+Name: row1, dtype: int64
+```
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
+Similarly, we can use the ```iloc[]``` function to extract data using numerical indices, not labels. This is useful for
+when the indices are relabelled.
 
----
+```python
+print(df.iloc[0])
+```
+```
+# Output
+col1    1
+col2    5
+Name: row1, dtype: int64
+```
+```loc[]``` and ```iloc[]``` accept up to two arguments, the first being an expression that determines which rows to
+extract, and the same being the same but for the columns (by default, all columns are selected). For example, we can use
+[slice notation](https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html) to extract the entire
+first column:
+```python
+print(df.iloc[:, 0])
+```
+```
+# Output
+row1    1
+row2    2
+row3    3
+row4    4
+Name: col1, dtype: int64
+```
 
-## Blockquotes
+#### Dataframes in pandas vs. Dataframes in R
 
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+TODO: Asher (if you don't think this section is necessary we can delete it)
 
-Quote break.
+### Importing and exporting data
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+We don't usually create DataFrames from scratch using dictionaries or lists - most of the time, we'll want to read
+external data stored in another file. Let's work with a real example. The data we'll be using comes from the U.S.
+Geological Survey of all earthquakes with magnitude 2.5 or greater that occurred on a randomly chosen day in 2020 (June 14).
+[data](https://earthquake.usgs.gov/earthquakes/search/#%7B%22autoUpdate%22%3A%5B%5D%2C%22basemap%22%3A%22grayscale%22%2C%22feed%22%3A%221595736587830%22%2C%22listFormat%22%3A%22default%22%2C%22mapposition%22%3A%5B%5B-88.56627947154443%2C-246.796875%5D%2C%5B88.54857855448348%2C607.5%5D%5D%2C%22overlays%22%3A%5B%22plates%22%5D%2C%22restrictListToMap%22%3A%5B%22restrictListToMap%22%5D%2C%22search%22%3A%7B%22id%22%3A%221595736587830%22%2C%22name%22%3A%22Search%20Results%22%2C%22isSearch%22%3Atrue%2C%22params%22%3A%7B%22starttime%22%3A%222020-06-14%2000%3A00%3A00%22%2C%22endtime%22%3A%222020-06-14%2023%3A59%3A59%22%2C%22minmagnitude%22%3A2.5%2C%22orderby%22%3A%22time%22%7D%7D%2C%22sort%22%3A%22newest%22%2C%22timezone%22%3A%22utc%22%2C%22viewModes%22%3A%5B%22list%22%2C%22map%22%5D%2C%22event%22%3Anull%7D)
+TODO: figure out best way for users to access data
 
----
+Pandas has a ```read_csv()``` function that automatically converts CSVs to DataFrames, using the first line as column
+names:
 
-## Inline HTML
+```python
+import pandas as pd
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
+earthquakes = pd.read_csv("earthquakes.csv")
+```
 
 :::tip
 
-This is a tip
+Pandas also has the functions ```read_json()``` and ```read_sql_query()``` to read data from JSON files and SQL
+databases.
 
 :::
 
-:::important
+We can similarly export data from DataFrames to other files. This can be done using the ```to_csv()``` function (or
+likewise the ```to_json()``` and ```to_sql()``` functions). For example, we can export the ```earthquakes``` DataFrame
+(presumably after some changes) and save it under the name ```new_earthquakes```:
 
-This is important
+```python
+earthquakes.to_csv("new_earthquakes.csv")
+```
+
+### Working with data in Pandas
+
+For large DataFrames, we can use the ```head()``` function to examine the first five rows. We can also specify a different
+number of rows; for example, ```earthquakes.head(3)``` would print only the first three rows. Similarly, the
+```tail()``` function can be used for viewing the end of the DataFrame.
+
+```python
+print(earthquakes.head())
+```
+```
+# Output
+                       time  latitude  ...  locationSource  magSource
+0  2020-06-14T23:52:42.082Z   24.7959  ...              us         us
+1  2020-06-14T22:52:49.059Z   38.1985  ...              nn         nn
+2  2020-06-14T22:42:57.810Z   17.9665  ...              pr         pr
+3  2020-06-14T22:40:36.458Z   39.4057  ...              us         us
+4  2020-06-14T22:29:57.959Z    7.6562  ...              us         us
+
+[5 rows x 22 columns]
+```
+
+The output is still condensed, however, and we can see that there are actually 22 columns in our DataFrame. We can
+inspect the column names as follows:
+
+```python
+print(earthquakes.columns)
+```
+```
+# Output
+Index(['time', 'latitude', 'longitude', 'depth', 'mag', 'magType', 'nst',
+       'gap', 'dmin', 'rms', 'net', 'id', 'updated', 'place', 'type',
+       'horizontalError', 'depthError', 'magError', 'magNst', 'status',
+       'locationSource', 'magSource'],
+      dtype='object')
+```
+
+:::tip
+
+We can also use the ```info()``` function to get column names as well as some other useful data, such as how many
+non-empty entries are in each column:
+
+```python
+earthquakes.info()
+```
+```
+# Output
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 75 entries, 0 to 74
+Data columns (total 22 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   time             75 non-null     object 
+ 1   latitude         75 non-null     float64
+ 2   longitude        75 non-null     float64
+ 3   depth            75 non-null     float64
+ 4   mag              75 non-null     float64
+ 5   magType          75 non-null     object 
+ 6   nst              23 non-null     float64
+ 7   gap              73 non-null     float64
+ 8   dmin             73 non-null     float64
+ 9   rms              75 non-null     float64
+ 10  net              75 non-null     object 
+ 11  id               75 non-null     object 
+ 12  updated          75 non-null     object 
+ 13  place            75 non-null     object 
+ 14  type             75 non-null     object 
+ 15  horizontalError  72 non-null     float64
+ 16  depthError       75 non-null     float64
+ 17  magError         73 non-null     float64
+ 18  magNst           73 non-null     float64
+ 19  status           75 non-null     object 
+ 20  locationSource   75 non-null     object 
+ 21  magSource        75 non-null     object 
+dtypes: float64(12), object(10)
+memory usage: 13.0+ KB
+```
 
 :::
 
-:::caution
+Let's index by ```id```, but to avoid creating a new DataFrame, we set an argument ```inplace``` to be ```True```. In
+addition, let's extract just the first five columns because they contain the important data:
 
-This is a caution
+```python
+earthquakes.set_index("id", inplace=True) # modifies the existing DataFrame
+earthquake_data = earthquakes.iloc[:, :5] # slice notation for every row and the first five columns
+print(earthquake_data.head())
+```
+```
+# Output
+                                  time  latitude  longitude  depth   mag
+id                                                                      
+us6000aew6    2020-06-14T23:52:42.082Z   24.7959   123.2018   10.0  4.10
+nn00748598    2020-06-14T22:52:49.059Z   38.1985  -117.9325    4.2  2.50
+pr2020166021  2020-06-14T22:42:57.810Z   17.9665   -66.9666    7.0  2.52
+us6000aew8    2020-06-14T22:40:36.458Z   39.4057    40.7696   10.0  4.50
+us6000abue    2020-06-14T22:29:57.959Z    7.6562   121.7359   10.0  4.90
+```
 
-:::
+We can also sort by a specific column. Let's look at the most severe earthquakes for this day, so we want to sort by
+magnitude from highest to lowest:
 
-:::warning
+```python
+earthquakes_data.sort_values(by="mag", ascending=False, inplace=True)
+print(earthquakes_data.head())
+```
+```
+# Output
+                                time  latitude  longitude  depth  mag
+id                                                                   
+us6000abnv  2020-06-14T14:24:29.479Z   39.4317    40.7076  10.00  5.9
+us6000abr2  2020-06-14T18:06:01.738Z   27.7759    53.3785  10.00  5.2
+us6000abte  2020-06-14T21:23:19.165Z   49.1277   158.1032  10.00  5.2
+us6000abp7  2020-06-14T14:43:08.390Z   23.3821    70.3548  10.00  5.1
+us6000abjt  2020-06-14T03:35:19.148Z   -8.9817   124.1386  68.88  5.1
+```
 
-This is a warning
+We can also calculate the mean of rows and columns in the same way we would in numpy, specifying ```axis=0``` to average
+over all rows (leaving columns) and ```axis=1``` to average over all columns (leaving rows). Specifically, let's
+calculate the mean of the  ```depth``` and ```mag``` columns, because taking the average of the other three wouldn't
+give us much insight:
 
-:::
+```python
+means = earthquakes_data.iloc[:, 3:].mean(axis=0)
+print(means)
+```
+```
+# Output
+depth    46.2060
+mag       3.8924
+dtype: float64
+```
+
+If we want to make changes to a row or column, we can use the ```apply()``` function. This function is used on a Series
+and takes in a function to be applied on every element in the Series. For example, every entry in the ```time``` column
+has a format similar to ```2020-06-14T14:24:29.479Z```. We can splice the string and get rid of the date and the extra
+precision on the time:
+
+```python
+new_time = earthquakes_data['time'].apply(lambda x: x[11:19]) # This slice returns the hour, minute, and second
+print(new_time.head())
+```
+```
+# Output
+id
+us6000abnv    14:24:29
+us6000abr2    18:06:01
+us6000abte    21:23:19
+us6000abp7    14:43:08
+us6000abjt    03:35:19
+Name: time, dtype: object
+```
+
+Don't forget to update the DataFrame with the new time!
+
+```python
+earthquakes_data['time'] = new_time
+print(earthquakes_data.head())
+```
+```
+# Output
+                time  latitude  longitude  depth  mag
+id                                                   
+us6000abnv  14:24:29   39.4317    40.7076  10.00  5.9
+us6000abr2  18:06:01   27.7759    53.3785  10.00  5.2
+us6000abte  21:23:19   49.1277   158.1032  10.00  5.2
+us6000abp7  14:43:08   23.3821    70.3548  10.00  5.1
+us6000abjt  03:35:19   -8.9817   124.1386  68.88  5.1
+```
+
+Pandas is also commonly used with other data visualization libraries. For example, we can use **plotly** to plot the
+locations of the epicenters on a world map:
+
+```python
+import plotly.graph_objs as go
+from plotly.offline import iplot
+
+data = go.Scattergeo(
+    lon=earthquakes_data['longitude'],
+    lat=earthquakes_data['latitude'],
+    text='Magnitude: ' + earthquakes_data['mag'].apply(str),
+    mode='markers',
+    marker={'symbol': 'circle', 'size': earthquakes_data['mag'] * 2}
+)
+
+layout = dict(
+    title='Worldwide Earthquakes on June 14, 2020',
+    geo=dict(
+        showframe=False,
+        projection={"type": "robinson"}
+    )
+)
+
+cmap = go.Figure(data=[data], layout=layout)
+iplot(cmap)
+```
+
+![map](map.png)
+
+Hopefully this guide has served as an introduction to numpy and pandas as well as their widespread usefulness in data
+science. Another concluding sentence here
