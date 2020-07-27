@@ -918,7 +918,7 @@ evens = [i * 2 for i in range(1, 11)]
 
 This is known as **list comprehension**.
 
-List comprehension is an elegant way of creating lists from other iterables. List comprehension have the following
+List comprehension is an elegant way of creating lists from other iterables. List comprehensions have the following
 syntax:
 
 ```python
