@@ -6,195 +6,82 @@ sidebar_label: Hypothesis Testing
 
 By: Asher Noel & Leo Saenger
 
-## Markdown Syntax
+Hypothesis testing is a way to test and compare the validity of hypotheses. It has enjoyed the spotlight of much research, but it is not without its flaws: it is a method, not magic. 
 
-To serve as an example page when styling markdown based Docusaurus sites.
+# Definition of Terms 
 
-## Headers
+Generally, say that we partition a parameter space $\Theta$ into two disjoint sets $\Theta_0$ and $\Theta_1$ and that we wish to test two hypothesis against each other: specifically, that the parameter of interest is either in one disjoint set or the other. Then we have two hypotheses: 
 
-# H1 - Create the best documentation
+$H_0 : \theta \in \Theta_0$ and $H_1 : \theta \in \Theta_1$. 
 
-## H2 - Create the best documentation
+We call $H_0$ the null hypothesis and $H_1$ the alternate hypothesis. 
 
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print(s)
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
-
----
-
-## Tables
-
-Colons can be used to align columns.
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
+To test these hypotheses, we need data. Let $X$ be a random variable representing our data. We test a hypothesis by finding a subset of outcomes $R$ in the range of $X$ called the rejection region. If $X \in R$, then we reject the null hypothesis: otherwise, we do not reject the null hypothesis. 
 
 :::note
+We never accept the null or alternative hypothesis, we only ever reject $H_0$ or retain $H_0$ 
+:::
+We define the rejection region $R$ as the region where a test statistic $T$ is above a $critical value$: 
 
-This is a note
+$R = {x : T(x) > c }$. 
 
+The problem in hypothesis testing is of finding an appropriate test statistic $T$ and critical value $c$. 
+
+:::caution
+Often, estimation and confidence intervals are better tools than hypothesis testing. Only use hypothesis testing when you want to test a well-defined hypothesis. 
 :::
 
-:::tip
+## Errors 
 
-This is a tip
+There are two common errors: false positives, also referred to as type I errors, where we reject $H_0$ when $H_0$ is true, and false negatives, or type II errors, when we retain $H_0$ when $H_1$ is true. 
 
+
+## Power 
+
+The power function of a test with rejection region $R$ is $\beta(\theta) = P(X \in R)$. 
+
+The size of a test is $\alpha = \sup \beta(\theta)$. The supremum of a set is the least upper bound. In other words, the size of a test is the largest probability of rejecting $H_0$ when $H_0$ is true. 
+
+A test has level $\alpha$ if its size is less than or equal to $\alpha$. 
+
+:::note
+A level $\alpha$ test rejects $H_0 : \theta = \theta_0$ if and only if the $1-\alpha$ confidence interval does not contain $\theta_0$. 
+
+This is important for two reasons. Consider an example where we have a confidence interval and two values outside the interval, one close and one far. In the first case, the estimated value of $\theta$ is close to $\theta_0$, so the finding is probably of little value. In the second case, the estimated value is far, so the finding has scientific value. This shows that statistical significance does not imply scientific importance, and that confidence intervals can be more informative than tests. 
 :::
 
-:::important
 
-This is important
+## P-values 
 
+Often, researchers report more than whether or not they reject or retain the null. Usually, there is a the smallest $\alpha$ at which the test rejects the null: we call this the p-value. 
+
+
+## Warnings! 
+
+:::caution
+If a p-value is large, this has two interpretations: either $H_0$ is true, or $H_0$ is false but the test has low power. A large p-value is not strong evidence in favor of $H_0$.  
 :::
 
 :::caution
-
-This is a caution
-
+The p-value is not the probability that the null hypothesis is true! The p-value is the probability under the null of observing a value of the test statistic the same as or more extreme than what was actually observed. 
 :::
 
-:::warning
-
-This is a warning
-
+:::caution
+Hypothesis testing is useful when there is evidence to reject $H_0$. If $H_0$ is the status quo, then this makes sense. We cannot use it to prove that $H_0$ is true. Failure to reject $H_0$ can occur because $H_0$ is true or because the test has low power.
 :::
+
+:::caution
+P-values are also susceptible to p-hacking. This refers to making assumptions about data or tests that influence the p-value to be more favorable, usually to increase the chance of publication. 
+:::
+
+:::caution
+As a final point about the problems with p-values, they are susceptible to decisions you make about when to collect data, even if that does not change the data you actually observe.
+
+For example, if you toss a coin $n=12$ times and observe  $s = 9 heads, then if the null hypothesis is that the coin is fair, the one sided test statistic where $t(s) = s$ is 0.073, larger than the marginal 5% threshold. 
+
+If instead the modeler kept tossing the coin until they observed $n - s = 3$ tails, then the data-generating distribution becomes negative binomial and under this model and the same null hypothesis we get that the one sided p-value is 0.0327. All of a sudden, without changing the data, there is “significant” evidence of bias in the coin! Long live Bayes :). 
+:::
+
+## References
+
+For further reading, check out Harvard’s Statistics 111 course materials, “All of Statistics” by Larry Wasserman, and “Machine Learning: A Probabilistic Perspective” by Kevin Murphy. 
