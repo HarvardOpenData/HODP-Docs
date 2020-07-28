@@ -31,6 +31,10 @@ The problem in hypothesis testing is of finding an appropriate test statistic $T
 Often, estimation and confidence intervals are better tools than hypothesis testing. Only use hypothesis testing when you want to test a well-defined hypothesis. 
 :::
 
+:::note
+Fields are moving away from hypothesis testing. One example is the Machine Learning research community. There, models are often compared on the basis of performance on specific datasets. Measures of uncertainty and statistical rigor are as important as ever, but hypothesis testing is not. 
+:::
+
 ## Errors 
 
 There are two common errors: false positives, also referred to as type I errors, where we reject $H_0$ when $H_0$ is true, and false negatives, or type II errors, when we retain $H_0$ when $H_1$ is true. 
@@ -75,12 +79,17 @@ P-values are also susceptible to p-hacking. This refers to making assumptions ab
 :::
 
 :::caution
+Different fields have different standards of significance. Physicists oftem aim for much stronger findings than $\alpha = 0.05$, whereas psychologists have accrued a poor reputation for sketchy science. 
+:::
+
+:::caution
 As a final point about the problems with p-values, they are susceptible to decisions you make about when to collect data, even if that does not change the data you actually observe.
 
-For example, if you toss a coin $n=12$ times and observe  $s = 9$ heads, then if the null hypothesis is that the coin is fair, the one sided test statistic where $t(s) = s$ is 0.073, larger than the marginal 5% threshold. 
+For example, if you toss a coin $n=12$ times and observe  $s = 9$ heads, then if the null hypothesis is that the coin is fair, the one sided test statistic where $t(s) = s$ leads to a p-value of 0.073. This is larger than the magical and arbitrary 5% threshold. 
 
-If instead the modeler kept tossing the coin until they observed $n - s = 3$ tails, then the data-generating distribution becomes negative binomial and under this model and the same null hypothesis we get that the one sided p-value is 0.0327. All of a sudden, without changing the data, there is “significant” evidence of bias in the coin! Long live Bayes :). 
+If instead the modeler kept tossing the coin until they observed $n - s = 3$ tails, then the data-generating distribution is negative binomial. Under this model and the same null hypothesis, we get that the one sided p-value is 0.0327. All of a sudden, without changing the data, there is “significant” evidence of bias in the coin! Long live Bayes :). 
 :::
+
 
 ## References
 
