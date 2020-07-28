@@ -21,14 +21,81 @@ This isn't necessary, but since we'll be calling functions from these libraries 
 
 ## NumPy 
 
-### Introduction and Motivation
+Numpy (“Numerical Python”) is a general-purpose package that endows Python with efficient multi-dimensional array and matrix objects and operations.
 
-### Arrays 
-#### Array methods 
-#### Random methods 
+### Introduction
 
-### NumPy vs. Python 
+Python lists are important, but slow. Numpy array objects aim to be 50x faster than traditional Python lists. Unlike Python lists, Numpy array objects are stored at one continuous place in  memory. 
 
+On its own, Numpy’s matrix operations are commonly used for linear algebra and as the biases of all scientific work. Often, other libraries take advantage of numpy’s speed by building atop it, such as PyTorch for machine learning and Pandas for data analysis. 
+
+### Why is NumPy so fast?
+
+Python’s dynamic typing makes vanilla Python slow. Every time Python uses a variable, it has to check that variable’s data type. Lists are arrays of pointers. Even when all of the referenced objects are of the same type, memory is dynamically allocated.
+
+In contrast, Numpy arrays are densely packed arrays of a homogeneous numerical data type. This allows memory allocation to be continuous, and operations can parallelize. 
+
+
+### Examples 
+
+#### Addition 
+
+```python
+import numpy as np
+
+x = np.array([1, 0, 0, 1])
+y = np.array([-1, 5, 10, -1])
+print(x + y)
+```
+```
+# Output
+array([0, 5, 10, 0])
+```
+
+#### Component-Wise Multiplicaiton 
+
+This is commonly referred to as a Hadamond product. 
+
+```python
+import numpy as np
+
+A = np.array([[5, 10], [3, 4]])
+y = np.array([[6, 20], [-4, -5]])
+print(x * y)
+```
+```
+# Output
+array([[30, 200],
+      [-12, -20]])
+```
+
+#### np.dot 
+
+With vectors, it is acceptable to use np.dot to calculate dot products. With matrices, numpy documentation says that it is preferable to use np.matmul():
+
+
+#### Broadcasting
+
+In math, dot product and matrix multiplication require the same dimensions. In numpy, this is not the case. Dimensions are compatible if they are 1) the same value or 2) one of them is 1. The size of the result array is the maximum along that particular dimension. 
+
+As a simple example, we will add a scalar to an array: 
+
+```python
+import numpy as np
+
+x = np.array([1, 10, 15, 100])
+print(x + 10)
+```
+```
+# Output
+array([11, 20, 25, 110])
+```
+
+To read more about harder examples, check out the numpy documentation! For example, the dimension of adding a (3, 4, 5, 6) and (4, 6, 7) dimensional object will have dimension (3, 4, 5, 7). 
+
+#### Functions 
+
+Numpy comes with a trove of built-in functions, including np.matmul, np.zeros, np.arange, np.identity, and more. If you ever need to do something with a matrix, just check the documentation or google a query, and numpy can probably handle it! 
 
 
 ## Pandas
