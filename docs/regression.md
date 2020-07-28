@@ -140,7 +140,6 @@ Now, we see that there is no coefficient on School-Average SAT Score – it comp
 
 :::
 
-#### $R^2$
 
 ### Machine Learning Interpretation of Regression 
 
@@ -153,15 +152,19 @@ Suppose we have input $x \in \mathcal{R}^D$ and a continuous target $y \in \math
 
 $$y = w_0 + w_1x_1 + … + w_dx_d = \vec{w}^T\vec{x}$$. 
 
-Then we can define the squared difference between predicted and actual values of $y$ as follows: $$L(\vec{w}) = \frac{1}{2} \sum_{n=1}^N (y_n - \vec{w}^T\vec{x}_n)^2 $$. Notice that the constant $\frac{1}{2}$ only scales the loss and does not chance the optimal result for $\vec{w}$. 
+Then we can define the squared difference between predicted and actual values of $y$ as follows: 
+
+$ L(\vec{w}) = \frac{1}{2} \sum_{n=1}^N (y_n - \vec{w}^T\vec{x}_n)^2 $. 
+
+Notice that the constant $\frac{1}{2}$ only scales the loss and does not chance the optimal result for $\vec{w}$. 
 
 We can find the optimal weights $w$ by minimizing this loss function. This involves taking its gradient, setting it equal to zero, and solving for $\vec{w}$: 
 
-$$\gradL(\vec{w}) = \sum_{n=1}^N(y_n - \vec{w}^Tx_n)(-x_n^T)$$
+$\nabla L(\vec{w}) = \sum_{n=1}^N(y_n - \vec{w}^Tx_n)(-x_n^T)$
 
 Setting this equal to zero, writing the sums as matrix operations, and multiplying both sides by -1, we get: 
 
-$$0 = \vec{X}^T\vec{Y} - \vec{X}^T\vec{X}\vec{w}$$. 
+$0 = \vec{X}^T\vec{Y} - \vec{X}^T\vec{X}\vec{w}$. 
 
 Solving for $\vec{w}$, we get:
 
