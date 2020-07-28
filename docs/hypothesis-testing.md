@@ -8,7 +8,7 @@ By: Asher Noel & Leo Saenger
 
 Hypothesis testing is a way to test and compare the validity of hypotheses. It has enjoyed the spotlight of much research, but it is not without its flaws: it is a method, not magic. 
 
-# Definition of Terms 
+## Definitions 
 
 Generally, say that we partition a parameter space $\Theta$ into two disjoint sets $\Theta_0$ and $\Theta_1$ and that we wish to test two hypothesis against each other: specifically, that the parameter of interest is either in one disjoint set or the other. Then we have two hypotheses: 
 
