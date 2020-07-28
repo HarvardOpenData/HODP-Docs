@@ -77,7 +77,7 @@ P-values are also susceptible to p-hacking. This refers to making assumptions ab
 :::caution
 As a final point about the problems with p-values, they are susceptible to decisions you make about when to collect data, even if that does not change the data you actually observe.
 
-For example, if you toss a coin $n=12$ times and observe  $s = 9 heads, then if the null hypothesis is that the coin is fair, the one sided test statistic where $t(s) = s$ is 0.073, larger than the marginal 5% threshold. 
+For example, if you toss a coin $n=12$ times and observe  $s = 9$ heads, then if the null hypothesis is that the coin is fair, the one sided test statistic where $t(s) = s$ is 0.073, larger than the marginal 5% threshold. 
 
 If instead the modeler kept tossing the coin until they observed $n - s = 3$ tails, then the data-generating distribution becomes negative binomial and under this model and the same null hypothesis we get that the one sided p-value is 0.0327. All of a sudden, without changing the data, there is “significant” evidence of bias in the coin! Long live Bayes :). 
 :::
