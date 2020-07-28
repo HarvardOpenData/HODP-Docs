@@ -154,7 +154,7 @@ $$y = w_0 + w_1x_1 + … + w_dx_d = \vec{w}^T\vec{x}$$.
 
 Then we can define the squared difference between predicted and actual values of $y$ as follows: 
 
-$ L(\vec{w}) = \frac{1}{2} \sum_{n=1}^N (y_n - \vec{w}^T\vec{x}_n)^2 $. 
+$L(\vec{w}) = \frac{1}{2} \sum_{n=1}^N (y_n - \vec{w}^T\vec{x_n})^2$. 
 
 Notice that the constant $\frac{1}{2}$ only scales the loss and does not chance the optimal result for $\vec{w}$. 
 
