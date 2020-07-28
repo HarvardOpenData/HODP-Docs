@@ -3,6 +3,7 @@ id: regression
 title: Regression
 sidebar_label: Regression
 ---
+By: Leo Saenger and Asher Noel
 
 Regression gives us the best linear predictor of $Y_i$ given $X_i$. That is, regressions tell us the $\alpha$ and $\beta$ that minimize $a$ and $b$ in the mean squared error $E(Y_i - a - b X_i)^2$. This might seem arbitrary at first, but despite being a blunt instrument, regression is a very useful one. Regression does not require us to make many strong assumptions about the distribution of our data, and it gives us answers that are easy to interpret and understand. We use this process to explain and summarize relationships between random variables, for instance, the relationship between schooling and wages or characteristics of Harvard houses and student preferences.
 
