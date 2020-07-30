@@ -70,207 +70,86 @@ Regex is greedy! This means that regex always looks for the longest match possib
 You can avoid errors caused by regex being greedy by using things like the not-operator $$\texttt{^}$$. $$\texttt{id_[^,]+}$$ would thus be the same as asking for 'id_' followed by one or more characters that are not commas. As soon as regex sees a comma it will be forced to stop matching, thereby solving the problem where regex matches the whole string in one go!
 
 ## Set up
-
-
-
-## Scraping and cleaning
-## Headless browsers
-## Practical tips
-
-## Markdown Syntax
-
-To serve as an example page when styling markdown based Docusaurus sites.
-
-## Headers
-
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
-
----
-
-## Emphasis
-
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item
-   - Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-   1. Ordered sub-list
-1. And another item.
-
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com/)
-
-[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org/
-[1]: http://slashdot.org/
-[link text itself]: http://www.reddit.com/
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
+### Necessary Libraries
+For basic scraping, we’ll just need to import from two Python libraries: urllib and bs4. Urllib contains modules for handling URLs, and the specific function we want to use from it is urlopen, which opens a url fed into it. Bs4 is a library containing functions for scraping data from the HTML and XML files that result from opening these URLs. 
 
 ```python
-s = "Python syntax highlighting"
-print(s)
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
 ```
 
-```r
-title <- "R syntax highlighting"
-print(s)
+You should then be good to go to start scraping with BeautifulSoup! (If any of the packages aren’t installed, you can easily do so with the $$\texttt{pip}$$ or $$\texttt{pip3}$$ command).
+
+## Scraping and cleaning
+### Inspecting an HTML page
+Good practice before getting into the actual scraping would be to inspect the HTML page you want to scrape from. For this example, use the [HBS faculty directory](https://www.hbs.edu/faculty/Pages/browse.aspx). 
+
+Right-clicking and selecting “Inspect” allows us to see what HTML elements are available on the page for scraping. For example, we might want to scrape the links associated with each faculty member listed, in which case we’d want the “href” elements from the page. Or maybe we want both the name and title of each faculty member, in which case we’d probably want the divs of class “name.” Inspecting the page you want to scrape before actually scraping lets you determine and strategize how to collect specific information.
+
+### Scraping & Cleaning HBS Faculty Data with BeautifulSoup
+Now, we can get to the actual scraping! First, we can define our URL and call $$\texttt{urlopen}$$:
+
+```python
+url = "https://www.hbs.edu/faculty/Pages/browse.aspx"
+html = urlopen(url)
 ```
 
+Now we have “html” defined as the variable containing the contents of the webpage we’d like to scrape. Next, we can use the BeautifulSoup package by calling the following function:
+
+```python
+soup = BeautifulSoup(html, 'lxml')
 ```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
+Through the BeautifulSoup constructor, we’re able to parse, or syntactically analyze and break into parts, the HTML page. The “lxml” attribute isn’t too important, but it’s just us telling BeautifulSoup what kind of HTML parser to use – lxml is generally faster than others.
+
+Now, “soup” contains the parsed HTML page that we want to scrape. We can use “find_all” to return specific HTML elements that we wanted from the page, with an example below:
+
+```python
+all_faculty = soup.find_all("div", attrs = {"class" : "name"})
 ```
 
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
+Now, “all_faculty” contains the HTML elements from the HBS faculty page that were “div” elements of class “name”. However, if we try printing all_faculty, we get some HTML code mixed in with the actual text that we wanted. To clean this data, we can first convert all_faculty into a string and then use the “get_text()” function to extract all text from it. 
+
+```python
+str_faculty = str(all_faculty)
+cleantext = BeautifulSoup(str_faculty).get_text(strip = True)
 ```
 
----
+Now, printing clean_text should give just the names of HBS faculty! Try this out with other elements you can find on the HBS faculty site if you want.
 
-## Tables
+#### Scraping Links
+Scraping the links from a webpage is pretty much the same as scraping a div, header, etc. but you’ll have to use the “.get” function as shown below in an extra step:
 
-Colons can be used to align columns.
+```python
+all_links = soup.find_all("a")
+for link in all_links:
+    print(link.get('href'))
+```
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+As shown, “.get” gets you the attributes of different HTML tags. 
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+## Headless browsers (extension)
+Headless browsers are, essentially, web browsers we can use without any Graphical User Interface (GUI). What this means is that we can write programs with instructors for headless browsers to go to specific webpages, click buttons, enter inputs, etc. without actually doing so manually. Using these to help us scrape gives us the advantages of dealing with non-simple websites that may be built on JavaScript and have more than just HTML/CSS, as well as the large increase in speed when compared to real browsers (another way to emulate a web browser and access websites), which have to load all GUI components of a website. 
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
-
-## Blockquotes
-
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
-
----
-
-## Admonitions
-
-:::note
-
-This is a note
-
-:::
-
-:::tip
-
-This is a tip
-
-:::
-
-:::important
-
-This is important
-
-:::
+There are several disadvantages to using headless browsers that you should take note of before deciding whether or not to use one. First, they are overall difficult to deal with – the installation and setup can take a long time and each operation and characteristic of a headless browser can be hard to understand. Additionally, although no bugs may arise when accessing a website through a real browser or manually, headless browsers may have bugs of their own based on the code you write to use them. Lastly, although headless browsers are indeed faster than real browsers, they still take a lot of time for scraping, and clicking through webpages manually will almost certainly be faster. 
 
 :::caution
 
-This is a caution
+Installing headless browsers is notoriously difficult. Should you attempt this task, be prepared!
 
 :::
 
-:::warning
+## Practical tips
 
-This is a warning
+### Scraping usually isn’t necessary
+Scraping (and cleaning) can be a long and tedious process, sometimes it isn’t even permitted by the website. If you want to scrape data, we would recommend trying to find a downloadable source somewhere or contacting the owners of the data to see if they’d send it to you (this worked for HODP when we wanted data from the Harvard Confessions Facebook group).
 
-:::
+## The simpler the better
+TLDR: Sometimes it’s better to spend 6 minutes doing something manually than 6 hours trying to automate it.
+
+If you have decided that scraping is absolutely necessary, try to keep your scraper simple. For example, let’s say you have a website that lists the favourite foods of every state, but each state has its own webpage (i.e you have to click a link to see details for each state). 
+
+You have two options: you could set up a sophisticated scraper that follows all the relevant links to the state’s pages (and ignores the ones that just link to social media or irrelevant pages) and then uses regex to scrape the actual HTML. 
+
+Or you could poke around the structure of the site a little. It’s quite likely that the link to each state’s page is just domain.com/state-abbbreviation. This means you can then copy a list of all 50 state abbreviations and then write a simple single-page scraper and a for-loop that runs it 50 times. 
+
+Speaking from (Ashley’s) personal experience, one of these solutions is much, much simpler than the other. So resist the temptation to build a super-awesome fully-automated scraper and remember, the simpler the better.
