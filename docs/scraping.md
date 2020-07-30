@@ -52,10 +52,27 @@ We would strongly recommend [regexone.com](regexone.com) to anyone who’s tryin
 ### Quick regex
 Here are some expressions you can use if you’re looking to match something right now (we would still recommend actually learning regex through [regexone.com](regexone.com) though)! 
 
-Depending on what information you want to capture from a match, you may need to use capture groups (also covered on regexone). These are denoted by parenthesis $$\texttt{()}$$ and tell the program what information to give back to you. For example, $$\texttt{b(a).*}$$ will match ‘bat’, ‘baa’, ‘bar’, and ‘ba’ but will only return a single ‘a’ to you. 
+Depending on what information you want to capture from a match, you may need to use capture groups (also covered on regexone). These are denoted by parenthesis $$\texttt{()}$$ and tell the program what information to give back to you. For example, $$\texttt{b(a).\*}$$ will match ‘bat’, ‘baa’, ‘bar’, and ‘ba’ but will only return a single ‘a’ to you. 
 
+| If you want to match all of.... | You can use... |
+| ------------- | ----------- | 
+| id_1 <br> id_2 <br> id_3  | $$\texttt{id_.+}$$ <br> or $$\texttt{id_\d+}$$ if you want to match numerical id numbers only  |
+| cats.jpg <br> dogs.jpg <br> but **not** pigs.pdf  | $$\texttt{.\*\.jpg}$$ | 
+| cats.jpg <br> whyarethesebothathing.jpeg | $$\texttt{.\*\.jpe?g}$$ |
+| <a href='something_long'>Hello</a> <br> <a href='something_else'>Bye</a> | $$\texttt{<a href='[^']\*'>.\*</a>}$$ |
+
+:::caution
+
+Regex is greedy! This means that regex always looks for the longest match possible (i.e if your expression is $$\texttt{banana+}$$ and your text is 'bananaaaaaaaaaaaa', regex will match the full 'bananaaaaaaaaaaaa' every time). This can lead to unexpected behaviour. For example, if you have an expression $$\texttt{id_.+}$$ and the string 'id_1, id_2, id_3', instead of returning three matches--'id_1', 'id_2', 'id_3'--regex will return one long match 'id_1, id_2, id_3'. Why? Because you asked regex for 'id_' followed by one or more of **any** character. Therefore, regex kept searching for valid characters until it hit the end of the string (any couldn't find any more characters). 
+
+:::
+
+You can avoid errors caused by regex being greedy by using things like the not-operator $$\texttt{^}$$. $$\texttt{id_[^,]+}$$ would thus be the same as asking for 'id_' followed by one or more characters that are not commas. As soon as regex sees a comma it will be forced to stop matching, thereby solving the problem where regex matches the whole string in one go!
 
 ## Set up
+
+
+
 ## Scraping and cleaning
 ## Headless browsers
 ## Practical tips
