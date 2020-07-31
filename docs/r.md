@@ -38,22 +38,113 @@ outputs
 ```
 There are also a number of built-in basic math functions, including abs(x) (absolute value of x), sqrt(x) (squart root), log10(x) (logarithm of x base 10), cos(x), sin(x), and tan(x). A full list can be found [here](https://www.rdocumentation.org/packages/pbdDMAT/versions/0.5-1/topics/math).
 
-
 ### Variables
 
-### Data Types
+Simply put, a **variable** stores a value in memory. In R, we use the '<-' symbol to assign a value to a variable. For example,
+```r
+year <- 2020
+```
+stores the number 2020 into a variable called "year."
+
+Variable names must begin either with a letter or a period and can include any combination of letters, numbers, periods, and underscores; no other special characters or symbols may be used.
+
+:::important
+
+R is **case-sensitive**, so name (and access) your variables accordingly!
+
+:::
+
+:::caution
+
+**Reserved words** (if, else, while, break, function, etc.) have special uses in R and cannot be used as variable names.
+
+:::
+
+### Basic Data Types
+
+Variables can have different types. In R, there are three basic data types: **numeric**, **character**, and **logical**.
+
+#### Numeric
+
+In the above example, "year" is of numeric type. Numeric types can store integers or floats (numbers involving decimals).
+
+#### Character
+
+Below, the variable "x" is of character type. Character types can be created with either single- or double-quotes.
+
+```r
+x <- "HODP is life"
+```
+
+#### Logical
+
+Below, the variable "y" is of logical type. Logical types can store either TRUE or FALSE.
+
+```r
+y <- TRUE
+```
+
+### Data Structures
+
+From these basic data types, we can start to build more complex structures in R.
 
 #### Vectors
 
+A **vector** contains elements all of the same data type. Vectors are created by wrapping elements inside **c()**. For example,
+
+```r
+my.vector <- c("HODP", "is", "life")
+```
+is a vector containing all character types.
+
 #### Lists
 
-#### Matrices
+A **list** contains elements of multiple data types. Lists are created by wrapping elements inside **list()**. For example,
 
-#### Arrays
+```r
+my.list <- list(FALSE, 3, "HODP")
+```
+contains numeric, character, and logical types.
 
 #### Factors
 
+A **factor** represents the categories present in a vector. Factors can be created by wrapping a vector inside **factor()**. For example,
+
+```r
+my.factor <- factor(c("HODP", "data", "data", "HODP", "life"))
+```
+creates the factor "my.factor". Calling **levels(my.factor)** would yield
+
+```r
+[1] "HODP" "data" "life"
+```
+
+#### Matrices
+
+A **matrix** is a vector represented in a two-dimensional rectangular format. Matrices can be created by wrapping a vector inside **matrix()** and specifying the dimensions of the matrix, as follows:
+
+```r
+my.matrix <- matrix(c("H", "O", "D", "P"), nrow = 2, ncol = 2)
+```
+This will create a two-by-two matrix containing the letters of "HODP".
+
+#### Arrays
+
+An **array** extends the idea of a matrix into multiple dimensions. Arrays can be created by wrapping a vector inside **array()** and specifying the dimensions of the array, as follows:
+
+```r
+my.array <- array(c("H", "O", "D", "P"), dim = c(2, 2, 3))
+```
+This will create a three two-by-two matrices containing the letters of "HODP".
+
 #### Data Frames
+
+A **data frame** is similar to a matrix, but each column can store a different data type. Data frames can be created by wrapping vectors inside **data.frame()**. For example,
+
+```r
+my.dataframe <- data.frame(letters = c("H", "O", "D", "P"), numbers = c(2, 0, 2, 0))
+```
+creates a data frame with two columns, one labeled "letters" and one labeled "numbers", each with four rows.
 
 
 ## Reading in files
