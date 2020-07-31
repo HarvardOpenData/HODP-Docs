@@ -95,7 +95,7 @@ We recommend developing your component in a separate repository before transferr
     - Follow the file and component-naming conventions: if your component is named `BlogPost`, your file should be named `blog-post.js`.
     - If your component requires multiple sub-components, create a folder within `interactives` to keep everything organized.
 3. Test your component by importing and adding it to the `404.js` page within `web > src > pages`. Since we don't have a dedicated preview page, this is our makeshift way of checking whether the component renders properly. Make sure to delete the component and the import once you've verified that it's working!
-4. Add your component as an option to the general `ReactComponent` type of block content. This will allow your content editor to pull your React component directly into the Sanity project. In `components > block-content > react-component.js`, import your component and add it to the switch statement. Make sure to follow the existing formatting.
+4. Add your component as an option to the general `ReactComponent` type of block content. This will allow your content editor to pull your React component directly into the Sanity project. In `components > block-content > embedded-component.js`, import your component and add it to the switch statement. Make sure to follow the existing formatting.
 5. Run `prettier --write "**/*.js"` from the `hodp-website` directory to fix formatting issues.
 6. Push your changes and make a pull request in GitHub so we can review your code. Once we've approved your changes, we'll merge them into the main branch. Congrats! 🎉
 
