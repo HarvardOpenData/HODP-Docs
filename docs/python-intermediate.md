@@ -666,6 +666,7 @@ internal Python representation:
 | Length                   | ```len(obj)```      | ```obj.__len__()```           |
 | Index                    | ```obj[index]```    | ```obj.__getitem___(index)``` |
 | Membership               | ```elem in obj```   | ```obj.__contains__(elem)```  |
+| Display (Printing)       | ```print(obj)```    | ```obj.__str__()```           |
 
 ## Lambda Functions
 
