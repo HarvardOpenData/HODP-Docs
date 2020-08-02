@@ -151,6 +151,24 @@ creates a data frame with two columns, one labeled "letters" and one labeled "nu
 
 ## Cleaning datasets (NA values)
 
+To get a basic idea of how cleaning might work with a dataset in R, imagine we're working with the following vector v:
+```r
+v <- c(1,2,5,NA,4)
+```
+Perhaps v is a set of responses from a survey, and certain responses caused the non-numeric "not available" value NA to appear. If we simply try to the find the mean of v, we get the following result:
+
+![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RBadMean.png 'R Bad Mean')
+
+To get the mean of only numeric responses, we can use the "na.omit" function, which returns its input vector with NA values omitted.
+```r
+v <- na.omit(v)
+```
+Now, we can find the mean of just the numeric values!
+
+![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RGoodMean.png 'R Good Mean')
+
+Now, let's apply this idea of dropping NA values to an actual dataset. 
+
 Before you start cleaning your dataset, it's a good idea to get a feel for the data. The tidyverse package contains many very useful functions, including omitting NA values, filtering variables, sorting variables, etc. 
 
 To install the tidyverse package, type the following into the console:
@@ -176,21 +194,15 @@ glimpse(df)
 # Find max, min, mean values of each variable
 summary(df)
 ```
-To get a basic idea of how cleaning might work with a dataset in R, imagine we're working with the following vector v:
+
+Then, to omit NA values, you can use "drop_na" function, which drops rows that contain missing values.
 ```r
-v <- c(1,2,5,NA,4)
+# Create a tibble called "example_df", which has two columns x and y.
+example_df <- tibble(x = c(1, 2, NA), y = c("a", NA, "b"))
+
+# Removes all rows with NAs
+example_df %>% drop_na()
 ```
-Perhaps v is a set of responses from a survey, and certain responses caused the non-numeric "not available" value NA to appear. If we simply try to the find the mean of v, we get the following result:
-
-![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RBadMean.png 'R Bad Mean')
-
-To get the mean of only numeric responses, we can use the "na.omit" function, which returns its input vector with NA values omitted.
-```r
-v <- na.omit(v)
-```
-Now, we can find the mean of just the numeric values!
-
-![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RGoodMean.png 'R Good Mean')
 
 ---
 
