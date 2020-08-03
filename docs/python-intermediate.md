@@ -846,7 +846,7 @@ product = reduce(lambda x, y: x * y, numbers)
 # product is 1260
 ```
 Alternatively, we can think of ```reduce()``` acting on ```numbers``` through a series of nested operations. In the
-example above, ```reduce()``` calculates the return value much like how we would calculate the product
+example above, ```reduce()``` calculates the return value much like how we would calculate the product  
 ```((((5 * 3) * 2) * 7) * 6)```.
 
 :::tip
