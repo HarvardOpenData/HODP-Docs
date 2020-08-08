@@ -6,7 +6,7 @@ sidebar_label: Inference
 
 By: Asher Noel & Leo Saenger
 
-# Introduction 
+## Introduction 
 
 Beyond getting data, one usually needs to interpret it, to some degree. For this, we have statistics: a discipline centered around exploring data and a phenomenon of interest, describing causal conclusions about the effect of changing one variable on another, and predicting one variable using another. 
 :::important 
@@ -19,7 +19,7 @@ The second doc  is Hypothesis Testing. Hypothesis testing has been used to valid
 
 The third doc is Regression. Regression is only one form of prediction, but fairly common and can be simple to implement. More generally, regression is the task where a computer program is asked to predict a numerical value given some input, outputting a function $f : \mathcal{R}^n \to \mathcal{R}$. 
 
-# Estimation 
+## Estimation 
 
 When conducting data analysis, one is often interested in a phenomenon of interest. They might want to know the average amount of water that Harvard students drink each day, the maximal number of trips to Mount Auburn that each Harvard first-year took, or the probability that they have covid given a variety of factors, for example. 
 
@@ -123,7 +123,7 @@ MSE 3: 0.002
 When doing work in HODP, it is important to be cognizant about as many potential sources of bias as possible whenever collecting or analyzing data and to choose, as best as possible, consistent estimators of a phenomenon of interest. 
 :::
 
-# Confidence Intervals 
+## Confidence Intervals 
 
 Point estimates and standard errors are great fits for some phenomenon of interest, but sometimes it is better to have a range of values that describe possible values a fixed yet unknown estimand $\theta$ could take. In the frequentist paradigm, where probabilities describe frequencies, these ranges are called confidence intervals: formally, a confidence interval of an estimand $\theta$ is an interval $C_n = (a,b)$ where the bounds are functions of the data such that $$\mathbb{P}_{\theta}(\theta \in C_n) \geq 1 - \alpha \textrm{for all} \theta \in \Theta$$ where $\Theta$ is the parameter space and $\alpha$ is the confidence level. 
 
@@ -223,7 +223,7 @@ plot_means(0.7, 30, 50000)
 
 If ever unsure about the interpretation of statistics or confidence intervals, or whether the technique you are applying works well with your data, feel free to reach out to anyone in HODP in the slack. We recognize that people have varying degrees of expertise when it comes to statistics and drawing inferences from data, and we would love to help!  
 
-# The Benefits of Large Samples
+## The Benefits of Large Samples
 
 Sample size is one of the most important considerations in many experiments in statistics. More data is great for a lot of reasons: the Strong Law of Large Numbers states that sample means probabilistically converge to their true means, the central limit theorem starts to take stronger effect as asymptotics kick in, and, anytime either the variance or bias of an estimator is indirectly related to sample size, the mean squared error of an estimator decreases. 
 

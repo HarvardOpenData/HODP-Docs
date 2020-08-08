@@ -13,7 +13,7 @@ The [HODP website](https://www.hodp.org/) is built with the following stack:
 - [Gatsby](https://www.gatsbyjs.org/), a static site generator that compiles the React code into plain HTML, CSS, and JavaScript as part of the build process. This, along with other optimizations, makes Gatsby sites extremely fast.
 - [Sanity](https://www.sanity.io/), a content management system (CMS) that stores the website data for articles, blog posts, team members, datasets, and pages in structured JSON objects. Unlike Wix or Squarespace, Sanity is a *headless* CMS, which means that it only controls the data, not the presentation. As a result, we can query Sanity's API and plug in the data into any frontend that we want.
 - [GraphQL](https://graphql.org/), a querying language that allows us to retrieve data from Sanity in a predictable format.
-- [Firebase](https://firebase.google.com/), a database that stores our user data for the survey group and the predictions game. We connect the Firebase data to the React frontend using a library called [react-redux-firebase](http://react-redux-firebase.com/).
+- [Firebase](https://firebase.google.com/), a database that stores our user data for the survey group and the predictions game.
 - [Theme UI](https://theme-ui.com/), a styling framework that stores our style guide in one file. It handles sitewide themes with the `theme.js` file, inline styles with the `sx` prop, and styled components with syntax like `<Styled.h1></Styled.h1>`.
 
 If you're curious, all of these frameworks / tools have great tutorials on their websites. For the purposes of developing a web app, you'll only need to know React.
@@ -109,7 +109,7 @@ If you need to install node packages, install them in the `web` directory, *not*
 ## Troubleshooting
 
 ### General errors
-Make sure you've imported all the components / dependencies you need. Common dependencies include `react`, `Styled`, various components from `theme-ui`, etc.
+Make sure you've imported all the components / dependencies you need. Common dependencies include `react`, `Styled`, various components from `theme-ui`, etc. If you pulled code recently, run `npm install`.
 
 Use `console.log` to help you understand how informations is stored in  different fields.
 

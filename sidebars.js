@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
+  docsSidebar: {
     'HODP Guides': [
       'installation',
       'good-practices',

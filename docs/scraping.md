@@ -54,12 +54,16 @@ Here are some expressions you can use if you’re looking to match something rig
 
 Depending on what information you want to capture from a match, you may need to use capture groups (also covered on regexone). These are denoted by parenthesis $$\texttt{()}$$ and tell the program what information to give back to you. For example, $$\texttt{b(a).\*}$$ will match ‘bat’, ‘baa’, ‘bar’, and ‘ba’ but will only return a single ‘a’ to you. 
 
+<br />
+
 | If you want to match all of.... | You can use... |
 | ------------- | ----------- | 
-| id_1 <br> id_2 <br> id_3  | $$\texttt{id_.+}$$ <br> or $$\texttt{id_\d+}$$ if you want to match numerical id numbers only  |
-| cats.jpg <br> dogs.jpg <br> but **not** pigs.pdf  | $$\texttt{.\*\.jpg}$$ | 
-| cats.jpg <br> whyarethesebothathing.jpeg | $$\texttt{.\*\.jpe?g}$$ |
-| <a href='something_long'>Hello</a> <br> <a href='something_else'>Bye</a> | $$\texttt{<a href='[^']\*'>.\*</a>}$$ |
+| id_1 <br/> id_2 <br/> id_3  | $$\texttt{id_.+}$$ <br/> or $$\texttt{id_\d+}$$ if you want to match numerical id numbers only  |
+| cats.jpg <br/> dogs.jpg <br/> but **not** pigs.pdf  | $$\texttt{.\*\.jpg}$$ | 
+| cats.jpg <br/> whyarethesebothathing.jpeg | $$\texttt{.\*\.jpe?g}$$ |
+| <a href='something_long'>Hello</a> <br/> <a href='something_else'>Bye</a> | $$\texttt{<a href='[^']\*'>.\*</a>}$$ |
+
+<br/>
 
 :::caution
 

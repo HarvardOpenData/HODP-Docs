@@ -4,7 +4,7 @@ const katex = require('rehype-katex')
 module.exports = {
   title: 'HODP Docs',
   tagline: 'Resources for data science, statistical principles, visualization, and writing created by HODP members.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.hodp.org',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Harvard Open Data Project', // Usually your GitHub org/user name.
@@ -26,14 +26,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/installation',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/HarvardOpenData/HODP-Docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -42,19 +35,6 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
@@ -77,7 +57,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              to: 'https://www.hodp.org/blog',
             },
             {
               label: 'GitHub',
@@ -95,19 +75,13 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'docs/',
+          homePageId: '',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/HarvardOpenData/HODP-Docs/tree/master/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/HarvardOpenData/HODP-Docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
