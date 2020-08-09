@@ -29,13 +29,20 @@ Though HODP's work has diversified over the years, our core purpose is still to 
 
 How can you use data to hold people in power accountable, teach others, or help our community? How can we make our data and analysis themselves accessible and transparent?
 
-When it comes to writing articles, this mission translates to making sure you explain where your data is from, what it contains, and how you extracted insights from it. Use layman's terms and don't assume too much prior knowledge. We want to make sure that our readers trust us and can hold our work accountable as well.
+When it comes to writing articles, this mission translates to making sure you explain where your data is from, what it contains, and how you extracted insights from it. 
+Though your insights and results themselves should be backed by rigorous analytical and statistical work, use layman's terms when possible, explain specialized concepts, and don't assume too much prior knowledge. 
+We want to make sure that our readers trust us and can hold our work accountable, even as we deliver the results of highly technical work.
 
-When you publish your article, we'll also ask you to publish your data, raw and cleaned, and your code, for the sake of transparency and for cleaning.
+Ultimately, these are the core tenets of our projects:
+- Support ransparent data, transparent code, and a transparent campus
+- Tell a story
+- Hold the poweful accountable
+- Keep Harvard informed
+- Ground your work in rich datasets, statistical analysis, and data-driven visuals
 
 #### Tone of a HODP Article
 
-We're not publishing academic, nor is this a blog. We want to strike a journalistic middle ground. Don't opine or editorialize, but do use layman's terms and explain your work clearly. It's still okay to drop a joke or reference Harvard culture. Generally, err on the side of conversational but professional. 
+We're not publishing academic work, nor is this a blog. We want to strike a journalistic middle ground. Don't opine or editorialize, but do use layman's terms when possible and explain your technical work clearly. It's still okay to drop a joke or reference Harvard culture. Generally, err on the side of conversational but professional. 
 
 #### Writing Guidelines
 
