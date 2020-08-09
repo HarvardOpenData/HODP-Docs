@@ -6,9 +6,9 @@ sidebar_label: Article Guide
 
 By: Sahana Srinivasan and Alison Hu
 
-In this tutorial, you'll learn the types of articles you can write for HODP, the goal of our articles, how to write one, and what our publishing process looks like.
+In this tutorial, you'll learn the types of articles you can write for HODP, the goal of our work, and what our publishing process looks like. We'll also learn general concepts about what data journalism is and how to write a data-driven article.
 
-At the end, you'll be ready to publish your work with HODP!
+At the end, you'll be a data journalist, ready to publish your work with HODP!
 
 ---
 
@@ -18,9 +18,20 @@ At the end, you'll be ready to publish your work with HODP!
 #### 1. Traditional Analysis
 
 #### 2. Survey Write-up
-HODP has its own survey group, and we occasionally send surveys to the student body at large. After working with our Survey Group PM to craft and send your survey, and you analyze your results in an article. Examples include our pieces on the [2020 Presidential Primaries](https://www.hodp.org/project/how-do-harvard-students-feel-about-the-2020-election) and on [students' COVID-19 situations](https://www.hodp.org/project/harvard-in-the-age-of-covid-19/).
+HODP has its own [survey group](https://www.hodp.org/surveys/), and we occasionally send surveys to the student body at large. 
+After working with our Survey Group PM to craft and send your survey, you'll analyze your results in an article.
+Examples include our pieces on the [2020 Presidential Primaries](https://www.hodp.org/project/how-do-harvard-students-feel-about-the-2020-election) and on [students' COVID-19 situations](https://www.hodp.org/project/harvard-in-the-age-of-covid-19/). 
+You can write up your results in a traditional text-then-graph-then-text model, as the projects above are, or you can create an interactive, scrollytelling story, as described below. 
 
 #### 3. Scrollytelling
+Scrollytelling stories look like this [piece from NYT on how the Iowa caucuses work](https://www.nytimes.com/interactive/2020/01/31/us/politics/what-is-iowa-caucus.html). Either static graphs or interactive visualizations will occupy the bulk of the screen. As you scroll, these graphics will change or be replaced, accompanied by text blurbs that scroll up the screen as you do. 
+
+You can use our [scrollytelling template](https://github.com/sahana-srinivasan/scrollytelling) to develop a project like this. You'll have to plug in your scrollable text and graphics/React components.
+React knowledge will be helpful (and d3 is necessary if you want to make it interactive), but if you don't know React, reach out to Sahana and she can help you out!
+
+---
+
+## Data Journalism
 
 ---
 
@@ -28,7 +39,7 @@ HODP has its own survey group, and we occasionally send surveys to the student b
 
 ---
 
-## How to Write an Article
+## How to Write a HODP Article
 
 What's supposed to go in your article? Usually graphs and cool insights. Regardless of the type of article, we recommend the following flow. Your lead editor can give you more individualized advice for your project.
 
