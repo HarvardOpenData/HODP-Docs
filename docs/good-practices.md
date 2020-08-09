@@ -23,7 +23,7 @@ Finally, before diving into your work, ask yourself: What am I trying to achieve
 
 ## Writing best practices
 
-#### Our Open Data Mission
+#### Maintain our open data mission
 
 Though HODP's work has diversified over the years, our core purpose is still to make data and its insights accessible. To that end, while you're thinking about projects and later working on one, keep in mind our open data mission:
 
@@ -40,13 +40,41 @@ Ultimately, these are the core tenets of our projects:
 - Keep Harvard informed
 - Ground your work in rich datasets, statistical analysis, and data-driven visuals
 
-#### Tone of a HODP Article
+#### Strike a HODP tone
 
-We're not publishing academic work, nor is this a blog. We want to strike a journalistic middle ground. Don't opine or editorialize, but do use layman's terms when possible and explain your technical work clearly. It's still okay to drop a joke or reference Harvard culture. Generally, err on the side of conversational but professional. 
+We're not publishing academic work, nor is this a blog. We want to strike a journalistic middle ground. 
+Don't opine or editorialize, but do use layman's terms when possible and explain your technical work clearly. It's still okay to drop a joke or reference Harvard culture. 
+Generally, err on the side of conversational but professional. Keep in mind your audience –– the larger Harvard and Cambridge community, out of which our readers are mostly students –– and our goals, the core tenets listed above. Your tone should match your goal and audience.
+To get a sense of our usual tone and style, check our [existing projects](https://www.hodp.org/projects) or our inspiration, [FiveThirtyEight](https://fivethirtyeight.com/). 
 
-#### Writing Guidelines
+#### Find an idea meaningful to you
 
-## What HODP does
+The best "best practice" for working on a HODP project –– whether a survey project or a webapp –– is to find an idea meaningful to you. 
+You won't want to get in to the nitty-gritty of the data in R or perfect that D3 visualization if you don't care about the questions you're asking.
+
+Some questions to ask yourself when ideating:
+- What have I always wondered about Harvard? What do I wish I knew?
+- Who do I think doesn’t have enough accountability for their actions in our community?
+- What’s a fixture of campus life that people would enjoy learning more about?
+
+#### Stick to the data but tell a story
+
+Don't give your opinions on the data. If you have a hypothesis, state it, but also state that it's just a hypothesize. Your inferences and insights should be backed up by rigorous statistical analysis. 
+
+It's also important to strike a balance between sticking to closely to listing your results and telling a story. 
+
+:::caution
+
+Avoid "notebook dumps."
+
+:::
+
+This means you shouldn't just list a bunch of numerical results you cranked out of your data. Definitely don't slap in screenshots of the output of your code. 
+
+This artice is a story more than a report: start with an introduction of what you're researching, why it's imporant, and what questions you're asking. 
+Every result you find should be explained in words and integrated into this larger story. Group your results by subject and add transitions that explain why the results are important or interesting.
+
+
 
 
 
