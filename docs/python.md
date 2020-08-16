@@ -590,3 +590,10 @@ and then I can just type `array()` each time I call the function.
 lst = array(lst)
 print(lst) # returns [1 2 3 4 5]
 ```
+
+## What Next?
+Hopefully this guide served as a helpful introduction to basic Python and Python syntax, and will equip you with the understanding to explore further on your own! If you have any questions or would like to learn more, feel free to get in touch with anyone on HODP Board!
+
+For more advanced topics, see [Python Intermediate](https://hodp-docs.netlify.app/docs/python-intermediate) which goes into more advanced topics like classes, list comprehensions, and more.
+
+For more information on NumPy and Pandas, two of the most popular and commonly used libraries for data analysis, see [NumPy + Pandas](https://hodp-docs.netlify.app/docs/numpy-pandas).
