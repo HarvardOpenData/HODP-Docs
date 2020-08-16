@@ -568,22 +568,22 @@ Oftentimes, there are functions that people want to use for different projects a
 
 Python has an incredibly large amount of available libraries for doing almost anything you could possibly need, from making graphs, to analyzing data, to even implementing neural networks.
 
-To access these libraries we use imports. For example, some common libraries for data analysis are Numpy and Pandas. Thus, to use these libraries, you would
+To access these libraries we use imports. For example, some common libraries for data analysis are NumPy and Pandas. Thus, to use these libraries, you would
 ```
-import numpy as np
+import NumPy as np
 import pandas as pd
 ```
-where we have imported the libraries Numpy and Pandas, and gave them a "nickname" so that we don't have to type the entire word each time we call on a function from the library.
+where we have imported the libraries NumPy and Pandas, and gave them a "nickname" so that we don't have to type the entire word each time we call on a function from the library.
 
-To use functions from these libraries, e.g. Numpy's `array` function, which takes in a list and returns an `ndarray` (Numpy's own array), I would
+To use functions from these libraries, e.g. NumPy's `array` function, which takes in a list and returns an `ndarray` (NumPy's own array), I would
 ```
 lst = [1,2,3,4,5]
 lst = np.array(lst)
-print(lst) # returns [1 2 3 4 5], a numpy matrix
+print(lst) # returns [1 2 3 4 5], a NumPy matrix
 ```
 If I do not want to type the `np.array` each time I call the function, or only want to import that function and not the whole library, I can specify that I just want to import `array`, e.g.:
 ```
-from numpy import array
+from NumPy import array
 ```
 and then I can just type `array()` each time I call the function. 
 ```
@@ -596,4 +596,4 @@ Hopefully this guide served as a helpful introduction to basic Python and Python
 
 For more advanced topics, see [Python Intermediate](https://hodp-docs.netlify.app/docs/python-intermediate) which goes into more advanced topics like classes, list comprehensions, and more.
 
-For more information on NumPy and Pandas, two of the most popular and commonly used libraries for data analysis, see [NumPy + Pandas](https://hodp-docs.netlify.app/docs/numpy-pandas).
+For more information on NumPy and Pandas, two of the most popular and commonly used libraries for data analysis, see [NumPy + Pandas](https://hodp-docs.netlify.app/docs/NumPy-pandas).
