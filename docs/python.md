@@ -457,6 +457,7 @@ print(list(range(b))) # returns [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print(list(range(a,b,2))) # returns [5, 7, 9]
 ```
+:::
 
 ### Loop by Index and Element
 If I want to know both the index and the element, I can use `enumerate()` which returns an object similar to a list of tuples (but is not actually a list of tuples).
