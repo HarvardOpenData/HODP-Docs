@@ -6,7 +6,7 @@ sidebar_label: Good Practices
 
 By: Alison Hu, Sahana Srinivasan, and Melissa Kwan
 
-Visualization, analysis, and writing best practices adapted from Prof. Cheryl Phillips’ Stanford [webinar](https://www.youtube.com/watch?v=V_YA761LPsE) on data-driven storytelling.
+Visualization, analysis, and writing best practices use material drawn from Prof. Cheryl Phillips’ Stanford [webinar](https://www.youtube.com/watch?v=V_YA761LPsE) on data-driven storytelling.
 
 ## Data best practices
 
@@ -48,9 +48,6 @@ Here is a [pie charts resource](http://diagrammm.com/pie_chart) if you're lookin
 :::
 
 ## Writing best practices
-- Be precise with figures at the beginning, but when you’re writing the narrative, consider how precise you need to be to get across the main point. (E.g. “$5.97 per person” to “nearly $6 per person”)
-- Avoid “notebook dump” : Narrow down the facts into a storyline. Excise numbers from your reports — make sure that numbers in the written article are the important ones
-- Create a frame for your user to understand the story.
 
 #### Maintain our open data mission
 
