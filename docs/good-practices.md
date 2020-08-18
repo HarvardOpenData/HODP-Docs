@@ -6,6 +6,7 @@ sidebar_label: Good Practices
 
 By: Alison Hu, Sahana Srinivasan, and Melissa Kwan
 
+Visualization, analysis, and writing best practices adapted from Prof. Cheryl Phillips’ Stanford [webinar](https://www.youtube.com/watch?v=V_YA761LPsE) on data-driven storytelling.
 
 ## Data best practices
 
@@ -17,11 +18,39 @@ This example also illustrates the importance of understanding the context of you
 
 Finally, before diving into your work, ask yourself: What am I trying to achieve through this analysis? What is the end goal, and what do I hope to convey to my readers? This doesn't mean you should know the "answer" to your research question(s) -- that's where the data analysis comes in! -- but it's important to acknowledge the motivation behind your work and lay the foundation for a successful project.
 
-## Visualization best practices
-
 ## Analysis best practices
+Based on Prof. Cheryl Phillips’ Stanford [webinar](https://www.youtube.com/watch?v=V_YA761LPsE) on Data-Driven Storytelling.
+### Data to understanding
+“Interview” the data for the who / what / when / where / why / how
+- At the same time that you’re winnowing the data, you need to integrate context. Don’t throw out the original data that you’ve cleaned, just create new columns.
+
+### Tips for using data
+- Distinguish between the mean and the median. If there are outliers, use median, if normally distributed, choose mean. (Note: if the two differ by a significant amount, investigate the data further — that difference could be the story.)
+- Look for patterns that tell a story, and look for outliers that tell a story — use anecdotes to dive into the story telling.
+
+## Visualization best practices
+- Strike the balance between maintaining clarity and allowing for exploration. The viewer should get a “pre-attentive” view of the story – in a second, they should be able to "get” the main point intuitively.
+- Allow the user to explore on their own if they’d like, even if outside the main interest story (can take the form of tooltips, focusing on their region of interest, etc.)
+- Color and style communicates a mood
+
+### Guide to charts
+- Line charts show trends over time, best used to display numerical data
+- Bar charts are best for categorical data
+- Horizontal bar charts are best used when you need to sort the data
+  - Don’t create a different color for every bar. It’s the size of the bar that matters, not the colors.
+- Maps: Don’t just map population clusters - Make sure to normalize by going per capita
+- Pie charts show parts of a whole - only use if there are 2-3 categories. In general, avoid pie charts in almost all circumstances (1, because [Seth](https://www.hodp.org/people/seth-billiau/) hates them, and 2, because they can easily be cluttered with categories). Consider a stacked bar chart instead.
+
+:::note
+
+Here is a [pie charts resource](http://diagrammm.com/pie_chart) if you're looking for best practices.
+
+:::
 
 ## Writing best practices
+- Be precise with figures at the beginning, but when you’re writing the narrative, consider how precise you need to be to get across the main point. (E.g. “$5.97 per person” to “nearly $6 per person”)
+- Avoid “notebook dump” : Narrow down the facts into a storyline. Excise numbers from your reports — make sure that numbers in the written article are the important ones
+- Create a frame for your user to understand the story.
 
 #### Maintain our open data mission
 
