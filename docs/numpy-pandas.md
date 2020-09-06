@@ -9,7 +9,7 @@ By: Matthew Qu & Asher Noel
 ### Getting Started
 
 Before we begin, we must first install the numpy and pandas libraries as they are not included in the standard Python
-library (check out our [guide](www.google.com) if you have any questions about installation TODO update link). When we
+library (check out our [guide](https://docs.hodp.org/docs/installation) if you have any questions about installation). When we
 import these libraries, we typically abbreviate them as follows:
 
 ```python
@@ -198,10 +198,6 @@ row3    3
 row4    4
 Name: col1, dtype: int64
 ```
-
-#### Dataframes in pandas vs. Dataframes in R
-
-TODO: Asher (if you don't think this section is necessary we can delete it)
 
 ### Importing and exporting data
 
