@@ -7,8 +7,7 @@ sidebar_label: Python - Intermediate
 By: Yijiang Zhao & Matthew Qu
 
 This guide assumes a basic knowledge of Python and Python syntax.
-If you need a reference or a refresher, check out HODP's Python for beginners [here](https://www.google.com/).
-TODO: update link when finished
+If you need a reference or a refresher, check out HODP's Python for beginners [here](https://docs.hodp.org/docs/python).
 
 ## File I/O
 
@@ -300,7 +299,7 @@ and spaces are also sometimes used.
 
 There are many other Python modules which have their own methods for reading in external data. One popular module is
 **pandas**, which is designed for data manipulation and analysis. Check out HODP's introduction to pandas 
-[here](https://www.google.com/)! TODO: update link when finished
+[here](https://docs.hodp.org/docs/numpy-pandas)!
 
 ## Classes
 
