@@ -43,7 +43,13 @@ To have access to more of Github’s functionality (like uploading code), you ca
 These instructions are for Mac users, Windows-specific instructions below!
 :::
 
-Below are detailed installation instructions for you to work through. At the end of each section there are **installation checks**. These are designed to help you test that your installation succeeded. Please make sure you pass the check for each section before continuing to the next! Many of these steps depend on previous ones having completed successfully.
+Below are detailed installation instructions for you to work through. At the end of each section there are **installation checks**. These are designed to help you test that your installation succeeded. Please make sure you pass the check for each section before continuing to the next! Many of these steps depend on previous ones having completed successfully. The exceptions to this are Visual Studio Code and Github Desktop, they are completely independent and can be done on their own.
+
+:::tip 
+If any of this goes **catastrophically** wrong and you'd really like to have these tools installed locally and you aren't a CS concentrator (or someone who will be programming regularly), you can follow the **Windows** instructions. These are simpler and should work for Mac users for the most part. 
+
+This is **strongly** discouraged if you care about version control or virtual environments or best practices in general.
+:::
 
 ### Homebrew
 [Homebrew](brew.sh) is a package manager for Mac that makes it extremely convenient to install and update packages! Although you can install things by downloading an installer (e.g install python from [python.org](python.org), using a package manager like Homebrew is considered best practice!
@@ -69,7 +75,7 @@ If you want to continue with installation while waiting for Homebrew, feel free 
 ### Python and Pip
 It’s time to get CS-y! Run ```brew install python``` in your command-line to download the language. This will also automatically install [pip](https://pypi.org/project/pip/), a tool that helps you install libraries for Python (for example NumPy, Pandas etc). 
 
-If you see the following output: ```Error: python@3.8 (or some other version) is already installed``` you’re good to proceed to the installation checks!
+Even if you see the following output: ```Error: python@3.8 (or some other version) is already installed``` don't worry, you’re may proceed to the installation checks!
 
 **Installation check:** run ```python3 --version``` in the command line. This should return at least version ```3.8.x```. If you get a ```command not found``` error, something went wrong. Also check that pip is working by running ```pip3 --version```, you should get at least version ```20.2.x```. Again if you get a ```command not found``` error, something went wrong.
 
@@ -136,9 +142,66 @@ You're free to install any IDE or text editor you wish, but we recommend [VSCode
 ### Github Desktop
 Another simple one! [Github Desktop](https://desktop.github.com/) is a great way to use Github without having to learn the intricacies of Git on the command-line (though you are of course more than welcome to do so -- there are many good online tutorials for this). To install it, simply click [here](https://desktop.github.com/) to go to their website and press the big purple ```Download for MacOS``` button. Follow the instructions and voila! You're done with installations!
 
+**Installation check:** Github desktop has a great tutorial and introduction to Github. Start up the app and complete the tutorial!
+
 :::tip
 Congratulations on completing the advanced installation! You can stop reading now, everything else is Windows-specific
 :::
 
+## Advanced Installation - Windows
+:::warning
+These instructions are for Windows users, Mac users beware!
+:::
 
+Below are detailed installation instructions for you to work through. For those who might be more familiar with programming, you might wonder why we've chosen to forego Anaconda. The short answer is that it's finicky and difficult to get right over written instruction. However, if you see yourself programming frequently in the future (e.g you're a CS concentrator), it might be better for you to search up Windows best practices instead. 
+
+### Python
+It's time to get CS-y! Click [here](https://www.python.org/downloads/) to download Python (big yellow button). This works much like downloading from any other app from the internet: follow the installer's instructions and you should be good to go!
+
+**Installation check:** open up Powershell (or however else you access the command-line) and run the command ```python --version``` (you can copy-paste that in and hit enter). You should see something along the lines of ```Python 3.8.5```. If you see something else, try installing Python again and slacking board in the bootcamp channel for help (feel free to do this at any point of the installation process -- and make sure to specify that you use Windows).
+
+This will also automatically install [pip](https://pypi.org/project/pip/), a tool that helps you install libraries for Python (for example NumPy, Pandas etc). 
+
+**Installation check:** open Powershell and run the command ```python -m pip --version```, you should see at least version ```20.2.x``` (though 19 is okay as well). From this point onwards I'll stop specifying that you should be running your commands in Powershell -- you may assume this. 
+
+### Python Libraries
+Time to install some libraries! These libraries contain a lot of pre-made functions that make coding a lot easier. This can include everything from basic math functions to machine learning. Below are the libaries you need to install and the commands to do so (enter all of these in the command-line):
+1. [NumPy](https://numpy.org/install/) (pronounced num-pie): ```python -m pip install numpy```
+2. [Pandas](https://pypi.org/project/pandas/): ```python -m pip install pandas```
+3. [Urllib3](https://pypi.org/project/urllib3/): ```python -m pip install urllib3``` (are you starting to sense a pattern in these download instructions)
+4. [Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/): ```python -m pip install beautifulsoup4```
+5. [SciPy](https://www.scipy.org/install.html) (pronounce s-eye-pie, not skype-y, no matter what [MIT confessions](https://www.facebook.com/beaverconfessions/posts/3008352295900464) might have you believe): ```python -m pip install scipy```
+6. [MatPlotLib](https://pypi.org/project/matplotlib/): ```python -m pip install matplotlib```
+
+Each of these installations should take no more than 2-3 seconds and you should see a success message along the lines of ```Successfully installed [insert package name]``` after every installation.
+
+### Jupyter Notebook
+This is the equivalent of what we did in Deepnote, except we will be running Notebooks locally on your computer (Deepnote is a website that allows you to run Jupyter Notebooks in the cloud). Run the following command ```python -m pip install notebook``` to install Jupyter Notebook to your computer. This will take a little longer than the previous Python libraries. 
+
+**Installation check:** start up a Jupyter Notebook kernel by running the command ```jupyter notebook```. If you get a ```command not found``` error, please slack #bootcamp-f20. This is a known error and we're working on finding a work around. 
+
+If Jupyer Notebook has been installed correctly, running ```jupyter notebook``` in Terminal should open up a new tab on your default web browser (e.g Chrome, Safari, etc). Here you can click through folders to find the notebook you want. Or you can press the ```New``` button in the top right hand corner to create your own notebook. Try it now! If you play around, you should realise that it feels very similar to Deepnote. 
+
+To stop Jupyter Notebook from running (i.e to shutdown the server), it's **not** enough to just close the tab. You need click on your terminal and press ```Ctrl-c```. You'll be asked the confirm that you want to shut down the server, to which you can respond ```y```. 
+
+:::tip
+If you ever want to do a 'force quit' in Powershell or stop a program from running try ```Ctrl-c``` or ```Ctrl``` and ```BREAK```. 
+:::
+
+### Installing nvm and Node.js
+We're past the halfway point now! The next thing we're going to install is [Node.js](Node.jsnodejs.org) (also called node). This will be essential for web development (or if you want to create [interactive graphics](https://www.d3-graph-gallery.com/index.html) in [d3](https://d3js.org/).
+
+Click [here](https://nodejs.org/en/download/) and download the Windows installer (we suggest you go for the LTS version -- recommended for most users). Follow the installer's instructions!
+
+**Installation check:** run the command ```node -v```, it should now return at least ```12.18.3```.
+
+### Visual Studio Code  
+You're free to install any IDE or text editor you wish, but we recommend [VSCode](https://code.visualstudio.com/) as a good default option. This one is simple: click [here](https://code.visualstudio.com/) to go to vscode's website and press the big blue ```Download for Windows``` button. Follow the instructions (this downloads like any other application you download from the internet). 
+
+**Installation check:** if you can find this in your applications folder and it opens and runs, you're all set!
+
+### Github Desktop
+Another simple one! [Github Desktop](https://desktop.github.com/) is a great way to use Github without having to learn the intricacies of Git on the command-line (though you are of course more than welcome to do so -- there are many good online tutorials for this). To install it, simply click [here](https://desktop.github.com/) to go to their website and press the big purple ```Download for Windows``` button. Follow the instructions and voila! You're done with installations!
+
+**Installation check:** Github desktop has a great tutorial and introduction to Github. Start up the app and complete the tutorial!
 
