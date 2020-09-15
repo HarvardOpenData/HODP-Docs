@@ -64,6 +64,6 @@ This process can take a long time, maybe it’s time for a game of [codenames](h
 If you want to continue with installation while waiting for Homebrew, feel free to skip to installing Visual Studio Code or Github Desktop. All other steps depend on this one.
 :::
 
-**Installation check:** Once brew is done installing, run ```brew help``` in your command-line. If you get output, success! Otherwise, if you get a ```command not found``` error, something went wrong. 
+**Installation check:** Once brew is done installing, run ```brew help``` in your command-line. If you get some multi-column output, success! Otherwise, if you get a ```command not found``` error, something went wrong. 
 
 
