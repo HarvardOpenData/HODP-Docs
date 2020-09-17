@@ -204,7 +204,7 @@ Name: col1, dtype: int64
 We don't usually create DataFrames from scratch using dictionaries or lists - most of the time, we'll want to read
 external data stored in another file. Let's work with a real example. The data we'll be using comes from the U.S.
 Geological Survey of all earthquakes with magnitude 2.5 or greater that occurred on a randomly chosen day in 2020 (June 14).
-You can download the data [here](/static/img/earthquakes.csv).
+You can download the data [here](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/earthquakes.csv).
 
 Pandas has a ```read_csv()``` function that automatically converts CSVs to DataFrames, using the first line as column
 names:
