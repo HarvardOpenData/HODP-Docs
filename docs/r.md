@@ -149,33 +149,6 @@ creates a data frame with two columns, one labeled "letters" and one labeled "nu
 
 ## Reading in files
 
-Before you start analyzing, let’s go over how to install packages. Packages contain reusable functions that you can download online, which gives R a lot more functionality. The tidyverse package is one of the most versatile and widely used packages. Let’s install that first!
-
-```r
-# To install the tidyverse package:
-install.packages("tidyverse")
-
-# To start using the tidyverse package:
-library(tidyverse)
-```
-
-To import a CSV into  R, place the CSV in the same folder as your R script. Use the “read_csv” function from the tidyverse package.
-
-```r
-# Sets telecom.csv as a tibble called df
-df <- read_csv(“telecom.csv”)
-```
-There are also functions for other file types, including "readxl" for .xls or .xlsx files (from readxl package), and "readRDS" for RDS files.
-
-Get familiar with your data! To take a quick look at your data before analyzing it, you can use the glimpse and summary functions:
-```r
-# Look at variable names and types
-glimpse(df)
-
-# Find max, min, mean values of each variable
-summary(df)
-```
-
 ## Cleaning datasets (NA values)
 
 To get a basic idea of how cleaning might work with a dataset in R, imagine we're working with the following vector v:
@@ -184,7 +157,12 @@ v <- c(1,2,5,NA,4)
 ```
 Perhaps v is a set of responses from a survey, and certain responses caused the non-numeric "not available" value NA to appear. If we simply try to the find the mean of v, we get the following result:
 
-![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RBadMean.png 'R Bad Mean')
+```r
+v <- c(1,2,5,NA,4)
+mean(v)
+--------------------------
+[1] NA
+```
 
 To get the mean of only numeric responses, we can use the "na.omit" function, which returns its input vector with NA values omitted.
 ```r
@@ -192,7 +170,12 @@ v <- na.omit(v)
 ```
 Now, we can find the mean of just the numeric values!
 
-![alt text](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/RGoodMean.png 'R Good Mean')
+```r
+v <- na.omit(v)
+mean(v)
+--------------------------
+[1] 3
+```
 
 Now, let's apply this idea of dropping NA values to an actual dataset. 
 
