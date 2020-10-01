@@ -34,7 +34,7 @@ Similar to other programming languages, R can perform simple math calculations, 
 ```
 outputs
 ```r
-[1] 108
+[1] 98
 ```
 There are also a number of built-in basic math functions, including abs(x) (absolute value of x), sqrt(x) (squart root), log10(x) (logarithm of x base 10), cos(x), sin(x), and tan(x). A full list can be found [here](https://www.rdocumentation.org/packages/pbdDMAT/versions/0.5-1/topics/math).
 
