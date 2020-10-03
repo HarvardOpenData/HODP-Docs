@@ -77,6 +77,143 @@ function Home() {
           </div>
         </div>
       </header>
+      <br />
+      <div className="container">
+        <div>
+          <h1 className="title">Bootcamp F20 Schedule</h1>
+          <p>We'll post the slides after each bootcamp. Recordings are available for those who use their excused absence.</p>
+          <table>
+            <tr>
+              <th>Week</th>
+              <th>Date</th>
+              <th>Topic</th>
+              <th>Slides</th>
+              <th>Guide</th>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>9/8</td>
+              <td>Introduction</td>
+              <td><a href="https://docs.google.com/presentation/d/1n4XkIKyNw3QmVShGCYHuZvbdFUwmSGfSy6_tr4WpBzk/edit#slide=id.g938e0431bd_3_5">Presentation</a></td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>9/15</td>
+              <td>Installation + Good Practices</td>
+              <td><a href="https://docs.google.com/presentation/d/1Q-t2OgBpamRbWykHbQbSN7YtUYhS2hk4ltR22vzNPdo/edit#slide=id.g531f85d629_0_269">Presentation</a></td>
+              <td>
+                <Link to="/docs/installation">Installation</Link>{`, `}
+                <Link to="/docs/good-practices">Good Practices</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>9/17</td>
+              <td>Python</td>
+              <td>
+                <a href="https://docs.google.com/presentation/d/1UbzihWBD3NqFN77Nf-qJDE7mxua-Y7eUCGMpcjkYATs/edit">Beginner</a>{`, `}
+                <a href="https://docs.google.com/presentation/d/1bU4W6FU_bT1WRFzcwNYSm4saAdKjTKz5eCD7XqmMUMg/edit">Intermediate</a>
+              </td>
+              <td>
+                <Link to="/docs/python">Python</Link>{`, `}
+                <Link to="/docs/python-intermediate">Python Intermediate</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>9/22</td>
+              <td>Journalism</td>
+              <td>
+                <a href="https://docs.google.com/presentation/d/1XE6RhWkX6P2GFuK0w9lVYaWG0QiI55cU-hZZ04Ky73Y/edit">Presentation</a>
+              </td>
+              <td>
+                <Link to="/docs/article-guide">Article Guide</Link>{`, `}
+                <Link to="/docs/style-guide">Style Guide</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>9/24</td>
+              <td>Statistics</td>
+              <td>
+                <a href="https://docs.google.com/presentation/d/1f4nXcchBB9fwNPtdnWjBgCdi6A0LdftG21agqvVO4e8/edit">Presentation</a>
+              </td>
+              <td>
+                <Link to="/docs/inference">Inference</Link>{`, `}
+                <Link to="/docs/regression">Regression</Link>{`, `}
+                <Link to="/docs/hypothesis-testing">Hypothesis Testing</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>9/29</td>
+              <td>Numpy + Pandas</td>
+              <td>
+                <a href="https://docs.google.com/presentation/d/1rfB3YxzSqvQX8mNT-blikea9C_J9NJWv8JUT5moTREs/edit">Presentation</a>
+              </td>
+              <td>
+                <Link to="/docs/numpy-pandas">Numpy + Pandas</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>10/1</td>
+              <td>R</td>
+              <td>
+                <a href="https://docs.google.com/presentation/d/15ZFDU-EnrfDUOJzFusemg4GKBSeOTFUvWSXMNI-SxyY/edit#slide=id.p">Presentation</a>
+              </td>
+              <td>
+                <Link to="/docs/r">R</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>10/10</td>
+              <td>Web Development</td>
+              <td>
+                To be released
+              </td>
+              <td>
+                <Link to="/docs/webdev">Web Dev</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>10/10</td>
+              <td>ggplot</td>
+              <td>
+                To be released
+              </td>
+              <td>
+                <Link to="/docs/ggplot">ggplot</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>10/10</td>
+              <td>React</td>
+              <td>
+                To be released
+              </td>
+              <td>
+                <Link to="/docs/react-1">React I</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>10/10</td>
+              <td>Scraping</td>
+              <td>
+                To be released
+              </td>
+              <td>
+                <Link to="/docs/scraping">Scraping</Link>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </Layout>
   );
 }
