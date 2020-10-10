@@ -19,7 +19,9 @@ The estimathon counts towards the attendance requirement! If you missed the RSVP
 :::
 
 ## Important Links 
-We’ll update the section with links to the progress update form and Gather closer to the date! 
+[Check-in form](https://forms.gle/BBsRgc6i3tfMSZo8A): to be completed by the end of Saturday. This form helps us keep track of how your group is progressing and how best we can help you! 
+
+[Gather](hodp.org/gather): Come to [hodp.org/gather](hodp.org/gather) to hang out and work! We'll be holding office hours here.
 
 Other useful resources:
 - [HODP style guide](https://docs.hodp.org/docs/style-guide): something for you to keep in mind when writing your articles (you can find important details like the *word count* here).
