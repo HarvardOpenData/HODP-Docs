@@ -33,16 +33,16 @@ Links to all of the sessions can be found on the HODP calendar. Office hours wil
 
 <br />
 
-| Time | Title | Description |
-| :-------------: | :-------------: | ------------- |
-| 12:00pm  | **Web Development: HTML, CSS, and JS**  | Learn the basics of web development with Kevin! Our tech director will be teaching HTML, CSS, and Javascript! This is useful for anyone interested in web applications or the 4:00pm React bootcamp and 5:00pm Scraping bootcamp. |
-| 1:00pm  | **Graphs in Python: mini-crash course**| Yijiang will be teaching a crash course on how to use the HODP template to generate graphs in Python — **essential** for anyone who will be doing their project in Python and plans to generate graphs. |
-| 2:00pm | **Ggplot: Data Viz in R** | Thuan and Kelsey will be teaching you how to use ggplot, an R package dedicated to data visualization! This is strongly recommended for anyone who plans to use R for their project or wants to develop their proficiency in R. |
-| 3:00pm | **Office hours** | Head to Gather for office hours with our content editors! |
-| 4:00pm | **React: Modern Web Dev** | Learn more advanced web dev with Mel! React is one of the most popular web dev frameworks today and is actually what hodp.org is built with! This is useful for anyone interested in web apps or understanding the infrastructure behind most modern websites. |
-| 5:00pm | **[Scraping: Automating Data Collection](https://docs.hodp.org/docs/scraping)** | Ethan and Ashley will be showing you how to automate large-scale data collection on the web! This probably isn’t essential for your project this semester, but it’s a useful skill to have and a fun thing to learn! This is happening concurrently with Maps| 
-| 5:00pm | **QGIS and Beyond: Visualizing your Data on Maps** | Learn from Leo how to display your data on an interactive map — essential for anyone dealing with geographical data! |
-| 8:00pm | **[The First HODP Estimathon](https://docs.google.com/document/d/1L2jQodA3z_KM2hJeJvZhuINJR6vKa1q_cq_XTJRY0fo/edit?usp=sharing)** | How many times do you need to fold a piece of paper in order for it to reach the moon? Tonight's estimathon will be hosted by Matthew! Join with your project group or let us make a team for you — either way, the top 3 teams all win prizes :) |
+| Time | Title | Description | Presentation |
+| :-------------: | :-------------: | ------------- | :-------------: |
+| 12:00pm  | **Web Development: HTML, CSS, and JS**  | Learn the basics of web development with Kevin! Our tech director will be teaching HTML, CSS, and Javascript! This is useful for anyone interested in web applications or the 4:00pm React bootcamp and 5:00pm Scraping bootcamp. | [Presentation](https://docs.google.com/presentation/d/1AkVJw3NLKsnaWJW7cYzuf5VLQ7aRTlrXEtTpmFrwkI4/edit) |
+| 1:00pm  | **Graphs in Python: mini-crash course**| Yijiang will be teaching a crash course on how to use the HODP template to generate graphs in Python — **essential** for anyone who will be doing their project in Python and plans to generate graphs. | [Deepnote](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c) |
+| 2:00pm | **Ggplot: Data Viz in R** | Thuan and Kelsey will be teaching you how to use ggplot, an R package dedicated to data visualization! This is strongly recommended for anyone who plans to use R for their project or wants to develop their proficiency in R. | [Presentation](https://docs.google.com/presentation/d/1tWO3dNRyU2Al36YJp-XF-82FLtNfpfYjMXp21dF6htA/edit) |
+| 3:00pm | **Office hours** | Head to Gather for office hours with our content editors! | N/A |
+| 4:00pm | **React: Modern Web Dev** | Learn more advanced web dev with Mel! React is one of the most popular web dev frameworks today and is actually what hodp.org is built with! This is useful for anyone interested in web apps or understanding the infrastructure behind most modern websites. | [Presentation](https://docs.google.com/presentation/d/1UVTUf8AMnKlqJlvE9PyAnoEeNyuxD25ErNZZJQ564iQ/edit) |
+| 5:00pm | **[Scraping: Automating Data Collection](https://docs.hodp.org/docs/scraping)** | Ethan and Ashley will be showing you how to automate large-scale data collection on the web! This probably isn’t essential for your project this semester, but it’s a useful skill to have and a fun thing to learn! This is happening concurrently with Maps| [Presentation](https://docs.google.com/presentation/d/1yDN-ayrIffcJKda7BI9awocqegZLweg_cZk71sDJgM0/edit) |
+| 5:00pm | **QGIS and Beyond: Visualizing your Data on Maps** | Learn from Leo how to display your data on an interactive map — essential for anyone dealing with geographical data! | [Presentation](https://docs.google.com/presentation/d/1btY1ITbvTBM_zCDMuC6ETdgxRKkf18iBneVqQVAXEFg/edit) |
+| 8:00pm | **[The First HODP Estimathon](https://docs.google.com/document/d/1L2jQodA3z_KM2hJeJvZhuINJR6vKa1q_cq_XTJRY0fo/edit?usp=sharing)** | How many times do you need to fold a piece of paper in order for it to reach the moon? Tonight's estimathon will be hosted by Matthew! Join with your project group or let us make a team for you — either way, the top 3 teams all win prizes :) | N/A |
 
 <br/>
 
