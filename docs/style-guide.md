@@ -64,7 +64,7 @@ Check out our article guide for guidlines and advice for the actual content of y
 
 
 ## Graphs
-All static graphs should be produced in R using ggplot or in Python using ggplot. We have specific standards for graph fonts, formatting, and colors. [TODO: link] will show you how to generate graphs that adhere to these standards.
+All static graphs should be produced in R using ggplot or in Python using ggplot. We have specific standards for graph fonts, formatting, and colors. [This](https://github.com/HarvardOpenData/HODP-StyleGuide) will show you how to generate graphs that adhere to these standards.
 
 For interactive data viz, we strongly recommend you use d3 or a React-based interactive visualization library, which you can check out [here](https://docs.hodp.org/docs/d3-1).
 
