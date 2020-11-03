@@ -16,6 +16,7 @@ At the end, you'll be a data journalist, ready to publish your work with HODP!
 
 
 #### 1. Traditional Analysis
+Most of our articles! Ask a question about Harvard or its students, find data that could illuminate your questions, analyze the data rigorously, visualize it, and publish it!
 
 #### 2. Survey Write-up
 HODP has its own [survey group](https://www.hodp.org/surveys/), and we occasionally send surveys to the student body at large. 
@@ -29,13 +30,6 @@ Scrollytelling stories look like this [piece from NYT on how the Iowa caucuses w
 You can use our [scrollytelling template](https://github.com/sahana-srinivasan/scrollytelling) to develop a project like this. You'll have to plug in your scrollable text and graphics/React components.
 React knowledge will be helpful (and d3 is necessary if you want to make it interactive), but if you don't know React, reach out to Sahana and she can help you out!
 
----
-
-## Data Journalism
-
----
-
-## Goals of a HODP Article
 
 ---
 
@@ -83,6 +77,4 @@ Overall, this section should synthesize your key results and connect them back t
 
 ## Publishing with HODP
 
-#### What to Turn in
-
-#### Editing
+See the article guide for information on what to turn in to get published!
