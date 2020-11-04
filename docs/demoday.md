@@ -12,7 +12,11 @@ Some logistics to take note of:
 2. We'll send you a slack message with 30 seconds to go and at time. 30 seconds after time we will cut you off. 
 3. We'll make a thread in #bootcamp-f20 for questions, remember to check it after your presentation!
 
-:::important Don't forget to check the HODP calendar for our upcoming events (including an end-of-bootcamp social, a mock case presentation, and next steps) :::
+:::important 
+
+Don't forget to check the HODP calendar for our upcoming events (including an end-of-bootcamp social, a mock case presentation, and next steps) 
+
+:::
 
 ## Schedule: Demo Day I 
 
