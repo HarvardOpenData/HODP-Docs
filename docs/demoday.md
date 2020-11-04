@@ -53,10 +53,9 @@ Don't forget to check the HODP calendar for our upcoming events (including an en
 | 9 | Harvard Art Museum: Artists and Acquisitions | Andrea Liu, Izzy Goodchild-Michelman |
 | 10 | Finding Patterns in Recent Harvard Commencement Speeches | Oliver Cheng, Jeffrey Kwan, Austin Ma, Jeremy Lee |
 | 11 | Who Gets Mentioned in the Crimson? | Carmen Chan, Teddy Lin, Felicia Roman, Christina Xiao |
-| 11 | Undergraduate Careers | Emmy Cho, Eric Shen, Marissa Li, Stephanie Lin |
-| 12 | PBK | Andy Wang, Georgia Steigerwald |
-| 13 | r/Harvard | Albert Zhang, Charumathi Badrinath, Ashlan Ahmed, Lawrence Zhang |
-| 14 | Finding Patterns in Recent Harvard Commencement Speeches | Oliver Cheng, Jeffrey Kwan, Austin Ma, Jeremy Lee |
+| 12 | Undergraduate Careers | Emmy Cho, Eric Shen, Marissa Li, Stephanie Lin |
+| 13 | PBK | Andy Wang, Georgia Steigerwald |
+| 14 | r/Harvard | Albert Zhang, Charumathi Badrinath, Ashlan Ahmed, Lawrence Zhang |
 
 <br/>
 
