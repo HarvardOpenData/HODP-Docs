@@ -33,6 +33,7 @@ Don't forget to check the HODP calendar for our upcoming events (including an en
 | 7 | HUDS | Andrew Nickerson, Catherine Huang, Alyssa Huang |
 | 8 | COVID-19 and Harvard's Financials | Gene Lee, Ariel Kim, Seung Hwan An |
 | 9 | Harvard Endowment | Ostap Stefak, Vlad Ivanchuk |
+| 10 | Boston Crime (w/ Reboot to Tech) | Ishan Bhatt, Lauren Chen, Michael Gul, Janet Li, Nadine Meister |
 
 <br/>
 
