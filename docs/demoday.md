@@ -45,13 +45,13 @@ Don't forget to check the HODP calendar for our upcoming events (including an en
 | :-------------: | :-------------: | ------------- | 
 | 1  | Faculty Diversity (II)  | Hallie Zenga-Josephson, Sophia Zhou, Adam Neal |
 | 2  | Commencement Speeches: Historical Context and Themes | Justin Ye, Cindy Liu, Jacinta Olonilua, Katherine McPhie |
-| 3 | Harvard Sustainability Data | Diana Zhu, Luke Walker, Mina Lee |
-| 4 | Research Visualization | Kayla Huang, Cynthia Chen, Catherine Liang |
-| 5 | Harvard Square Restaurant Ratings | Benjamin Fu, Katherine Zhu, Jennifer Guo, Natalie Whalen |
-| 6 | Harvard Square Restaurant COVID-19 Analysis | Sunny Tang, Sarah Shirley, Kathy Zhong, Rita Bogdanova-Shapkina |
-| 7 | Is Mask-ne Real? | Katie Liu, Jamie Lu, Cindy Wang |
-| 8 | Go HAM on Art: A Look At Cultural Representation in Harvard Art Museums | Vanessa Hu, Jason Zhou |
-| 9 | Harvard Art Museum: Artists and Acquisitions | Andrea Liu, Izzy Goodchild-Michelman |
+| 3 | Research Visualization | Kayla Huang, Cynthia Chen, Catherine Liang |
+| 4 | Harvard Square Restaurant Ratings | Benjamin Fu, Katherine Zhu, Jennifer Guo, Natalie Whalen |
+| 5 | Harvard Square Restaurant COVID-19 Analysis | Sunny Tang, Sarah Shirley, Kathy Zhong, Rita Bogdanova-Shapkina |
+| 6 | Is Mask-ne Real? | Katie Liu, Jamie Lu, Cindy Wang |
+| 7 | Go HAM on Art: A Look At Cultural Representation in Harvard Art Museums | Vanessa Hu, Jason Zhou |
+| 8 | Harvard Art Museum: Artists and Acquisitions | Andrea Liu, Izzy Goodchild-Michelman |
+| 9 | Harvard Sustainability Data | Diana Zhu, Luke Walker, Mina Lee |
 | 10 | Finding Patterns in Recent Harvard Commencement Speeches | Oliver Cheng, Jeffrey Kwan, Austin Ma, Jeremy Lee |
 | 11 | Who Gets Mentioned in the Crimson? | Carmen Chan, Teddy Lin, Felicia Roman, Christina Xiao |
 | 12 | Undergraduate Careers | Emmy Cho, Eric Shen, Marissa Li, Stephanie Lin |
