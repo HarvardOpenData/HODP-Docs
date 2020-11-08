@@ -86,3 +86,5 @@ When referencing data in article text, consider how precise you need to be to ge
 3. At the Round 1 Editing Meeting, the editor will give you feedback on your article. If there are major edits, you may be asked to re-draft or add components to your project before re-entering the publishing process. If there are no major edits, you'll have a week to 10 days before your final editing meeting
 4. The Final Editing meeting, which will happen with a different content editor, will be 30 minutes and go over any last-minute changes to your piece. You'll again have about a week for final fixes after this meeting.
 5. Soon after, you'll be published on our website! The actual pubbing of articles on social media might be delay so we can space out articles to 2 a week.
+
+To be publishd, you must have posed and answered (or determined we cannot answer) a meaningful and interesting question related to Harvard. You'll need strong writing, an engaging narrative, correct and useful statistical analysis, and quality visualizations. 
