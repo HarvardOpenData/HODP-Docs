@@ -33,6 +33,8 @@ React knowledge will be helpful (and d3 is necessary if you want to make it inte
 
 ---
 
+Check our our [Fall 2020 bootcamp presentation](https://docs.google.com/presentation/d/1XE6RhWkX6P2GFuK0w9lVYaWG0QiI55cU-hZZ04Ky73Y/edit?usp=sharing) on how to write an effective data journalism article. 
+
 ## How to Write a HODP Article
 
 What's supposed to go in your article? Usually graphs and cool insights. Regardless of the type of article, we recommend the following flow. Your lead editor can give you more individualized advice for your project.
@@ -77,4 +79,4 @@ Overall, this section should synthesize your key results and connect them back t
 
 ## Publishing with HODP
 
-See the article guide for information on what to turn in to get published!
+See the style guide for information on what to turn in to get published!
