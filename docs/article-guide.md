@@ -37,7 +37,7 @@ Check our our [Fall 2020 bootcamp presentation](https://docs.google.com/presenta
 
 ## How to Write a HODP Article
 
-What's supposed to go in your article? Usually graphs and cool insights. Regardless of the type of article, we recommend the following flow. Your lead editor can give you more individualized advice for your project.
+What's supposed to go in your article? Usually graphs and cool insights. Regardless of the type of article, we recommend including the following information. We strongly encourage coming up with your own section titles and reorganizing this info (particularly data/methods) based on what makes sense for your own piece.
 
 ### Introduction and the Question
 
