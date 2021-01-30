@@ -157,7 +157,7 @@ function Home() {
               <td>4</td>
               <td>2/25</td>
               <td>R</td>
-              <td></td>
+              <td>To be released</td>
               <td>
                 <Link to="/docs/r">R</Link>
               </td>
