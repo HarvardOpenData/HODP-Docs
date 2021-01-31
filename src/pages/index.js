@@ -100,7 +100,7 @@ function Home() {
             <tr>
               <td>1</td>
               <td>2/4</td>
-              <td>Journalism and Data Feminism</td>
+              <td>Journalism</td>
               <td>To be released</td>
               <td>
                 <Link to="/docs/good-practices">Good Practices</Link>
@@ -193,6 +193,15 @@ function Home() {
               </td>
               <td>
                 <Link to="/docs/scraping">Scraping</Link>
+              </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>3/11</td>
+              <td>Data Justice</td>
+              <td>To be released</td>
+              <td>
+                To be released
               </td>
             </tr>
           </table>
