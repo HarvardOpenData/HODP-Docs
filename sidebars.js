@@ -1,6 +1,5 @@
 module.exports = {
   docsSidebar: {
-    'bootcamp',
     'HODP Guides': [
       'installation',
       'good-practices',
@@ -8,6 +7,7 @@ module.exports = {
       'style-guide',
       'website-guide',
       'survey-guide',
+      'bootcamp',
     ],
     'Data Wrangling': [
       'python',
