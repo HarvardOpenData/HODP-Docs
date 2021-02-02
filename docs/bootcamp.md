@@ -21,11 +21,19 @@ sidebar_label: Bootcamp Links
 | 6           | 3/9     | Scraping                      | To be released |  [Scraping](https://docs.hodp.org/docs/scraping) |
 | 6           | 3/11    | Data Justice                  | To be released |  To be released |
 
+:::tip
+If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s21` directly!
+:::
 
 ## Administrative Links
+- **Attendance form**: [hodp.org/attendance](hodp.org/attendance)
+- **Absence form**: [hodp.org/absences](hodp.org/absences)
+- **HODP Calendar**: Ask us on Slack for the link!
 
-
-
+## Bootcamp Requirements
+- Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
+- All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above! We'll send you a video of the bootcamp afterwards. 
+- If you find yourself needing more than one absence, please reach out to `bootcamp@hodp.org`.
 
 ## Project Resources
 - [Project Turn-in Checklist](http://hodp.org/checklist)
