@@ -1,5 +1,6 @@
 module.exports = {
   docsSidebar: {
+    'bootcamp',
     'HODP Guides': [
       'installation',
       'good-practices',
