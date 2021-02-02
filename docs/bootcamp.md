@@ -4,8 +4,6 @@ title: Bootcamp Links
 sidebar_label: bootcamp
 ---
 
-Bootcamp schedule, resources, and quick links!
-
 ## Bootcamp Schedule 
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
