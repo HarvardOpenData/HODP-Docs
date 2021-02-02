@@ -26,8 +26,8 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 :::
 
 ## Administrative Links
-- **Attendance form**: [hodp.org/attendance](hodp.org/attendance)
-- **Absence form**: [hodp.org/absences](hodp.org/absences)
+- **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
+- **Absence form**: [hodp.org/absences](http://hodp.org/absences)
 - **HODP Calendar**: Ask us on Slack for the link!
 
 ## Bootcamp Requirements
