@@ -8,7 +8,7 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 2/2     | Introduction                  | To be released |  N/A                                                       |
+| 1           | 2/2     | Introduction                  | [Slides](https://docs.google.com/presentation/d/1AqsOVlP-yf1n4dCg_oab8SoWECtkxyqHIH1ddhz0IuM/edit?usp=sharing) |  N/A                                                       |
 | 1           | 2/4     | Journalism                    | To be released |  [Article Guide](https://docs.hodp.org/docs/article-guide) |
 | 2           | 2/9     | Best Practices & Installation | To be released |  [Installation](https://docs.hodp.org/docs/installation), [Good Practices](https://docs.hodp.org/docs/good-practices)|
 | 2           | 2/11    | Python                        | To be released |  [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate)|
