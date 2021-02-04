@@ -38,7 +38,7 @@ Github is a site that you can use to store and share your code. All of our bootc
 To have access to more of Github’s functionality (like uploading code), you can use [Git](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) in the command-line or you can use [Github Desktop](https://desktop.github.com/). We’ll cover the latter later in the bootcamp. 
 
 
-## Advanced Installation - Mac
+## Advanced Installation - Mac (Optional)
 :::warning
 These instructions are for Mac users, Windows-specific instructions below!
 :::
@@ -148,7 +148,7 @@ Another simple one! [Github Desktop](https://desktop.github.com/) is a great way
 Congratulations on completing the advanced installation! You can stop reading now, everything else is Windows-specific
 :::
 
-## Advanced Installation - Windows
+## Advanced Installation - Windows (Optional)
 :::warning
 These instructions are for Windows users, Mac users beware!
 :::
