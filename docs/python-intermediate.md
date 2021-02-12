@@ -5,6 +5,7 @@ sidebar_label: Python - Intermediate
 ---
 
 By: Yijiang Zhao & Matthew Qu
+
 [Deepnote](https://deepnote.com/project/339bd0cf-d857-4e0f-9a8a-5c0834a44ad4#%2FSOLUTIONS%20-%20Python%20Bootcamp%20Intermediate.ipynb) by Rita Bogdanova-Shapkina
 
 This guide assumes a basic knowledge of Python and Python syntax.
