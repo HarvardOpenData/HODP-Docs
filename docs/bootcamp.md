@@ -9,9 +9,9 @@ sidebar_label: Bootcamp Links
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
 | 1           | 2/2     | Introduction                  | [Slides](https://docs.google.com/presentation/d/1AqsOVlP-yf1n4dCg_oab8SoWECtkxyqHIH1ddhz0IuM/edit?usp=sharing) |  N/A                                                       |
-| 1           | 2/4     | Journalism                    | To be released |  [Article Guide](https://docs.hodp.org/docs/article-guide) |
-| 2           | 2/9     | Best Practices & Installation | To be released |  [Installation](https://docs.hodp.org/docs/installation), [Good Practices](https://docs.hodp.org/docs/good-practices)|
-| 2           | 2/11    | Python                        | To be released |  [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate)|
+| 1           | 2/4     | Journalism                    | [Slides](https://docs.google.com/presentation/d/1XE6RhWkX6P2GFuK0w9lVYaWG0QiI55cU-hZZ04Ky73Y/edit?usp=sharing) |  [Article Guide](https://docs.hodp.org/docs/article-guide) |
+| 2           | 2/9     | Best Practices & Installation | [Slides](https://docs.google.com/presentation/d/1Q-t2OgBpamRbWykHbQbSN7YtUYhS2hk4ltR22vzNPdo/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation), [Good Practices](https://docs.hodp.org/docs/good-practices)|
+| 2           | 2/11    | Python                        | [Python](https://docs.google.com/presentation/d/1UbzihWBD3NqFN77Nf-qJDE7mxua-Y7eUCGMpcjkYATs/edit?usp=sharing), [Python Intermediate](https://docs.google.com/presentation/d/1bU4W6FU_bT1WRFzcwNYSm4saAdKjTKz5eCD7XqmMUMg/edit?usp=sharing) |  [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate)|
 | 3           | 2/16    | Stats                         | To be released |  [Inference](https://docs.hodp.org/docs/inference), [Regression](https://docs.hodp.org/docs/regression), [Hypothesis Testing](https://docs.hodp.org/docs/hypothesis-testing)|
 | 3           | 2/18    | NumPy & Pandas                | To be released |  [NumPy & Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 4           | 2/23    | Graphs in Python              | To be released |  To be released |
