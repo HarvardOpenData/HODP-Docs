@@ -69,3 +69,83 @@ fig.update_layout(
 
 You can see that all of the `Layout.XAxis`, `Layout.YAxis`, and `Layout.Legend` types have a parameter called `title` which in turn has a parameter called `text`. By changing the `text` of the `title` of each of the layout's parameters, you can set the x-axis label, y-axis label, and legend title, respectively.
 
+:::note
+
+Many features of a figure's layout, like the axis and legend, take other `plotly` classes as arguments. Many of these classes share different features - e.g. `title` is a class in all the axis and legend classes. This is also the case for the different traces or types of graphs.
+
+Because these things are standardized, it's actually not terrible to read through the [documentation](https://plotly.com/python-api-reference/generated/plotly.graph_objects.html#module-plotly.graph_objects) for many of these classes and understand what features you can customize.
+
+:::
+
+
+## Template
+
+This is the HODP template. You can just copy-paste this. If you're interested in the specific details, check out the Plotly documentation on Layouts.
+
+```
+import plotly.graph_objects as go
+
+# HODP colors
+monochrome_colors = ['#251616', '#760000', '#C63F3F', '#E28073', '#F1D3CF']
+primary_colors = ['#C63F3F', '#F4B436', '#83BFCC', '#455574', '#E2DDDB']
+
+# HODP template
+theme_hodp = go.layout.Template(
+    layout=go.Layout(
+        title = {'font':{'size':24, 'family':"Helvetica", 'color':monochrome_colors[0]}, 'pad':{'t':100, 'r':0, 'b':0, 'l':0}},
+        font = {'size':18, 'family':'Helvetica', 'color':'#717171'},
+        xaxis = {'ticks': "outside",
+                'tickfont': {'size': 14, 'family':"Helvetica"},
+                'showticksuffix': 'all',
+                'showtickprefix': 'last',
+                'showline': True,
+                'title':{'font':{'size':18, 'family':'Helvetica'}, 'standoff':20},
+                'automargin': True
+                },
+        yaxis = {'ticks': "outside",
+                'tickfont': {'size': 14, 'family':"Helvetica"},
+                'showticksuffix': 'all',
+                'showtickprefix': 'last',
+                'title':{'font':{'size':18, 'family':'Helvetica'}, 'standoff':20},
+                'showline': True,
+                'automargin': True
+                },
+        legend = {'bgcolor':'rgba(0,0,0,0)', 
+                'title':{'font':{'size':18, 'family':"Helvetica", 'color':monochrome_colors[0]}}, 
+                'font':{'size':14, 'family':"Helvetica"}, 
+                'yanchor':'bottom'
+                },
+        colorscale = {'diverging':monochrome_colors},
+        coloraxis = {'autocolorscale':True, 
+                'cauto':True, 
+                'colorbar':{'tickfont':{'size':14,'family':'Helvetica'}, 'title':{'font':{'size':18, 'family':'Helvetica'}}},
+                }
+    )
+)
+```
+
+#  Figure Traces
+## Scatterplots / Line Plots
+
+Scatterplots are a great way to graph 2-dimensional data (e.g. you have a predictor and a response, independent and dependent, etc). It essentially plots a point for each row of data `(x,y)` on a graph, so that you may see how all data points look like relative to others.
+
+They're frequently used to accompany different models as a way to visually show why a given model makes sense. 
+
+For example, a linear regression model is often overlayed on top of a scatterplot of the data so that viewers can visually see how well (or poorly) the model fits the data. Other uses include using a color scale for different points on the graph to visually separate different categories of data.
+
+```
+import plotly.graph_objects as go
+
+X = [1,2,3,4,5]
+Y = [4,5,6,7,8]
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x=X,
+    y=Y
+))
+
+fig.show()
+```
+
