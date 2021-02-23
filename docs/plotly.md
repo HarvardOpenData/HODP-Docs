@@ -149,3 +149,92 @@ fig.add_trace(go.Scatter(
 fig.show()
 ```
 
+Additionally, there are various other features you can change:
+
+
+| Parameter | Use | Input | Example |
+| --------- | --- | ----- | ------- |
+|`marker_color` | Specifies what colors corresponds to this trace | Pass in the color of the markers / lines | `go.Scatter(..., marker_color = '#C63F3F')` |
+| `name` | Determines the name of that trace on the legend | Pass in a string | `go.Scatter(..., name = 'one category of data')` |
+| `mode` | Determines how the scatter plot points appear | Pass in a string, you can use either `lines`, `markers`| `go.Scatter(..., mode = 'lines+markers')` |
+
+
+You can find more parameters at the [Plotly Scatter documentation](https://plotly.com/python-api-reference/generated/plotly.graph_objects.Scatter.html).
+
+```
+import plotly.graph_objects as go
+
+X = [2010, 2011, 2012, 2013, 2014, 2015]
+Y_groupA = [457, 572, 893, 793, 901, 950]
+Y_groupB = [120, 105, 138, 269, 407, 722]
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(
+    x=X,
+    y=Y_groupA,
+    name='Group A',
+    mode='lines+markers',
+    marker_color=primary_colors[0],
+))
+
+fig.add_trace(go.Scatter(
+    x=X,
+    y=Y_groupB,
+    name='Group B',
+    mode='lines',
+    marker_color=primary_colors[1],
+))
+
+fig.update_layout(title="Comparison of Group A and Group B", 
+                xaxis={'title':{'text':'Year'}}, 
+                yaxis={'title':{'text':'Values'}}, 
+                legend={'title':{'text':'Groups'}},
+                template=theme_hodp)
+                
+fig.show()
+```
+
+## Histograms
+
+Histograms are generally used when representing the distribution of numerical data among categories. Each category (also called a bin) has a count, which is represented by the height of the bar. where the data are binned and the count for each bin is represented. More generally, in plotly a histogram is an aggregated bar chart, with several possible aggregation functions (e.g. sum, average, count...). Also, the data to be binned can be numerical data but also categorical or date data.
+
+```
+import plotly.graph_objects as go
+import numpy as np
+import pandas as pd
+
+# Generate random data
+x = np.random.randn(500)
+
+# Plot histogram using HODP colors
+fig = go.Figure(data=[go.Histogram(x=x, marker_color=primary_colors[0])])
+fig.show()
+```
+
+### More Histograms
+
+```
+import plotly.graph_objects as go
+
+# Generate random data
+a = np.random.randn(500)
+b = np.random.randn(500) + 1 # Shifted data
+
+fig = go.Figure()
+fig.add_trace(go.Histogram(x=a, marker_color=primary_colors[0], name='Group A'))
+fig.add_trace(go.Histogram(x=b, marker_color=primary_colors[1], name='Group B'))
+
+# Overlaid Histogram
+fig.update_layout(title = "Overlaid Histogram", barmode='overlay')
+fig.update_traces(opacity=0.75) # Reduce opacity to see both histograms
+fig.show()
+
+### Stacked Histogram
+fig.update_layout(title = "Stacked Histogram",barmode='stack')
+fig.show()
+```
+
+
+
+
