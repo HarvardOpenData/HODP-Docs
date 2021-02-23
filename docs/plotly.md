@@ -195,6 +195,30 @@ fig.update_layout(title="Comparison of Group A and Group B",
 fig.show()
 ```
 
+:::note
+A lot of the parameters to different type of graphs, e.g. scatter or histogram, etc., are intuitive and have standard names. 2-dimensional data almost always has 
+:::
+
+### Bubble Charts
+
+Bubble charts are scatter plots in which a third dimension of the data is shown through the size of markers. Each marker/bubble can also have its own color which could represent a label/category or another value.
+
+```
+import plotly.graph_objects as go
+
+fig = go.Figure(data=[go.Scatter(
+    x=[1, 3.2, 5.4, 7.6, 9.8, 12.5],
+    y=[1, 3.2, 5.4, 7.6, 9.8, 12.5],
+    mode='markers',
+    marker=dict(
+        color=primary_colors,
+        size=[15, 30, 55, 70, 90, 110],
+        showscale=True
+        )
+)])
+fig.show()
+```
+
 ## Histograms
 
 Histograms are generally used when representing the distribution of numerical data among categories. Each category (also called a bin) has a count, which is represented by the height of the bar. where the data are binned and the count for each bin is represented. More generally, in plotly a histogram is an aggregated bar chart, with several possible aggregation functions (e.g. sum, average, count...). Also, the data to be binned can be numerical data but also categorical or date data.
@@ -236,5 +260,204 @@ fig.show()
 ```
 
 
+## Pie Charts
+
+Pie charts are typically used for 1-dimensional categorical data. In plotly go, this means that you use `go.Pie()`. It takes in many inputs, but the most important ones are `values`, e.g. the numerical counts of each category, and `labels`, the names of all categories.
+
+For example, if I had a pie chart of the break down of HODP bootcampers by class year, then the labels would be an array of class years, e.g. `[2021, 2022, ...]`, and the values would be the number of bootcampers in each class year, e.g. `[10, 20, ...]`.
 
 
+```
+labels = ["a", "b", "c"]
+values = [10, 20, 15]
+
+
+fig = go.Figure()
+
+fig.add_trace(go.Pie(
+    values=values, 
+    labels=labels
+))
+
+fig.show()
+```
+
+Additional helpful feature and effects include:
+
+| Parameter | Use | Input | Example |
+| --------- | --- | ----- | ------- |
+|`marker_colors` | Specifies what colors correspond to what categories | Pass in a list of colors | `go.Pie(..., marker_colors = ['#C63F3F', '#F4B436', '#83BFCC'])` |
+| `textinfo` | Determines what information appears on the graph itself | Pass in a string, you can use either `label`, `value`, `percent` | `go.Pie(..., textinfo = 'label+value')` |
+| `hoverinfo` | Determines what information appears on hover | Pass in a string, you can use either `label`, `value`, `percent` | `go.Pie(..., hoverinfo = 'label+percent')` |
+
+
+ ```
+ labels = ["a", "b", "c"]
+values = [10, 20, 15]
+colors = ['#C63F3F', '#F4B436', '#83BFCC']
+
+# initialize the figure
+fig = go.Figure()
+
+# add a trace
+fig.add_trace(go.Pie(
+    values=values, 
+    labels=labels,
+    textinfo='value',
+    marker_colors=colors,
+    hoverinfo='label+percent'
+))
+
+# update the layout
+fig.update_layout(
+    title="Example", 
+    xaxis={'title':{'text':'X Axis Label'}}, 
+    yaxis={'title':{'text':'Y Axis Label'}}, 
+    legend={'title':{'text':'Legend Title'}},
+    template=theme_hodp
+)
+
+# display the figure
+fig.show()
+ ```
+ 
+ ## Bar Charts
+
+Bar charts are great for comparing data across groups, e.g. looking at some variable `Y` over time `X` and comparing at each value of `X` what `Y` is for the different categories. In plotly go, you call `go.Bar()` and include the `x` and `y`.
+
+Each `go.Bar()` adds one category, e.g. one trace, so to compare multiple groups of data on the same bar chart, you call `go.Bar()` for each one.
+
+```
+import plotly.graph_objects as go
+
+X = [1990, 1995, 2000, 2005]
+Y1 = [10, 12, 13, 12]
+Y2 = [10, 10, 10, 10]
+
+fig = go.Figure()
+
+fig.add_trace(go.Bar(
+    x=X,
+    y=Y1
+))
+
+fig.add_trace(go.Bar(
+    x=X,
+    y=Y2
+))
+
+fig.show()
+```
+
+Additional helpful feature and effects include:
+
+| Parameter | Use | Input | Example |
+| --------- | --- | ----- | ------- |
+|`name` | Name of the category in the legend | Pass in a string | `go.Bar(..., name = 'Category A')` |
+|`marker_color` | A single color or list of colors for each bar | Pass in a color | `go.Bar(..., marker_color = '#C63F3F')` |
+| `hovertext` | Determines the hover text for each bar for each data | Pass in list of strings | `go.Bar(..., hovertext = ['10 points', '12 points'])` |
+
+ 
+<br></br>
+To change the barmode - e.g. whether it's stacked, grouped (side-by-side), etc. - update the figure layout using
+```
+fig.update_layout(barmode = 'group')
+```
+and the barmode is either `group`, `stack`, or `relative`.
+
+```
+import plotly.graph_objects as go
+
+X = ['a', 'b', 'c', 'd']
+Y1 = [11, 2, 5, 3]
+Y2 = [3, 9 , 8, 3]
+
+fig = go.Figure()
+fig.add_trace(go.Bar(
+    x=X, 
+    y=Y1, 
+    name="Group A",
+    marker_color=primary_colors[0],
+    hovertext = ["hi", "this", "is", "text"]
+))
+
+fig.add_trace(go.Bar(x=X, y=Y2, name="Group B"))
+
+fig.update_layout(barmode='stack')
+
+fig.show()
+```
+
+## Box Plots
+Box plots are good for displaying key summary information, like the quantiles and outliers, and especially for comparing these statistics across different data. It allows viewers to easily see if there is a difference in mean or spread across groups.
+
+In plotly go, you call `go.Bar()` and pass in either an `x` or a `y` depending on whether you want the box plots to be horizontal or vertical.
+
+```
+import plotly.graph_objects as go
+import numpy as np
+
+Y1 = np.random.randn(10)
+Y2 = np.random.randn(10) + 2
+
+fig = go.Figure()
+
+fig.add_trace(go.Box(
+    y=Y1
+))
+
+fig.add_trace(go.Box(
+    y=Y2
+))
+
+fig.show()
+```
+
+Additional helpful feature and effects include:
+
+| Parameter | Use | Input | Example |
+| --------- | --- | ----- | ------- |
+|`name` | Name of the group in the legend | Pass in a string | `go.Box(..., name = 'Category A')` |
+|`marker_color` | A color for filling the box | Pass in a color | `go.Box(..., marker_color = '#C63F3F')` |
+|`line_color` | A color for the lines | Pass in a color | `go.Box(..., line_color = '#C63F3F')` |
+|`boxpoints` | Controls what data points are included (in addition to box) | Either `'all', False, 'suspectedoutliers', 'outliers'` | `go.Box(..., boxpoints = 'outliers')` |
+
+```
+import plotly.graph_objects as go
+import numpy as np
+
+Y1 = np.random.randn(10)
+Y2 = np.random.randn(10) + 2
+
+fig = go.Figure()
+
+fig.add_trace(go.Box(
+    x=Y1,
+    marker_color = primary_colors[0],
+    name = 'group 1',
+    boxpoints = 'outliers'
+))
+
+fig.add_trace(go.Box(
+    x=Y2,
+    marker_color = primary_colors[1],
+    name = 'group 2',
+    boxpoints='suspectedoutliers'
+))
+
+fig.show()
+```
+
+## Heat Maps
+
+Heatmaps are used to show relationships between two variables, one plotted on each axis. By observing how cell colors change across each axis, you can observe if there are any patterns in value for one or both variables. Heatmaps are great for visualizing 2D data where each pixel has a value associated with it (for example, COVID-19 hotspots!)
+
+```
+import plotly.graph_objects as go
+
+fig = go.Figure(data=go.Heatmap(
+                    z=[[1, 20, 30],
+                      [20, 1, 60],
+                      [30, 60, 1]]))
+fig.show()
+```
