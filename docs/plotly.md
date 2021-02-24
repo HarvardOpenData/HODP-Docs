@@ -6,6 +6,10 @@ sidebar_label: Plotly
 
 By: Yijiang Zhao and Cynthia Chen
 
+# Graphs in Python
+
+Welcome to Graphs in Python! We will be using `Plotly`. You can check out our [Deepnote](https://deepnote.com/project/e03e03bc-6c58-4b54-8aa1-67dad9f17ef5), which has the code and example graphs on it, which can be good starter code for your graphs.
+
 `Plotly` is a library which allows you to easily make interactive graphs (and these interactive graphs can be added to your articles on our website)!
 
 We'll be using `plotly.graph_objects` because it is highly customizable, but alternatives include `plotly.express` which returns figures of the same type as `plotly.graph_objects` and streamlines much of the process of making graphs, but is less customizable.
