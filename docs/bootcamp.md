@@ -12,9 +12,9 @@ sidebar_label: Bootcamp Links
 | 1           | 2/4     | Journalism                    | [Slides](https://docs.google.com/presentation/d/1XE6RhWkX6P2GFuK0w9lVYaWG0QiI55cU-hZZ04Ky73Y/edit?usp=sharing) |  [Article Guide](https://docs.hodp.org/docs/article-guide) |
 | 2           | 2/9     | Best Practices & Installation | [Slides](https://docs.google.com/presentation/d/1Q-t2OgBpamRbWykHbQbSN7YtUYhS2hk4ltR22vzNPdo/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation), [Good Practices](https://docs.hodp.org/docs/good-practices)|
 | 2           | 2/11    | Python                        | [Python](https://docs.google.com/presentation/d/1UbzihWBD3NqFN77Nf-qJDE7mxua-Y7eUCGMpcjkYATs/edit?usp=sharing), [Python Intermediate](https://docs.google.com/presentation/d/1bU4W6FU_bT1WRFzcwNYSm4saAdKjTKz5eCD7XqmMUMg/edit?usp=sharing) |  [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate)|
-| 3           | 2/16    | Stats                         | To be released |  [Inference](https://docs.hodp.org/docs/inference), [Regression](https://docs.hodp.org/docs/regression), [Hypothesis Testing](https://docs.hodp.org/docs/hypothesis-testing)|
-| 3           | 2/18    | NumPy & Pandas                | To be released |  [NumPy & Pandas](https://docs.hodp.org/docs/numpy-pandas) |
-| 4           | 2/23    | Graphs in Python              | To be released |  To be released |
+| 3           | 2/16    | Stats                         | [Slides](https://docs.google.com/presentation/d/10kFjZRfJeWyqfG-hFDQeBBOt6cdPKMXpT63BLPkoC40/edit?usp=sharing) |  [Inference](https://docs.hodp.org/docs/inference), [Regression](https://docs.hodp.org/docs/regression), [Hypothesis Testing](https://docs.hodp.org/docs/hypothesis-testing)|
+| 3           | 2/18    | NumPy & Pandas                | [Slides](https://docs.google.com/presentation/d/1rfB3YxzSqvQX8mNT-blikea9C_J9NJWv8JUT5moTREs/edit?usp=sharing) |  [NumPy & Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 4           | 2/23    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/16TKe5BfSPDdsWhxm4wtApwk7-ruzwFKmoe30mdr3ez4/edit?usp=sharing) |  [Plotly](https://docs.hodp.org/docs/plotly) |
 | 4           | 2/25    | R                             | To be released |  [R](https://docs.hodp.org/docs/r)|
 | 5           | 3/2     | Ggplot: Data Viz in R         | To be released |  To be released |
 | 5           | 3/4     | Web Dev                       | To be released |  To be released |
@@ -35,10 +35,26 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 - All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above! We'll send you a video of the bootcamp afterwards. 
 - If you find yourself needing more than one absence, please reach out to `bootcamp@hodp.org`.
 
+## What is a project? 
+- Bootcamp projects are a chance for you to apply everything you've learnt and to answer a Harvard-related question you're curious about! (see the first few slides of [this presentation](https://docs.google.com/presentation/d/16TKe5BfSPDdsWhxm4wtApwk7-ruzwFKmoe30mdr3ez4/edit?usp=sharing) for more details)
+- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](hodp.org/bootcamp-proposal). 
+- A project involves writing both an article and creating a 3-minute presentation for demo day (this is usually a great day involving food and Nick Sinai live-tweeting the event!) For more information on requirements for the article, see the links in Project Resources!
+
+## Project Schedule
+| Date        | Topic|
+| ----------- | -------|
+| 3/2           | Project proposal due at [hodp.org/bootcamp-proposal](hodp.org/bootcamp-proposal)|
+| 3/9           | Project groups released!|
+| 3/11           | Last bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help), we'll also have office hours for any technical questions!|
+| 4/4           |Article drafts and presentations due|
+| 4/6           | Demo day 1!|
+| 4/8           | Demo day 2! |
+
 ## Project Resources
 - [Project Turn-in Checklist](http://hodp.org/checklist)
 - [Guide to Writing HODP Articles](https://docs.hodp.org/docs/article-guide)
 - [Style Guide (formatting, tone, etc.)](https://docs.hodp.org/docs/style-guide)
 - Graph templates and style guides for [R](https://github.com/HarvardOpenData/HODP-StyleGuide), [Python](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c#%2Fnotebook.ipynb)
-- Project ideas (to be released)
+- Project ideas ([hodp.org/pitches](https://docs.google.com/spreadsheets/d/1DwgkLhzmzESkU-sN6327Z8MzcsY6rymBl54KpIhyso0/edit#gid=1662946566)), you're welcome to preference project ideas from both the bootcamper and members sheet (as long as they aren't greyed out)!
+- Project proposal form ([hodp.org/bootcamp-proposal](hodp.org/bootcamp-proposal))
 - Project publication sign-ups (to be released)
