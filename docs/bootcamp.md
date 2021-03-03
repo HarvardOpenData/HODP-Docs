@@ -15,8 +15,8 @@ sidebar_label: Bootcamp Links
 | 3           | 2/16    | Stats                         | [Slides](https://docs.google.com/presentation/d/10kFjZRfJeWyqfG-hFDQeBBOt6cdPKMXpT63BLPkoC40/edit?usp=sharing) |  [Inference](https://docs.hodp.org/docs/inference), [Regression](https://docs.hodp.org/docs/regression), [Hypothesis Testing](https://docs.hodp.org/docs/hypothesis-testing)|
 | 3           | 2/18    | NumPy & Pandas                | [Slides](https://docs.google.com/presentation/d/1rfB3YxzSqvQX8mNT-blikea9C_J9NJWv8JUT5moTREs/edit?usp=sharing) |  [NumPy & Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 4           | 2/23    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/16TKe5BfSPDdsWhxm4wtApwk7-ruzwFKmoe30mdr3ez4/edit?usp=sharing) |  [Plotly](https://docs.hodp.org/docs/plotly) |
-| 4           | 2/25    | R                             | To be released |  [R](https://docs.hodp.org/docs/r)|
-| 5           | 3/2     | Ggplot: Data Viz in R         | To be released |  To be released |
+| 4           | 2/25    | R                             | [Slides](https://docs.google.com/presentation/d/1TrVg7qmOMcSGR9iHcyUH1-Lcm2_tXy0httdH8CaFa6U/edit?usp=sharing) |  [R](https://docs.hodp.org/docs/r)|
+| 5           | 3/2     | Ggplot: Data Viz in R         | [Slides](https://docs.google.com/presentation/d/1jqKBcmZHZeViqBPuBURHhgfGqJOwvKwsb0wmCRqgQXA/edit#slide=id.p) |  To be released |
 | 5           | 3/4     | Web Dev                       | To be released |  To be released |
 | 6           | 3/9     | Scraping                      | To be released |  [Scraping](https://docs.hodp.org/docs/scraping) |
 | 6           | 3/11    | Data Justice                  | To be released |  To be released |
