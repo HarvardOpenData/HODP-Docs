@@ -17,7 +17,7 @@ sidebar_label: Bootcamp Links
 | 4           | 2/23    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/16TKe5BfSPDdsWhxm4wtApwk7-ruzwFKmoe30mdr3ez4/edit?usp=sharing) |  [Plotly](https://docs.hodp.org/docs/plotly) |
 | 4           | 2/25    | R                             | [Slides](https://docs.google.com/presentation/d/1TrVg7qmOMcSGR9iHcyUH1-Lcm2_tXy0httdH8CaFa6U/edit?usp=sharing) |  [R](https://docs.hodp.org/docs/r)|
 | 5           | 3/2     | Ggplot: Data Viz in R         | [Slides](https://docs.google.com/presentation/d/1jqKBcmZHZeViqBPuBURHhgfGqJOwvKwsb0wmCRqgQXA/edit#slide=id.p) |  To be released |
-| 5           | 3/4     | Web Dev                       | To be released |  To be released |
+| 5           | 3/4     | Web Dev                       | [Intro to Web Dev](https://docs.google.com/presentation/d/1AkVJw3NLKsnaWJW7cYzuf5VLQ7aRTlrXEtTpmFrwkI4/edit?usp=sharing), [React](https://docs.google.com/presentation/d/1TeDTd3-uFTktKYxZMr1-m-v2d4jcb44xj8zVN0oYV2o/edit?usp=sharing) |  To be released |
 | 6           | 3/9     | Scraping                      | To be released |  [Scraping](https://docs.hodp.org/docs/scraping) |
 | 6           | 3/11    | Data Justice                  | To be released |  To be released |
 
