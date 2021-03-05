@@ -142,9 +142,8 @@ characters, insert images, create links, build tables, control some styling, and
 
 On top of the foundations of the house, we still need to paint the walls, add decorations, and move in furniture for the
 house to look nice. Similarly, using just HTML, a webpage can look quite barren. By using CSS, we can turn a drab HTML
-page into a lively, modern site. More specifically, CSS describes how HTML elements are displayed when rendered like
-
-><span style="color:red">Color</span>, <span style="font-family: Comic Sans MS, Comic Sans">fonts</span>,  s  p  a  c  i  n  g, etc.
+page into a lively, modern site. More specifically, CSS describes how HTML elements are displayed when rendered so that
+we can change things like color, font, and spacing
 
 Besides CSS, there are alternatives like
 * SCSS ([Sassy Cascading Style Sheets](https://sharkcoder.com/tools/scss)) which is a pre-processor scripting language that compiles into CSS
