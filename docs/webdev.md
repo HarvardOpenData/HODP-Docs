@@ -157,7 +157,7 @@ In this guide, we will only tackle CSS but a lot of the same syntax will be tran
 CSS code consists of a set of rule-sets with selectors (identifiers for what to target) and
 declarations (properties and their corresponding values).
 
-![Structure for CSS](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/css.png?raw=true 'css structure')
+![Structure for CSS](https://github.com/HarvardOpenData/HODP-Docs/blob/master/static/img/CSSStructure.png?raw=true 'css structure')
 
 ### Selector
 
