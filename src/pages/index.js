@@ -181,7 +181,7 @@ function Home() {
                 To be released
               </td>
               <td>
-                To be released
+                <Link to="/docs/webdev">Web Development</Link>
               </td>
             </tr>
             <tr>
