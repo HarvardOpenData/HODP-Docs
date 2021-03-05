@@ -458,15 +458,15 @@ we'll only be discussing 2 here: for loops and while loops.
 A for loop has the following syntax:
 
 ```javascript
-for (statement 1; statement 2; statement 3) {
+for (statement_1; statement_2; statement_3) {
   // code block to be executed
 }
 ```
 
 where
-* `statement 1` is executed (one time) *before* the execution of the code block
-* `statement 2` defines the condition for executing the code block
-* `statement 3` is executed (every time) *after* the code block has been executed.
+* `statement_1` is executed (one time) *before* the execution of the code block
+* `statement_2` defines the condition for executing the code block
+* `statement_3` is executed (every time) *after* the code block has been executed.
 
 #### While Loop
 
