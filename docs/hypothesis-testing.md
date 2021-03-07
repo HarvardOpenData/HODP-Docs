@@ -6,6 +6,11 @@ sidebar_label: Hypothesis Testing
 
 By: Asher Noel & Leo Saenger
 
+:::tip
+If you have no statistics background, these links are a good place to start: [linear regression](https://towardsdatascience.com/laymans-introduction-to-linear-regression-8b334a3dab09) and [hypothesis testing](https://towardsdatascience.com/hypothesis-testing-explained-as-simply-as-possible-6e0a256293cf	)
+:::
+
+
 Hypothesis testing is a way to test and compare the validity of hypotheses. It has enjoyed the spotlight of much research, but it is not without its flaws: it is a method, not magic. 
 
 ## Definitions 
