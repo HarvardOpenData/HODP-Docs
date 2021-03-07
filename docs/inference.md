@@ -6,6 +6,11 @@ sidebar_label: Inference
 
 By: Asher Noel & Leo Saenger
 
+:::tip
+If you have no statistics background, these links are a good place to start: [linear regression](https://towardsdatascience.com/laymans-introduction-to-linear-regression-8b334a3dab09) and [hypothesis testing](https://towardsdatascience.com/hypothesis-testing-explained-as-simply-as-possible-6e0a256293cf	)
+:::
+
+
 ## Introduction 
 
 Beyond getting data, one usually needs to interpret it, to some degree. For this, we have statistics: a discipline centered around exploring data and a phenomenon of interest, describing causal conclusions about the effect of changing one variable on another, and predicting one variable using another. 
