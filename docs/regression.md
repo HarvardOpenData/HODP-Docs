@@ -5,6 +5,10 @@ sidebar_label: Regression
 ---
 By: Leo Saenger and Asher Noel
 
+:::tip
+If you have no statistics background, these links are a good place to start: [linear regression](https://towardsdatascience.com/laymans-introduction-to-linear-regression-8b334a3dab09) and [hypothesis testing](https://towardsdatascience.com/hypothesis-testing-explained-as-simply-as-possible-6e0a256293cf	)
+:::
+
 Regression gives us the best linear predictor of $Y_i$ given $X_i$. That is, regressions tell us the $\alpha$ and $\beta$ that minimize $a$ and $b$ in the mean squared error $E(Y_i - a - b X_i)^2$. This might seem arbitrary at first, but despite being a blunt instrument, regression is a very useful one. Regression does not require us to make many strong assumptions about the distribution of our data, and it gives us answers that are easy to interpret and understand. We use this process to explain and summarize relationships between random variables, for instance, the relationship between schooling and wages or characteristics of Harvard houses and student preferences.
 
 We can easily derive $\beta$ and $\alpha$ simply by solving the above Mean Squared Error (MSE) expression by taking a derivative or first order condition. This shows us (with a little algebra) that 
