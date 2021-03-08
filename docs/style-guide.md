@@ -17,25 +17,32 @@ For overall guidelines, refer to this document or ask the content team, particul
 Keep in mind these are for traditional text-based articles. If you're submitting a scrollytelling project, a webapp, or an article heavily reliant on interactive viz or other React components, react out to the content team for advice!z
 
 ### Items to Turn in
-You'll need to turn in a Google Doc with
-- Your Draft
-- Byline for all main authors
-- Link to source(s) of data
-- Link to a GitHub repo with raw data, cleaned data
-- Link to a GitHub repo with your analyis
-- High quality images/graphs placed in the graph where you want them to appear online
-- Captions for all images (should include sources for images not created by HODP)
-- List of acknowledgements to anyone who edited, managed, contributed to, or created graphics for your article
+A Google folder that includes
+- Google doc draft that includes 
+  - List of all main authors
+  - A few notable sentences commented as “pull quote”. These will be bolded in the article and should contain important analysis or insight
+  - At least 4 high quality images/graphs placed in your doc where you want them to appear
+  - Link to a GitHub repo with raw data, cleaned data, and code for your analysis
+    - Don’t include any survey data or personally identifiable data. You’ll work with your content ed to publish these carefully
+  - Captions for all images
+  - Sources for images/designs/graphics that are not your own, listed in the caption for the image in parenthesis
+  - In-text hyperlinks to any outside reference sources you used
+  - List of acknowledgements for anyone who supported your project
+- A doc that has some subset of {concentration, year, house/dorm, a short bio} for each author! Put as much as you’re comfortable with. Examples at hodp.org/people
+- Profile pics of all the article’s authors for your HODP website profile, if you’re comfortable
+- All the graphs/images in your draft, included in the folder as images (in addition to being placed correctly in the doc)
+
 
 ### Formatting
+The best way to adhere to formatting rules is to use the HODP [article template] (https://docs.google.com/document/d/1oeDl3xG61z7aHbzZnq64nnDlHMyJiB1SgCrkaTpw4bs/edit). 
 - Ensure your images are placed in the article draft where you want them located, that they’re large and of high quality and resolution, and that each image has a caption and source (if the source isn’t you)
 - Don't put images and text next to each other, format them one after another
 - Articles should have at least 4 visuals. Most have 5-10. 
 - Specify 3-5 pull quotes by commenting "pull quote" around them. These should be meaty but concise insights or trends you don't want your reader to miss
 - Use bolding and italics sparingly but effectively
 - Give your article a title and subtitle. Title should be shorter and engaging but capture the gist of the article subject. The subtitle is where you can go more in detail. This subtitle will be the exceprt previewed on social media in the homepage of our website
-- Articles should be between 1000 to 1500 words. If you want more or less, talk to your lead content editor.
 - Hyperlink external sources and other HODP articles that you reference
+
 
 :::important
 
@@ -65,7 +72,7 @@ Check out our article guide for guidlines and advice for the actual content of y
 
 
 ## Graphs
-All static graphs should be produced in R using ggplot or in Python using ggplot. We have specific standards for graph fonts, formatting, and colors. [This](https://github.com/HarvardOpenData/HODP-StyleGuide) will show you how to generate graphs that adhere to these standards in R, and [this](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c#%2Fnotebook.ipynb) will show you the same for Python.
+All static graphs should be produced in R using ggplot or in Python using ggplot, or in plotly. We have specific standards for graph fonts, formatting, and colors. [This](https://github.com/HarvardOpenData/HODP-StyleGuide) will show you how to generate graphs that adhere to these standards in R, and [this](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c#%2Fnotebook.ipynb) will show you the same for Python.
 
 
 Some tips on which types of charts to use when:
