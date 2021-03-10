@@ -6,6 +6,8 @@ sidebar_label: Scraping
 
 By: Ashley Wong & Ethan Lee
 
+[Deepnote link](https://deepnote.com/project/d62e7083-8096-4aed-92c6-96778f71b1cc#)
+
 ## Scraping and its applications
 Web scraping is a useful technique for collecting data when it isn’t available for download or doesn’t exist in an aggregated form. When we scrape websites we build spiders which help us crawl through webpages and collect the information we want. A simple scraper like the one below takes a url, loads up the page, and uses regex to store certain parts of the HTML (more on what regex is later). More complex scrapers might clickthrough links for you or they might be able to interact with Javascript elements. 
 
