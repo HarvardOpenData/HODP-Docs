@@ -6,6 +6,8 @@ sidebar_label: Plotly
 
 By: Yijiang Zhao and Cynthia Chen
 
+[Deepnote link](https://deepnote.com/project/e03e03bc-6c58-4b54-8aa1-67dad9f17ef5#%2Fnotebook.ipynb)
+
 # Graphs in Python
 
 Welcome to Graphs in Python! We will be using `Plotly`. You can check out our [Deepnote](https://deepnote.com/project/e03e03bc-6c58-4b54-8aa1-67dad9f17ef5), which has the code and example graphs on it, which can be good starter code for your graphs.
