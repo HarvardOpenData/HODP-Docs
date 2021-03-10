@@ -6,6 +6,8 @@ sidebar_label: R
 
 By: Alison Hu, Ethan Lee & Kelsey Wu
 
+[R Studio Cloud link](https://rstudio.cloud/project/2239133)
+
 ## Difference between Python and R
 
 R is an open source programming language and software environment. Much like Python, R can be used to do basic coding and data analysis using various available packages. The difference comes when looking at each language's overall purpose: R was created and developed mostly for statistical analysis, with much of the language filled with statistics terminology, while Python is more of a general-purpose language. Both R and Python are powerful languages for data analysis and visualization, but small discrepancies between the two (like R beginning vector indices at 1) also make them quite different.
