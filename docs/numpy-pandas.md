@@ -6,6 +6,8 @@ sidebar_label: Numpy + Pandas
 
 By: Matthew Qu & Asher Noel
 
+[Deepnote Link](https://deepnote.com/project/87caf38c-92d3-435c-8b91-e67d9ac53aa2)
+
 ### Getting Started
 
 Before we begin, we must first install the numpy and pandas libraries as they are not included in the standard Python
