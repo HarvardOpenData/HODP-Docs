@@ -6,6 +6,8 @@ sidebar_label: Python
 
 By: Yijiang Zhao & Matthew Qu
 
+[Deepnote Link](https://deepnote.com/project/339bd0cf-d857-4e0f-9a8a-5c0834a44ad4)
+
 This guide assumes no prior programming knowledge and gives a brief introduction to Python, one of the most widely used programming languages. Python is incredibly useful for doing data analysis, especially for large data sets.
 
 This bootcamp will make sure that you are comfortable with basic Python and equip you with the tools to Google and Stack Overflow your way through more projects!
