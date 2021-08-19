@@ -20,7 +20,7 @@ sidebar_label: Bootcamp Links
 | 10          | 11/9    | Guest Speaker                 | N/A            | N/A |
 
 :::tip
-If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s21` directly!
+If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f21` directly!
 :::
 
 ## Administrative Links
@@ -38,15 +38,18 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 - Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](hodp.org/bootcamp-proposal). 
 - A project involves writing both an article and creating a 3-minute presentation for demo day (this is usually a great day involving food and Nick Sinai live-tweeting the event!) For more information on requirements for the article, see the links in Project Resources!
 
+<!---
+TODO: Release project schedule
 ## Project Schedule
-| Date        | Topic|
+| Date        | Topic |
 | ----------- | -------|
-| 3/2           | Project proposal due at [hodp.org/bootcamp-proposal](hodp.org/bootcamp-proposal)|
-| 3/9           | Project groups released!|
-| 3/11           | Last bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help), we'll also have office hours for any technical questions!|
-| 4/4           |Article drafts and presentations due|
-| 4/6           | Demo day 1!|
-| 4/8           | Demo day 2! |
+| 10/12?      | Project proposal due at [hodp.org/bootcamp-proposal](hodp.org/bootcamp-proposal) |
+| 10/19?      | Project groups released! |
+| 10/26       | Last content bootcamp! Over the next four weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help), we'll also have office hours for any technical questions! |
+| 11/23       | Article drafts and presentations due |
+| 11/30       | Demo day 1! |
+| 12/3        | Demo day 2! |
+--->
 
 ## Project Resources
 - [Project Turn-in Checklist](http://hodp.org/checklist): lists everything you need to remember/turn in
