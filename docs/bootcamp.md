@@ -8,18 +8,16 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 2/2     | Introduction                  | [Slides](https://docs.google.com/presentation/d/1AqsOVlP-yf1n4dCg_oab8SoWECtkxyqHIH1ddhz0IuM/edit?usp=sharing) |  N/A                                                       |
-| 1           | 2/4     | Journalism                    | [Slides](https://docs.google.com/presentation/d/1XE6RhWkX6P2GFuK0w9lVYaWG0QiI55cU-hZZ04Ky73Y/edit?usp=sharing) |  [Article Guide](https://docs.hodp.org/docs/article-guide) |
-| 2           | 2/9     | Best Practices & Installation | [Slides](https://docs.google.com/presentation/d/1Q-t2OgBpamRbWykHbQbSN7YtUYhS2hk4ltR22vzNPdo/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation), [Good Practices](https://docs.hodp.org/docs/good-practices)|
-| 2           | 2/11    | Python                        | [Python](https://docs.google.com/presentation/d/1UbzihWBD3NqFN77Nf-qJDE7mxua-Y7eUCGMpcjkYATs/edit?usp=sharing), [Python Intermediate](https://docs.google.com/presentation/d/1bU4W6FU_bT1WRFzcwNYSm4saAdKjTKz5eCD7XqmMUMg/edit?usp=sharing) |  [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate)|
-| 3           | 2/16    | Stats                         | [Slides](https://docs.google.com/presentation/d/10kFjZRfJeWyqfG-hFDQeBBOt6cdPKMXpT63BLPkoC40/edit?usp=sharing) |  [Inference](https://docs.hodp.org/docs/inference), [Regression](https://docs.hodp.org/docs/regression), [Hypothesis Testing](https://docs.hodp.org/docs/hypothesis-testing)|
-| 3           | 2/18    | NumPy & Pandas                | [Slides](https://docs.google.com/presentation/d/1rfB3YxzSqvQX8mNT-blikea9C_J9NJWv8JUT5moTREs/edit?usp=sharing) |  [NumPy & Pandas](https://docs.hodp.org/docs/numpy-pandas) |
-| 4           | 2/23    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/16TKe5BfSPDdsWhxm4wtApwk7-ruzwFKmoe30mdr3ez4/edit?usp=sharing) |  [Plotly](https://docs.hodp.org/docs/plotly) |
-| 4           | 2/25    | R                             | [Slides](https://docs.google.com/presentation/d/1TrVg7qmOMcSGR9iHcyUH1-Lcm2_tXy0httdH8CaFa6U/edit?usp=sharing) |  [R](https://docs.hodp.org/docs/r)|
-| 5           | 3/2     | Ggplot: Data Viz in R         | [Slides](https://docs.google.com/presentation/d/1jqKBcmZHZeViqBPuBURHhgfGqJOwvKwsb0wmCRqgQXA/edit#slide=id.p) |  To be released |
-| 5           | 3/4     | Web Dev                       | [Intro to Web Dev](https://docs.google.com/presentation/d/1AkVJw3NLKsnaWJW7cYzuf5VLQ7aRTlrXEtTpmFrwkI4/edit?usp=sharing), [React](https://docs.google.com/presentation/d/1TeDTd3-uFTktKYxZMr1-m-v2d4jcb44xj8zVN0oYV2o/edit?usp=sharing) |  [Intro to Web Dev](https://docs.hodp.org/docs/webdev) |
-| 6           | 3/9     | Scraping                      | To be released |  [Scraping](https://docs.hodp.org/docs/scraping) |
-| 6           | 3/11    | Data Justice                  | To be released |  To be released |
+| 1           | 9/7     | Introduction                  | To be released |  [Installation](https://docs.hodp.org/docs/installation)   |
+| 2           | 9/14    | Best Practices & Journalism   | To be released | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
+| 3           | 9/21    | Python                        | To be released | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 4           | 9/28    | Numpy/Pandas                  | To be released | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 5           | 10/5    | Graphs in Python              | To be released |  |
+| 6           | 10/12   | R & ggplot                    | To be released |  |
+| 7           | 10/19   | Stats                         | To be released |  |
+| 8           | 10/26   | Scraping                      | To be released |  |
+| 9           | 11/2    | Data Justice                  | To be released | N/A |
+| 10          | 11/9    | Guest Speaker                 | N/A            | N/A |
 
 :::tip
 If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s21` directly!
