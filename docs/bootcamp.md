@@ -8,16 +8,16 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 9/7     | Introduction                  | To be released |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 9/14    | Best Practices & Journalism   | To be released | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
-| 3           | 9/21    | Python                        | To be released | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
-| 4           | 9/28    | Numpy/Pandas                  | To be released | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
-| 5           | 10/5    | Graphs in Python              | To be released |  |
-| 6           | 10/12   | R & ggplot                    | To be released |  |
-| 7           | 10/19   | Stats                         | To be released |  |
-| 8           | 10/26   | Scraping                      | To be released |  |
-| 9           | 11/2    | Data Justice                  | To be released | N/A |
-| 10          | 11/9    | Guest Speaker                 | N/A            | N/A |
+| 1           | 9/9     | Introduction                  | To be released |  [Installation](https://docs.hodp.org/docs/installation)   |
+| 2           | 9/16    | Best Practices & Journalism   | To be released | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
+| 3           | 9/23    | Python                        | To be released | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 4           | 9/30    | Numpy/Pandas                  | To be released | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 5           | 10/7    | Graphs in Python              | To be released |  |
+| 6           | 10/14   | R & ggplot                    | To be released |  |
+| 7           | 10/21   | Stats                         | To be released |  |
+| 8           | 10/28   | Scraping                      | To be released |  |
+| 9           | 11/4    | Data Justice                  | To be released | N/A |
+| 10          | 11/11    | Guest Speaker                 | N/A            | N/A |
 
 :::tip
 If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f21` directly!
