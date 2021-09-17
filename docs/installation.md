@@ -13,13 +13,14 @@ This doc contains instructions for installing most of the tools, packages, and s
 ### Deepnote
 [Deepnote](https://deepnote.com/) is a site that allows you to run jupyter notebooks in the cloud. The nifty thing about Deepnote is that it allows for real-time collaboration (think Google docs style) and it saves you the hassle of having to download any packages or libraries! 
 
-Deepnote is currently in beta. Here’s how to get access to an account:
-- We'll send you all a link to a sample notebook.
-- Press ```create account``` in the top right hand corner.
+You can create an acount by signing up with your college email (or your GitHub account, if you like). 
+
+During bootcamps:
+
+- We'll send you all a link to the bootcamp's notebook.
 - Sign in with either Google or Github.
 - Press the blue ```Duplicate``` button (in the title bar next to ```View only```) to create your own copy of the notebook.
-
-To share your copy of the notebook, press the ```Share``` button in the top right hand corner. 
+- To share your copy of the notebook, press the ```Share``` button in the top right hand corner. 
 
 :::note
 
