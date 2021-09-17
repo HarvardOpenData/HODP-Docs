@@ -31,12 +31,15 @@ Don't forget to make sure that collaborators have at least edit access!
 ### R Studio Cloud
 This one is simple! Go to [rstudio.cloud](https://rstudio.cloud/) and sign up for free! Use your college email if possible!
 
+<!---
+
 ### Github
 Github is a site that you can use to store and share your code. All of our bootcamps (and their solutions) can be found on the [HODP github](https://github.com/HarvardOpenData). There are two simple ways to access the code in a repo:
 1. Press the green ```Code``` button and download the whole repo as a zip file. Upload the files you want to Deepnote using the ```Upload``` button or run them locally (more on this later). 
 2. Click on the ```Upload``` button in Deepnote, select ```Github``` and copy in the repo URL. If Deepnote notifies you that it must clone the repo, press ```Okay``` and then check the file tree on the left. Your repo should now be there!
 
 To have access to more of Github’s functionality (like uploading code), you can use [Git](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) in the command-line or you can use [Github Desktop](https://desktop.github.com/). We’ll cover the latter later in the bootcamp. 
+!--->
 
 
 ## Advanced Installation - Mac (Optional)
