@@ -31,15 +31,14 @@ Don't forget to make sure that collaborators have at least edit access!
 ### R Studio Cloud
 This one is simple! Go to [rstudio.cloud](https://rstudio.cloud/) and sign up for free! Use your college email if possible!
 
-<!---
 
-### Github
-Github is a site that you can use to store and share your code. All of our bootcamps (and their solutions) can be found on the [HODP github](https://github.com/HarvardOpenData). There are two simple ways to access the code in a repo:
+### Github (Optional)
+Github is a site that you can use to store and share your code. All the code for our website can be found on the [HODP github](https://github.com/HarvardOpenData). There are two simple ways to access the code in a repo:
 1. Press the green ```Code``` button and download the whole repo as a zip file. Upload the files you want to Deepnote using the ```Upload``` button or run them locally (more on this later). 
 2. Click on the ```Upload``` button in Deepnote, select ```Github``` and copy in the repo URL. If Deepnote notifies you that it must clone the repo, press ```Okay``` and then check the file tree on the left. Your repo should now be there!
 
 To have access to more of Github’s functionality (like uploading code), you can use [Git](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) in the command-line or you can use [Github Desktop](https://desktop.github.com/). We’ll cover the latter later in the bootcamp. 
-!--->
+
 
 
 ## Advanced Installation - Mac (Optional)
@@ -110,7 +109,7 @@ To stop Jupyter Notebook from running (i.e to shutdown the server), it's **not**
 :::tip
 If you ever want to do a 'force quit' on your terminal or stop a program from running try ```Ctrl-c``` or ```Ctrl-d```. 
 :::
-
+<!---
 ### Installing nvm and Node.js
 We're past the halfway point now! It should get easier from here on out. 
 
@@ -136,7 +135,8 @@ Now that we have our version manager, it's time to install the actual framework!
 If you're reading this sometime after September 2020, check [here](https://nodejs.org/en/) for the version of node to install and change up the version numbers as necessary.
 :::
 
-**Installation check:** running ```node -v``` should now return ```12.18.3``` -- or whatever version you installed. 
+**Installation check:** running ```node -v``` should now return ```12.18.3``` -- or whatever version you installed.
+!--->
 
 ### Visual Studio Code  
 You're free to install any IDE or text editor you wish, but we recommend [VSCode](https://code.visualstudio.com/) as a good default option. This one is simple: click [here](https://code.visualstudio.com/) to go to vscode's website and press the big blue ```Download for Mac``` button. Follow the instructions (this downloads like any other application you download from the internet). 
@@ -191,7 +191,7 @@ To stop Jupyter Notebook from running (i.e to shutdown the server), it's **not**
 :::tip
 If you ever want to do a 'force quit' in Powershell or stop a program from running try ```Ctrl-c``` or ```Ctrl``` and ```BREAK```. 
 :::
-
+<!---
 ### Installing nvm and Node.js
 We're past the halfway point now! The next thing we're going to install is [Node.js](Node.jsnodejs.org) (also called node). This will be essential for web development (or if you want to create [interactive graphics](https://www.d3-graph-gallery.com/index.html) in [d3](https://d3js.org/).
 
@@ -203,6 +203,7 @@ Click [here](https://nodejs.org/en/download/) and download the Windows installer
 You're free to install any IDE or text editor you wish, but we recommend [VSCode](https://code.visualstudio.com/) as a good default option. This one is simple: click [here](https://code.visualstudio.com/) to go to vscode's website and press the big blue ```Download for Windows``` button. Follow the instructions (this downloads like any other application you download from the internet). 
 
 **Installation check:** if you can find this in your applications folder and it opens and runs, you're all set!
+!--->
 
 ### Github Desktop
 Another simple one! [Github Desktop](https://desktop.github.com/) is a great way to use Github without having to learn the intricacies of Git on the command-line (though you are of course more than welcome to do so -- there are many good online tutorials for this). To install it, simply click [here](https://desktop.github.com/) to go to their website and press the big purple ```Download for Windows``` button. Follow the instructions and voila! You're done with installations!
