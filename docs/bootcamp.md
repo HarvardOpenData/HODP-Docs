@@ -10,7 +10,7 @@ sidebar_label: Bootcamp Links
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
 | 1           | 9/9     | Introduction                  | [Bootcamp 1](https://docs.google.com/presentation/d/14qDlkedzyzqxdMjJonw1h4IYTBLagGoyPV93S2Ak-nY/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
 | 2           | 9/16    | Best Practices & Journalism   | [Bootcamp 2](https://docs.google.com/presentation/d/1eBF_dYUgltFFbkinKw8hEoVLJlxbqIsC-32UUyoOO80/edit?usp=sharing) | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
-| 3           | 9/23    | Python                        | To be released | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 3           | 9/23    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 4           | 9/30    | Numpy/Pandas                  | To be released | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 5           | 10/7    | Graphs in Python              | To be released |  |
 | 6           | 10/14   | R & ggplot                    | To be released |  |
