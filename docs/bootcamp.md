@@ -11,8 +11,8 @@ sidebar_label: Bootcamp Links
 | 1           | 9/9     | Introduction                  | [Bootcamp 1](https://docs.google.com/presentation/d/14qDlkedzyzqxdMjJonw1h4IYTBLagGoyPV93S2Ak-nY/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
 | 2           | 9/16    | Best Practices & Journalism   | [Bootcamp 2](https://docs.google.com/presentation/d/1eBF_dYUgltFFbkinKw8hEoVLJlxbqIsC-32UUyoOO80/edit?usp=sharing) | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
 | 3           | 9/23    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
-| 4           | 9/30    | Numpy/Pandas                  | To be released | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
-| 5           | 10/7    | Graphs in Python              | To be released |  |
+| 4           | 9/30    | Numpy/Pandas                  | [Beginner](https://docs.google.com/presentation/d/1RbPVVDEt6r0Io51NioNoOSfg0BWZ85c0wkJ4BwDVPkU/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1BzDISDGKyw301qS6Kp23b9OD6_qFg9yEkGYixu6kC3k/edit?usp=sharing) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 5           | 10/7    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1HlX2mPLxN2j2SsQgUIw-25g4AxqpQEHQPo8jI-nj8Ek/edit?usp=sharing) | [Plotly](https://docs.hodp.org/docs/plotly/) |
 | 6           | 10/14   | R & ggplot                    | To be released |  |
 | 7           | 10/21   | Stats                         | To be released |  |
 | 8           | 10/28   | Scraping                      | To be released |  |
@@ -33,12 +33,13 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 - All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above! We'll send you a video of the bootcamp afterwards. 
 - If you find yourself needing more than one absence, please reach out to `board@hodp.org`.
 
-More information on bootcamp projects will be released later!
+## Project Information
+- Bootcamp projects are a chance for you to apply everything you've learned and to answer a data-oriented question (Harvard-related or not) that you're curious about!
+- Some sample project ideas are listed on [this spreadsheet](hodp.org/bootcamp-projects-f21). You are not limited to choosing one of these projects--we've complied this list for those of you who may not have a project idea in mind. If you choose a project from this list, we'll also help you find the data you need to get started.
+- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](hodp.org/project-form-f21). Please fill out this form by EOD October 14, 2021!
+- A project involves writing both an article and creating a 3-minute presentation for our Demo Day(s) (this is usually a great day involving food and Nick Sinai live-tweeting the event!) 
 <!---
-## What is a project? 
-- Bootcamp projects are a chance for you to apply everything you've learned and to answer a Harvard-related question you're curious about! (see the first few slides of [this presentation](https://docs.google.com/presentation/d/16TKe5BfSPDdsWhxm4wtApwk7-ruzwFKmoe30mdr3ez4/edit?usp=sharing) for more details)
-- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](hodp.org/bootcamp-proposal). 
-- A project involves writing both an article and creating a 3-minute presentation for demo day (this is usually a great day involving food and Nick Sinai live-tweeting the event!) For more information on requirements for the article, see the links in Project Resources!
+For more information on requirements for the article, see the links in Project Resources!
 
 <!---
 TODO: Release project schedule
