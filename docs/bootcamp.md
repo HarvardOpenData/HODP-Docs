@@ -31,7 +31,7 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 ## Bootcamp Requirements
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
 - All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above! We'll send you a video of the bootcamp afterwards. 
-- If you find yourself needing more than one absence, please reach out to `board@hodp.org`.
+- If you find yourself needing more than one absence, please reach out to board via `board@hodp.org` or on Slack.
 
 ## Project Information
 - Bootcamp projects are a chance for you to apply everything you've learned and to answer a data-oriented question (Harvard-related or not) that you're curious about!
@@ -46,7 +46,7 @@ For more information on requirements for the article, see the links in Project R
 | Date        | Topic |
 | ----------- | -------|
 | 10/14      | Project proposal due at [hodp.org/project-form-f21](hodp.org/project-form-f21) |
-| 10/16      | Project groups released! |
+| 10/17      | Project groups released! |
 | 10/28       | Last content bootcamp! Over the next four weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
 | 11/23       | Article drafts and presentations due |
 | 11/30       | Demo day 1! |
