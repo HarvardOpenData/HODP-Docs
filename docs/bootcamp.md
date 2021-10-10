@@ -13,11 +13,11 @@ sidebar_label: Bootcamp Links
 | 3           | 9/23    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 4           | 9/30    | Numpy/Pandas                  | [Beginner](https://docs.google.com/presentation/d/1RbPVVDEt6r0Io51NioNoOSfg0BWZ85c0wkJ4BwDVPkU/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1BzDISDGKyw301qS6Kp23b9OD6_qFg9yEkGYixu6kC3k/edit?usp=sharing) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 5           | 10/7    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1HlX2mPLxN2j2SsQgUIw-25g4AxqpQEHQPo8jI-nj8Ek/edit?usp=sharing) | [Plotly](https://docs.hodp.org/docs/plotly/) |
-| 6           | 10/14   | R & ggplot                    | To be released |  |
-| 7           | 10/21   | Stats                         | To be released |  |
-| 8           | 10/28   | Scraping                      | To be released |  |
-| 9           | 11/4    | Data Justice                  | To be released | N/A |
-| 10          | 11/11    | Guest Speaker                 | N/A            | N/A |
+| 6           | 10/14   | R (Tidyverse)                    | To be released |  |
+| 7           | 10/21   | R (ggplot)                         | To be released |  |
+| 8           | 10/28   | Stats                      | To be released |  |
+| 9           | 11/4    | Scraping                  | To be released | N/A |
+| 10          | 11/11   | Data Justice/Guest Speaker                 | N/A            | N/A |
 
 :::tip
 If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f21` directly!
@@ -47,7 +47,7 @@ For more information on requirements for the article, see the links in Project R
 | ----------- | -------|
 | 10/14      | Project proposal due at [hodp.org/project-form-f21](hodp.org/project-form-f21) |
 | 10/17      | Project groups released! |
-| 10/28       | Last content bootcamp! Over the next four weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
+| 11/4       | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
 | 11/23       | Article drafts and presentations due |
 | 11/30       | Demo day 1! |
 | 12/3        | Demo day 2! |
