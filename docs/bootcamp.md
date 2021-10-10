@@ -16,7 +16,7 @@ sidebar_label: Bootcamp Links
 | 6           | 10/14   | R (Tidyverse)                    | To be released |  |
 | 7           | 10/21   | R (ggplot)                         | To be released |  |
 | 8           | 10/28   | Stats                      | To be released |  |
-| 9           | 11/4    | Scraping                  | To be released | N/A |
+| 9           | 11/4    | Scraping                  | To be released |  |
 | 10          | 11/11   | Data Justice/Guest Speaker                 | N/A            | N/A |
 
 :::tip
