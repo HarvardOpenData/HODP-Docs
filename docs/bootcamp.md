@@ -50,7 +50,7 @@ For more information on requirements for the article, see the links in Project R
 | 11/4       | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
 | 11/23       | Article drafts and presentations due |
 | 11/30       | Demo day 1! |
-| 12/3        | Demo day 2! |
+| 12/2        | Demo day 2! |
 
 <!---
 ## Project Resources
