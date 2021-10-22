@@ -13,8 +13,8 @@ sidebar_label: Bootcamp Links
 | 3           | 9/23    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 4           | 9/30    | Numpy/Pandas                  | [Beginner](https://docs.google.com/presentation/d/1RbPVVDEt6r0Io51NioNoOSfg0BWZ85c0wkJ4BwDVPkU/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1BzDISDGKyw301qS6Kp23b9OD6_qFg9yEkGYixu6kC3k/edit?usp=sharing) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 5           | 10/7    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1HlX2mPLxN2j2SsQgUIw-25g4AxqpQEHQPo8jI-nj8Ek/edit?usp=sharing) | [Plotly](https://docs.hodp.org/docs/plotly/) |
-| 6           | 10/14   | R (Tidyverse)                    | To be released |  |
-| 7           | 10/21   | R (ggplot)                         | To be released |  |
+| 6           | 10/14   | R (Tidyverse)                    | [Slides](https://docs.google.com/presentation/d/1B-Yn5m_q_BkW7xjTQNmrz9SY1WBQmmnGnZkAF6lKCLw/edit?usp=sharing) | [R Notebook](tinyurl.com/hodp-r2021) |
+| 7           | 10/21   | R (ggplot)                         | [Slides](https://docs.google.com/presentation/d/1U1EMLhfSJa2NGkCycU7sZkE7DGXgv7iPubpp0RLAcoo/edit?usp=sharing) | [R Notebook](https://tinyurl.com/hodp-ggplot-f21) |
 | 8           | 10/28   | Stats                      | To be released |  |
 | 9           | 11/4    | Scraping                  | To be released |  |
 | 10          | 11/11   | Data Justice/Guest Speaker                 | N/A            | N/A |
