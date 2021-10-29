@@ -47,7 +47,7 @@ For more information on requirements for the article, see the links in Project R
 | ----------- | -------|
 | 10/14      | Project proposal due at [hodp.org/project-form-f21](hodp.org/project-form-f21) |
 | 10/21      | Project groups released! |
-| 11/11      | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
+| 11/4     | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
 | 11/23       | Article drafts and presentations due |
 | 11/30       | Demo day 1! |
 | 12/2        | Demo day 2! |
