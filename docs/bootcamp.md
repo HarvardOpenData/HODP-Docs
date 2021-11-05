@@ -16,7 +16,7 @@ sidebar_label: Bootcamp Links
 | 6           | 10/14   | R (Tidyverse)                    | [Slides](https://docs.google.com/presentation/d/1B-Yn5m_q_BkW7xjTQNmrz9SY1WBQmmnGnZkAF6lKCLw/edit?usp=sharing) | [R Notebook](https://tinyurl.com/hodp-r2021) |
 | 7           | 10/21   | R (ggplot)                         | [Slides](https://docs.google.com/presentation/d/1U1EMLhfSJa2NGkCycU7sZkE7DGXgv7iPubpp0RLAcoo/edit?usp=sharing) | [R Notebook](https://tinyurl.com/hodp-ggplot-f21) |
 | 8           | 10/28   | Stats                      | [Slides](https://docs.google.com/presentation/d/1Dcck9fft4HB6oK5vCb-eyRd2yjWF8_xC9CYUOr1uuyM/edit?usp=sharing) | [Deepnote](https://hodp.org/bootcamp-stats) |
-| 9           | 11/4    | Scraping                  | To be released |  |
+| 9           | 11/4    | Scraping                  | [Slides](https://docs.google.com/presentation/d/1dxPM4bsMUQALEwnGhplrcLy2IbMF90VrjOv0QNlSwzw/edit?usp=sharing) | [Deepnote](https://tinyurl.com/bootcamp-f21-scraping) |
 | 10          | 11/11   | Data Justice/Guest Speaker                 | N/A            | N/A |
 
 :::tip
