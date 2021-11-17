@@ -38,9 +38,7 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 - Some sample project ideas are listed on [this spreadsheet](http://hodp.org/bootcamp-projects-f21). You are not limited to choosing one of these projects--we've complied this list for those of you who may not have a project idea in mind. If you choose a project from this list, we'll also help you find the data you need to get started.
 - Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](http://hodp.org/project-form-f21). Please fill out this form by EOD October 14, 2021!
 - A project involves writing both an article and creating a 3-minute presentation for our Demo Day(s) (this is usually a great day involving food and Nick Sinai live-tweeting the event)! More info about project finalization steps will be released soon.
-<!---
 For more information on requirements for the article, see the links in Project Resources!
---->
 
 ## Project Schedule
 | Date        | Topic |
@@ -52,7 +50,6 @@ For more information on requirements for the article, see the links in Project R
 | 11/30       | Demo day 1! |
 | 12/2        | Demo day 2! |
 
-<!---
 ## Project Resources
 - [Project Turn-in Checklist](http://hodp.org/checklist): lists everything you need to remember/turn in
 - [HODP Article Template](https://docs.google.com/document/d/1oeDl3xG61z7aHbzZnq64nnDlHMyJiB1SgCrkaTpw4bs/edit?usp=sharing): we recommend using this template for your article to make sure it's formatted correctly
@@ -60,6 +57,7 @@ For more information on requirements for the article, see the links in Project R
 - [Style Guide (formatting, tone, etc.)](https://docs.hodp.org/docs/style-guide)
 - Graph templates and style guides for [R](https://github.com/HarvardOpenData/HODP-StyleGuide), [Python](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c#%2Fnotebook.ipynb): your graphs must adhere to these styles
 - Instructions on how to submit [Plotly interactive visualizations](https://docs.google.com/document/d/1vwdV0nyhwZdc8H8wLF4CEfnEDZrX3cfDaFgdDK5iKx0/edit?usp=sharing)
+<!---
 - Project ideas ([hodp.org/pitches](https://docs.google.com/spreadsheets/d/1DwgkLhzmzESkU-sN6327Z8MzcsY6rymBl54KpIhyso0/edit#gid=1662946566)), you're welcome to preference project ideas from both the bootcamper and members sheet (as long as they aren't greyed out)!
 - Project publication sign-ups (to be released)
 --->
