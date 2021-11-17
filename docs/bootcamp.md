@@ -51,7 +51,7 @@ For more information on requirements for the article, see the links in Project R
 | 12/2        | Demo day 2! |
 
 ## Project Resources
-- [Project Turn-in Checklist](http://hodp.org/checklist): lists everything you need to remember/turn in
+- [Project Turn-in Checklist](https://docs.google.com/document/d/1cSd5UGQHeCy1KEvp4HE_HcadZcxAk-aUAtof1vZbK4M/edit?usp=sharing): lists everything you need to remember/turn in
 - [HODP Article Template](https://docs.google.com/document/d/1oeDl3xG61z7aHbzZnq64nnDlHMyJiB1SgCrkaTpw4bs/edit?usp=sharing): we recommend using this template for your article to make sure it's formatted correctly
 - [Guide to Writing HODP Articles](https://docs.hodp.org/docs/article-guide): writing advice, content from the Data Journalism bootcamp
 - [Style Guide (formatting, tone, etc.)](https://docs.hodp.org/docs/style-guide)
