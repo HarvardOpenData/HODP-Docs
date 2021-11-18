@@ -53,6 +53,6 @@ For more information on requirements for the article, see the links in Project R
 - [Project Turn-in Checklist](https://docs.google.com/document/d/1cSd5UGQHeCy1KEvp4HE_HcadZcxAk-aUAtof1vZbK4M/edit?usp=sharing): lists everything you need to remember/turn in
 - [HODP Article Template](https://docs.google.com/document/d/1oeDl3xG61z7aHbzZnq64nnDlHMyJiB1SgCrkaTpw4bs/edit?usp=sharing): we recommend using this template for your article to make sure it's formatted correctly
 - [Guide to Writing HODP Articles](https://docs.hodp.org/docs/article-guide): writing advice, content from the Data Journalism bootcamp
-- [Style Guide (formatting, tone, etc.)](https://docs.hodp.org/docs/style-guide)
+- [Style Guide](https://docs.hodp.org/docs/style-guide)
 - Graph templates and style guides for [R](https://github.com/HarvardOpenData/HODP-StyleGuide), [Python](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c#%2Fnotebook.ipynb): your graphs must adhere to these styles
 - Instructions on how to submit [Plotly interactive visualizations](https://docs.google.com/document/d/1vwdV0nyhwZdc8H8wLF4CEfnEDZrX3cfDaFgdDK5iKx0/edit?usp=sharing)
