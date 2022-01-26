@@ -8,6 +8,21 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
+| 1           | 1/27    | Introduction                  |  |  [Installation](https://docs.hodp.org/docs/installation)   |
+| 2           | 2/3     | Best Practices & Journalism   |  | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
+| 3           | 2/10    | Python                        |  | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 4           | 2/17    | Numpy/Pandas                  |  | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 5           | 2/24    | Graphs in Python              |  |  |
+| 6           | 3/3     | R (Tidyverse)                 |  |  |
+| 7           | 3/10    | R (ggplot)                    |  |  |
+| 8           | 3/24    | Stats                         |  |  |
+| 9           | 3/31    | Scraping                      |  |  |
+| 10          | 4/7     | Data Justice                  |  |  |
+
+<!---
+
+| Week        | Date    | Topics                        | Slides         | Guide                                                      |
+| ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
 | 1           | 9/9     | Introduction                  | [Bootcamp 1](https://docs.google.com/presentation/d/14qDlkedzyzqxdMjJonw1h4IYTBLagGoyPV93S2Ak-nY/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
 | 2           | 9/16    | Best Practices & Journalism   | [Bootcamp 2](https://docs.google.com/presentation/d/1eBF_dYUgltFFbkinKw8hEoVLJlxbqIsC-32UUyoOO80/edit?usp=sharing) | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
 | 3           | 9/23    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
@@ -18,6 +33,8 @@ sidebar_label: Bootcamp Links
 | 8           | 10/28   | Stats                      | [Slides](https://docs.google.com/presentation/d/1Dcck9fft4HB6oK5vCb-eyRd2yjWF8_xC9CYUOr1uuyM/edit?usp=sharing) | [Deepnote](https://hodp.org/bootcamp-stats) |
 | 9           | 11/4    | Scraping                  | [Slides](https://docs.google.com/presentation/d/1dxPM4bsMUQALEwnGhplrcLy2IbMF90VrjOv0QNlSwzw/edit?usp=sharing) | [Deepnote](https://tinyurl.com/bootcamp-f21-scraping) |
 | 10          | 11/11   | Data Justice                | N/A            | N/A |
+
+--->
 
 :::tip
 If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f21` directly!
@@ -32,6 +49,10 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
 - All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above! We'll send you a video of the bootcamp afterwards. 
 - If you find yourself needing more than one absence, please reach out to board via `board@hodp.org` or on Slack.
+
+More info on bootcamp projects will be released later!
+
+<!---
 
 ## Project Information
 - Bootcamp projects are a chance for you to apply everything you've learned and to answer a data-oriented question (Harvard-related or not) that you're curious about!
