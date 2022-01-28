@@ -77,3 +77,4 @@ For more information on requirements for the article, see the links in Project R
 - [Style Guide (formatting, tone, etc.)](https://docs.hodp.org/docs/style-guide)
 - Graph templates and style guides for [R](https://github.com/HarvardOpenData/HODP-StyleGuide), [Python](https://deepnote.com/project/b78569dd-8fe2-4351-b551-2db935360f0c#%2Fnotebook.ipynb): your graphs must adhere to these styles
 - Instructions on how to submit [Plotly interactive visualizations](https://docs.google.com/document/d/1vwdV0nyhwZdc8H8wLF4CEfnEDZrX3cfDaFgdDK5iKx0/edit?usp=sharing)
+--->
