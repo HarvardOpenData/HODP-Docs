@@ -9,7 +9,7 @@ sidebar_label: Bootcamp Links
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
 | 1           | 1/27    | Introduction                  | [Slides](https://docs.google.com/presentation/d/1Oc4F0oTmMiBDdpnCBH-l8tfWDn0WRxHUZBw3_-DIhCs/edit#slide=id.geca4259729_0_53) |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 2/3     | Best Practices & Journalism   |  | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
+| 2           | 2/3     | Best Practices & Journalism   | [Slides](https://docs.google.com/presentation/d/1SyocoxJH6QkaEJ_l0EfJRAFqE2VqVPsnt3EISNNUeoI/edit?usp=sharing) | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
 | 3           | 2/10    | Python                        |  | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 4           | 2/17    | Numpy/Pandas                  |  | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 5           | 2/24    | Graphs in Python              |  |  |
@@ -37,13 +37,14 @@ sidebar_label: Bootcamp Links
 --->
 
 :::tip
-If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f21` directly!
+If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s22` directly!
 :::
 
 ## Administrative Links
 - **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
 - **Absence form**: [hodp.org/absences](http://hodp.org/absences)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
+- **Slack link (join #bootcamp-s22)**: [hodp.org/joinslack](http://hodp.org/joinslack)
 
 ## Bootcamp Requirements
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
