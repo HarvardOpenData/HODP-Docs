@@ -10,7 +10,7 @@ sidebar_label: Bootcamp Links
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
 | 1           | 1/27    | Introduction                  | [Slides](https://docs.google.com/presentation/d/1Oc4F0oTmMiBDdpnCBH-l8tfWDn0WRxHUZBw3_-DIhCs/edit#slide=id.geca4259729_0_53) |  [Installation](https://docs.hodp.org/docs/installation)   |
 | 2           | 2/3     | Best Practices & Journalism   | [Slides](https://docs.google.com/presentation/d/1SyocoxJH6QkaEJ_l0EfJRAFqE2VqVPsnt3EISNNUeoI/edit?usp=sharing) | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
-| 3           | 2/10    | Python                        |  | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 3           | 2/10    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 4           | 2/17    | Numpy/Pandas                  |  | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 5           | 2/24    | Graphs in Python              |  |  |
 | 6           | 3/3     | R (Tidyverse)                 |  |  |
