@@ -14,9 +14,8 @@ sidebar_label: Bootcamp Links
 | 4           | 2/17    | Numpy/Pandas                  | [Slides](https://docs.google.com/presentation/d/1BzDISDGKyw301qS6Kp23b9OD6_qFg9yEkGYixu6kC3k/edit?usp=sharing), [Deepnote](https://hodp.org/python-numpy) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 5           | 2/24    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1HlX2mPLxN2j2SsQgUIw-25g4AxqpQEHQPo8jI-nj8Ek/edit?usp=sharing), [Deepnote](https://tinyurl.com/5hdvfseh) | [Plotly](https://docs.hodp.org/docs/plotly/) |
 | 6           | 3/3     | R (Tidyverse)                 | [Slides](https://docs.google.com/presentation/d/1B-Yn5m_q_BkW7xjTQNmrz9SY1WBQmmnGnZkAF6lKCLw/edit?usp=sharing), [R Notebook](https://tinyurl.com/hodp-r2022) | [R](https://docs.hodp.org/docs/r) |
-| 7           | 3/10    | R (ggplot)                    |  |  |
-| 8           | 3/24    | Stats                         |  |  |
-| 9           | 3/31    | Scraping                      |  |  |
+| 7           | 3/24    | R (ggplot)                    |  |  |
+| 8           | 3/31    | Stats                         |  |  |
 | 10          | 4/7     | Data Justice                  |  |  |
 
 <!---
