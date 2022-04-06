@@ -66,7 +66,7 @@ For more information on requirements for the article, see the links in Project R
 | 3/31     | Project proposal due at [hodp.org/project-form-s22](hodp.org/project-form-s22) |
 | 4/7      | Project groups released! |
 | 4/7     | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
-| 4/28       | Article drafts and presentations due |
+| 5/1       | Article drafts and presentations due |
 | 5/3?        | Demo day! |
 
 <!---
