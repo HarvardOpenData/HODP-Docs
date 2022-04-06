@@ -15,7 +15,7 @@ sidebar_label: Bootcamp Links
 | 5           | 2/24    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1HlX2mPLxN2j2SsQgUIw-25g4AxqpQEHQPo8jI-nj8Ek/edit?usp=sharing), [Deepnote](https://tinyurl.com/5hdvfseh) | [Plotly](https://docs.hodp.org/docs/plotly/) |
 | 6           | 3/3     | R (Tidyverse)                 | [Slides](https://docs.google.com/presentation/d/1B-Yn5m_q_BkW7xjTQNmrz9SY1WBQmmnGnZkAF6lKCLw/edit?usp=sharing), [R Notebook](https://tinyurl.com/hodp-r2022) | [R](https://docs.hodp.org/docs/r) |
 | 7           | 3/24    | R (ggplot)                    | same as above |  |
-| 8           | 3/31    | Stats                         |  |  |
+| 8           | 3/31    | Stats                         | [Slides](https://docs.google.com/presentation/d/1Dcck9fft4HB6oK5vCb-eyRd2yjWF8_xC9CYUOr1uuyM/edit?usp=sharing) | [Deepnote](https://hodp.org/bootcamp-stats) |
 | 10          | 4/7     | Data Justice                  |  |  |
 
 <!---
@@ -52,11 +52,10 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 
 More info on bootcamp projects will be released later!
 
-<!---
 
 ## Project Information
 - Bootcamp projects are a chance for you to apply everything you've learned and to answer a data-oriented question (Harvard-related or not) that you're curious about!
-- Some sample project ideas are listed on [this spreadsheet](http://hodp.org/bootcamp-projects-f21). You are not limited to choosing one of these projects--we've complied this list for those of you who may not have a project idea in mind. If you choose a project from this list, we'll also help you find the data you need to get started.
+- Some sample project ideas are listed on [this spreadsheet](http://hodp.org/bootcamp-projects-s22). You are not limited to choosing one of these projects--we've complied this list for those of you who may not have a project idea in mind. If you choose a project from this list, we'll also help you find the data you need to get started.
 - Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](http://hodp.org/project-form-f21). Please fill out this form by EOD October 14, 2021!
 - A project involves writing both an article and creating a 3-minute presentation for our Demo Day(s) (this is usually a great day involving food and Nick Sinai live-tweeting the event)! More info about project finalization steps will be released soon.
 For more information on requirements for the article, see the links in Project Resources!
@@ -64,11 +63,13 @@ For more information on requirements for the article, see the links in Project R
 ## Project Schedule
 | Date        | Topic |
 | ----------- | -------|
-| 10/14      | Project proposal due at [hodp.org/project-form-f21](hodp.org/project-form-f21) |
-| 10/21      | Project groups released! |
-| 11/4     | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
-| 11/30       | Article drafts and presentations due |
-| 12/2        | Demo day! |
+| 3/31     | Project proposal due at [hodp.org/project-form-s22](hodp.org/project-form-s22) |
+| 4/7      | Project groups released! |
+| 4/7     | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
+| 4/28       | Article drafts and presentations due |
+| 5/3?        | Demo day! |
+
+<!---
 
 ## Project Resources
 - [Project Turn-in Checklist](https://docs.google.com/document/d/1cSd5UGQHeCy1KEvp4HE_HcadZcxAk-aUAtof1vZbK4M/edit?usp=sharing): lists everything you need to remember/turn in
