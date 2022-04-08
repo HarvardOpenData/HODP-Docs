@@ -56,7 +56,7 @@ More info on bootcamp projects will be released later!
 ## Project Information
 - Bootcamp projects are a chance for you to apply everything you've learned and to answer a data-oriented question (Harvard-related or not) that you're curious about!
 - Some sample project ideas are listed on [this spreadsheet](http://hodp.org/bootcamp-projects-s22). You are not limited to choosing one of these projects--we've complied this list for those of you who may not have a project idea in mind. If you choose a project from this list, we'll also help you find the data you need to get started.
-- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](http://hodp.org/project-form-f21). Please fill out this form by EOD October 14, 2021!
+- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](http://hodp.org/project-form-f21). Please fill out this form by EOD April 3, 2022!
 - A project involves writing both an article and creating a 3-minute presentation for our Demo Day(s) (this is usually a great day involving food and Nick Sinai live-tweeting the event)! More info about project finalization steps will be released soon.
 For more information on requirements for the article, see the links in Project Resources!
 
@@ -67,7 +67,7 @@ For more information on requirements for the article, see the links in Project R
 | 4/7      | Project groups released! |
 | 4/7     | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
 | 5/1       | Article drafts and presentations due |
-| 5/3?        | Demo day! |
+| 5/3        | Demo day! |
 
 <!---
 
