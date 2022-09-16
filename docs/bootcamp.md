@@ -9,7 +9,7 @@ sidebar_label: Bootcamp Links
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
 | 1           | 9/8      | Introduction                  | [Slides](https://docs.google.com/presentation/d/1nTGo3z-0ocwxZHdZWavwrTBT-RMTa_T9ZrKXI9g59N4/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 9/15     | Python                        | [Beginner](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 2           | 9/15     | Python                        | [Beginner](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing), [Beginner Deepnote](tinyurl.com/hodp-python-beginner), [Intermediate](https://docs.google.com/presentation/d/1IrfozHrtnrLPLHssWf4wbLUJ3RcXTBuY3AfM5BJ5nfs/edit?usp=sharing), [Intermediate Deepnote] | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 3           | 9/22     | Numpy/Pandas                  | [Beginner], [Intermediate], [Deepnote] | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 4           | 9/29     | Graphs in Python              | [Slides], [Deepnote] |  |
 | 5           | 10/6     | Visualizations                | [Slides], [Deepnote] |  |
