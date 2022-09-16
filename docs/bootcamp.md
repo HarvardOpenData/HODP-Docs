@@ -8,15 +8,17 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 1/27    | Introduction                  | [Slides](https://docs.google.com/presentation/d/1Oc4F0oTmMiBDdpnCBH-l8tfWDn0WRxHUZBw3_-DIhCs/edit#slide=id.geca4259729_0_53) |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 2/3     | Best Practices & Journalism   | [Slides](https://docs.google.com/presentation/d/1SyocoxJH6QkaEJ_l0EfJRAFqE2VqVPsnt3EISNNUeoI/edit?usp=sharing) | [Best Practices](https://docs.hodp.org/docs/good-practices), [Article Guide](https://docs.hodp.org/docs/article-guide) |
-| 3           | 2/10    | Python                        | [Beginner](https://docs.google.com/presentation/d/14L22QOzyqRQsE9fjvBqtW9RLpEQoc2OyBpvNEJBrKwc/edit?usp=sharing), [Intermediate](https://docs.google.com/presentation/d/1PzBsynLuAk-poI_Rj25_U1Jo_9SDaCTBiJ85JD__FQE/edit?usp=sharing), [Deepnote](https://hodp.org/bootcamp-python) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
-| 4           | 2/17    | Numpy/Pandas                  | [Slides](https://docs.google.com/presentation/d/1BzDISDGKyw301qS6Kp23b9OD6_qFg9yEkGYixu6kC3k/edit?usp=sharing), [Deepnote](https://hodp.org/python-numpy) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
-| 5           | 2/24    | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1HlX2mPLxN2j2SsQgUIw-25g4AxqpQEHQPo8jI-nj8Ek/edit?usp=sharing), [Deepnote](https://tinyurl.com/5hdvfseh) | [Plotly](https://docs.hodp.org/docs/plotly/) |
-| 6           | 3/3     | R (Tidyverse)                 | [Slides](https://docs.google.com/presentation/d/1B-Yn5m_q_BkW7xjTQNmrz9SY1WBQmmnGnZkAF6lKCLw/edit?usp=sharing), [R Notebook](https://tinyurl.com/hodp-r2022) | [R](https://docs.hodp.org/docs/r) |
-| 7           | 3/24    | R (ggplot)                    | same as above |  |
-| 8           | 3/31    | Stats                         | [Slides](https://docs.google.com/presentation/d/1Dcck9fft4HB6oK5vCb-eyRd2yjWF8_xC9CYUOr1uuyM/edit?usp=sharing) | [Deepnote](https://hodp.org/bootcamp-stats) |
-| 10          | 4/7     | Data Justice                  |  |  |
+| 1           | 9/8      | Introduction                  | [Slides]([https://docs.google.com/presentation/d/1Oc4F0oTmMiBDdpnCBH-l8tfWDn0WRxHUZBw3_-DIhCs/edit#slide=id.geca4259729_0_53](https://docs.google.com/presentation/d/1nTGo3z-0ocwxZHdZWavwrTBT-RMTa_T9ZrKXI9g59N4/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
+| 2           | 9/15     | Python                        | [Beginner]([https://docs.google.com/presentation/d/1SyocoxJH6QkaEJ_l0EfJRAFqE2VqVPsnt3EISNNUeoI/edit?usp=sharing](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing)) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 3           | 9/22     | Numpy/Pandas                  | [Beginner], [Intermediate], [Deepnote] | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 4           | 9/29     | Graphs in Python              | [Slides], [Deepnote] |  |
+| 5           | 10/6     | Visualizations                | [Slides], [Deepnote] |  |
+| 6           | 10/13    | Statistics                    | [Slides], [Deepnote] | [R] |
+| 7           | 10/20    | Scraping                      | [Slides] |  |
+| 8           | 10/27    | Data Justice                  | [Slides] |  |
+| 9           | 11/3     | Work Session #1: Cleaning/Wrangling |  |  |
+| 10          | 11/10    | Work Session #2: Analysis/Vizzes |  |  |
+| 11          | 11/17    | Work Session #3: Articles/Presentations |  |  |
 
 <!---
 
@@ -36,18 +38,18 @@ sidebar_label: Bootcamp Links
 --->
 
 :::tip
-If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s22` directly!
+If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f22` directly!
 :::
 
 ## Administrative Links
 - **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
 - **Absence form**: [hodp.org/absences](http://hodp.org/absences)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
-- **Slack link (join #bootcamp-s22)**: [hodp.org/joinslack](http://hodp.org/joinslack)
+- **Slack link (join #bootcamp-s22)**: [hodp.org/slack](http://hodp.org/slack)
 
 ## Bootcamp Requirements
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
-- All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above! We'll send you a video of the bootcamp afterwards. 
+- All Bootcampers are given one no-questions-asked skip, to use your skip, please fill out the absence form above!
 - If you find yourself needing more than one absence, please reach out to board via `board@hodp.org` or on Slack.
 
 More info on bootcamp projects will be released later!
@@ -55,19 +57,19 @@ More info on bootcamp projects will be released later!
 
 ## Project Information
 - Bootcamp projects are a chance for you to apply everything you've learned and to answer a data-oriented question (Harvard-related or not) that you're curious about!
-- Some sample project ideas are listed on [this spreadsheet](http://hodp.org/bootcamp-projects-s22). You are not limited to choosing one of these projects--we've complied this list for those of you who may not have a project idea in mind. If you choose a project from this list, we'll also help you find the data you need to get started.
-- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your [project proposal](http://hodp.org/project-form-f21). Please fill out this form by EOD April 3, 2022!
+- Projects are completed in groups of **two to four**, if you don't already have a group -- that's alright! We'll pair you up with people based on your interests.
 - A project involves writing both an article and creating a 3-minute presentation for our Demo Day(s) (this is usually a great day involving food and Nick Sinai live-tweeting the event)! More info about project finalization steps will be released soon.
 For more information on requirements for the article, see the links in Project Resources!
 
-## Project Schedule
+## Project Schedule (Tentative)
 | Date        | Topic |
 | ----------- | -------|
-| 3/31     | Project proposal due at [hodp.org/project-form-s22](https://hodp.org/project-form-s22) |
-| 4/7      | Project groups released! |
-| 4/7     | Last content bootcamp! Over the next three weeks you will meet with your board advisor (someone on board you can reach out to anytime you need help). We'll also have office hours for any technical questions! |
-| 5/1       | Article drafts and presentations due |
-| 5/3        | Demo day! |
+| 10/6     | Form project groups. |
+| 10/13      | Project groups released! |
+| 10/27     | Last content bootcamp! |
+| 11/3       | Work sessions begin. |
+| 11/28        | Projects due!  |
+| 12/1        | Demo Day  |
 
 <!---
 
