@@ -8,12 +8,12 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 9/8      | Introduction                  | [Slides]([https://docs.google.com/presentation/d/1Oc4F0oTmMiBDdpnCBH-l8tfWDn0WRxHUZBw3_-DIhCs/edit#slide=id.geca4259729_0_53](https://docs.google.com/presentation/d/1nTGo3z-0ocwxZHdZWavwrTBT-RMTa_T9ZrKXI9g59N4/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 9/15     | Python                        | [Beginner]([https://docs.google.com/presentation/d/1SyocoxJH6QkaEJ_l0EfJRAFqE2VqVPsnt3EISNNUeoI/edit?usp=sharing](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing)) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 1           | 9/8      | Introduction                  | [Slides](https://docs.google.com/presentation/d/1nTGo3z-0ocwxZHdZWavwrTBT-RMTa_T9ZrKXI9g59N4/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
+| 2           | 9/15     | Python                        | [Beginner](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
 | 3           | 9/22     | Numpy/Pandas                  | [Beginner], [Intermediate], [Deepnote] | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
 | 4           | 9/29     | Graphs in Python              | [Slides], [Deepnote] |  |
 | 5           | 10/6     | Visualizations                | [Slides], [Deepnote] |  |
-| 6           | 10/13    | Statistics                    | [Slides], [Deepnote] | [R] |
+| 6           | 10/13    | Statistics                    | [Slides], [Deepnote] |  |
 | 7           | 10/20    | Scraping                      | [Slides] |  |
 | 8           | 10/27    | Data Justice                  | [Slides] |  |
 | 9           | 11/3     | Work Session #1: Cleaning/Wrangling |  |  |
