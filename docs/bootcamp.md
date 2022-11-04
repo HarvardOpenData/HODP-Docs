@@ -15,8 +15,8 @@ sidebar_label: Bootcamp Links
 | 5           | 10/6     | Visualizations                | [Slides](https://docs.google.com/presentation/d/1tE8mHAQvl0wYN083M7DhuZlXS1e7V28VwY_RVGSq_XU/edit?usp=sharing) |  |
 | 6           | 10/13    | Statistics                    | [Slides](https://docs.google.com/presentation/d/1FhR7j3hE8HrFFrZiKcd2ePNAea9pmL45baY70dHAHBg/edit?usp=sharing), [Deepnote](https://deepnote.com/workspace/matthew-qu-99db-01c8deb8-66c7-44e8-a492-a3963e7d8bf2/project/HODP-Stats-Bootcamp-4feaa098-03b4-4b07-a7cd-030cd8209284/notebook/notebook-4aee5ecef707401c80b782d6c179fda3) |  |
 | 7           | 10/20    | Scraping                      | [Slides](https://docs.google.com/presentation/d/1J0uDqdB9wC23-6AfIruTO8Iha3xHHzhH6WcATZLkhig/edit?usp=sharing) |  |
-| 8           | 10/27    | Data Justice                  | [Slides] |  |
-| 9           | 11/3     | Work Session #1: Cleaning/Wrangling |  |  |
+| 8           | 10/27    | Data Justice                  | [Slides](https://docs.google.com/presentation/d/13-NTZOdsHfOow-UjTCUTm8THVF4r75f2soNIG1ySJ6w/edit?usp=sharing) |  |
+| 9           | 11/3     | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1QX-tzP4yH3iCVaaCY8X-gM1z27FeL-U32E4BXj3aEe4/edit?usp=sharing) |  |
 | 10          | 11/10    | Work Session #2: Analysis/Vizzes |  |  |
 | 11          | 11/17    | Work Session #3: Articles/Presentations |  |  |
 
