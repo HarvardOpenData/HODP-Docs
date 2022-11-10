@@ -17,7 +17,7 @@ sidebar_label: Bootcamp Links
 | 7           | 10/20    | Scraping                      | [Slides](https://docs.google.com/presentation/d/1J0uDqdB9wC23-6AfIruTO8Iha3xHHzhH6WcATZLkhig/edit?usp=sharing) |  |
 | 8           | 10/27    | Data Justice                  | [Slides](https://docs.google.com/presentation/d/13-NTZOdsHfOow-UjTCUTm8THVF4r75f2soNIG1ySJ6w/edit?usp=sharing) |  |
 | 9           | 11/3     | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1QX-tzP4yH3iCVaaCY8X-gM1z27FeL-U32E4BXj3aEe4/edit?usp=sharing) |  |
-| 10          | 11/10    | Work Session #2: Analysis/Vizzes |  |  |
+| 10          | 11/10    | Work Session #2: Analysis/Vizzes |  | [Slides](https://docs.google.com/presentation/d/18F5R-guAvWY3Ldk7o_BTwCyfCcRlV4ewOO_krOhQXV0/edit?usp=sharing) |
 | 11          | 11/17    | Work Session #3: Articles/Presentations |  |  |
 
 <!---
