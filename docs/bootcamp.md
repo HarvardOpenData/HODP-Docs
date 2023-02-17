@@ -8,17 +8,16 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 9/8      | Introduction                  | [Slides](https://docs.google.com/presentation/d/1nTGo3z-0ocwxZHdZWavwrTBT-RMTa_T9ZrKXI9g59N4/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 9/15     | Python                        | [Beginner](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing), [Beginner Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/HODP-Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/notebook/Python%20Bootcamp%20for%20Beginners-48e964df107640af9066591ee998018b), [Intermediate](https://docs.google.com/presentation/d/1IrfozHrtnrLPLHssWf4wbLUJ3RcXTBuY3AfM5BJ5nfs/edit?usp=sharing), [Intermediate Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/HODP-Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/%2FPython%20Bootcamp%20Intermediate.ipynb) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
-| 3           | 9/22     | Numpy/Pandas                  | [Beginner](https://docs.google.com/presentation/d/1RbPVVDEt6r0Io51NioNoOSfg0BWZ85c0wkJ4BwDVPkU/edit?usp=sharing), [Beginner Deepnote](https://tinyurl.com/37habwr6), [Intermediate](https://docs.google.com/presentation/d/1mGOsaSJeOfqq655rjJyuB_x5P-o19SGqZLyJpdv1pKg/edit#slide=id.g90686e3159_0_33), [Intermediate Deepnote](https://deepnote.com/workspace/matthew-qu-99db-01c8deb8-66c7-44e8-a492-a3963e7d8bf2/project/HODP-Bootcamp-Numpy-Pandas-87caf38c-92d3-435c-8b91-e67d9ac53aa2/notebook/bootcamp-numpy-pandas%2FNumpy%20Pandas%20Bootcamp-717e8ee222334301a148c36f29bbb6ff#00003-3f275969-6356-42a3-83a8-01b6acc7af0e) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
-| 4           | 9/29     | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1aJM9Cf4NrldAoVjMMBdlylsGVeP0HVFBcsUJY7BvFQc/edit#slide=id.gbe8fa63050_0_87), [Deepnote](https://deepnote.com/workspace/pcsong33-572e307a-e7ad-4bd1-812e-01e92a44c59c/project/Graphs-in-Python-Bootcamp-dd455a46-8eaf-4037-ab04-0536297a4fa9/%2Fnotebook.ipynb#00032-c9c147df-0a24-46b6-a52e-87b646ebfe4d) |  |
-| 5           | 10/6     | Visualizations                | [Slides](https://docs.google.com/presentation/d/1tE8mHAQvl0wYN083M7DhuZlXS1e7V28VwY_RVGSq_XU/edit?usp=sharing) |  |
-| 6           | 10/13    | Statistics                    | [Slides](https://docs.google.com/presentation/d/1FhR7j3hE8HrFFrZiKcd2ePNAea9pmL45baY70dHAHBg/edit?usp=sharing), [Deepnote](https://deepnote.com/workspace/matthew-qu-99db-01c8deb8-66c7-44e8-a492-a3963e7d8bf2/project/HODP-Stats-Bootcamp-4feaa098-03b4-4b07-a7cd-030cd8209284/notebook/notebook-4aee5ecef707401c80b782d6c179fda3) |  |
-| 7           | 10/20    | Scraping                      | [Slides](https://docs.google.com/presentation/d/1J0uDqdB9wC23-6AfIruTO8Iha3xHHzhH6WcATZLkhig/edit?usp=sharing) |  |
-| 8           | 10/27    | Data Justice                  | [Slides](https://docs.google.com/presentation/d/13-NTZOdsHfOow-UjTCUTm8THVF4r75f2soNIG1ySJ6w/edit?usp=sharing) |  |
-| 9           | 11/3     | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1QX-tzP4yH3iCVaaCY8X-gM1z27FeL-U32E4BXj3aEe4/edit?usp=sharing) |  |
-| 10          | 11/10    | Work Session #2: Analysis/Vizzes | [Slides](https://docs.google.com/presentation/d/18F5R-guAvWY3Ldk7o_BTwCyfCcRlV4ewOO_krOhQXV0/edit?usp=sharing) |  |
-| 11          | 11/17    | Work Session #3: Articles/Presentations |  |  |
+| 1           | 2/2      | Introduction                  | [Slides](https://docs.google.com/presentation/d/1nTGo3z-0ocwxZHdZWavwrTBT-RMTa_T9ZrKXI9g59N4/edit?usp=sharing) |  [Installation](https://docs.hodp.org/docs/installation)   |
+| 2           | 2/9     | Python                        | [Beginner](https://docs.google.com/presentation/d/10qxU56SrspCjF2mxPQeek6r1caAebgWaOyjExEz-KjE/edit?usp=sharing), [Beginner Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/HODP-Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/notebook/Python%20Bootcamp%20for%20Beginners-48e964df107640af9066591ee998018b), [Intermediate](https://docs.google.com/presentation/d/1IrfozHrtnrLPLHssWf4wbLUJ3RcXTBuY3AfM5BJ5nfs/edit?usp=sharing), [Intermediate Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/HODP-Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/%2FPython%20Bootcamp%20Intermediate.ipynb) | [Python](https://docs.hodp.org/docs/python), [Python Intermediate](https://docs.hodp.org/docs/python-intermediate) |
+| 3           | 2/16     | Numpy/Pandas                  | [Beginner](https://docs.google.com/presentation/d/1RbPVVDEt6r0Io51NioNoOSfg0BWZ85c0wkJ4BwDVPkU/edit?usp=sharing), [Beginner Deepnote](https://tinyurl.com/37habwr6), [Intermediate](https://docs.google.com/presentation/d/1mGOsaSJeOfqq655rjJyuB_x5P-o19SGqZLyJpdv1pKg/edit#slide=id.g90686e3159_0_33), [Intermediate Deepnote](https://deepnote.com/workspace/matthew-qu-99db-01c8deb8-66c7-44e8-a492-a3963e7d8bf2/project/HODP-Bootcamp-Numpy-Pandas-87caf38c-92d3-435c-8b91-e67d9ac53aa2/notebook/bootcamp-numpy-pandas%2FNumpy%20Pandas%20Bootcamp-717e8ee222334301a148c36f29bbb6ff#00003-3f275969-6356-42a3-83a8-01b6acc7af0e) | [Numpy + Pandas](https://docs.hodp.org/docs/numpy-pandas) |
+| 4           | 2/23     | Graphs in Python              | [Slides](https://docs.google.com/presentation/d/1aJM9Cf4NrldAoVjMMBdlylsGVeP0HVFBcsUJY7BvFQc/edit#slide=id.gbe8fa63050_0_87), [Deepnote](https://deepnote.com/workspace/pcsong33-572e307a-e7ad-4bd1-812e-01e92a44c59c/project/Graphs-in-Python-Bootcamp-dd455a46-8eaf-4037-ab04-0536297a4fa9/%2Fnotebook.ipynb#00032-c9c147df-0a24-46b6-a52e-87b646ebfe4d) |  |
+| 5           | 3/2     | Visualizations                | [Slides](https://docs.google.com/presentation/d/1tE8mHAQvl0wYN083M7DhuZlXS1e7V28VwY_RVGSq_XU/edit?usp=sharing) |  |
+| 6           | 3/9     | Statistics                    | [Slides](https://docs.google.com/presentation/d/1FhR7j3hE8HrFFrZiKcd2ePNAea9pmL45baY70dHAHBg/edit?usp=sharing), [Deepnote](https://deepnote.com/workspace/matthew-qu-99db-01c8deb8-66c7-44e8-a492-a3963e7d8bf2/project/HODP-Stats-Bootcamp-4feaa098-03b4-4b07-a7cd-030cd8209284/notebook/notebook-4aee5ecef707401c80b782d6c179fda3) |  |
+| 7           | 3/23    | Data Justice                      | [Slides](https://docs.google.com/presentation/d/13-NTZOdsHfOow-UjTCUTm8THVF4r75f2soNIG1ySJ6w/edit?usp=sharing) |  |
+| 8           | 3/30     | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1QX-tzP4yH3iCVaaCY8X-gM1z27FeL-U32E4BXj3aEe4/edit?usp=sharing) |  |
+| 9           | 4/6    | Work Session #2: Analysis/Vizzes | [Slides](https://docs.google.com/presentation/d/18F5R-guAvWY3Ldk7o_BTwCyfCcRlV4ewOO_krOhQXV0/edit?usp=sharing) |  |
+| 10          | 4/13    | Work Session #3: Articles/Presentations |  |  |
 
 <!---
 
@@ -43,9 +42,8 @@ If you're ever confused, feel free to reach out to any board member on Slack! Yo
 
 ## Administrative Links
 - **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
-- **Absence form**: [hodp.org/absences](http://hodp.org/absences)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
-- **Slack link (join #bootcamp-s22)**: [hodp.org/slack](http://hodp.org/slack)
+- **Slack link (join #bootcamp-s22)**: [hodp.org/slack](http://hodp.org/joinslack)
 
 ## Bootcamp Requirements
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
@@ -64,12 +62,14 @@ For more information on requirements for the article, see the links in Project R
 ## Project Schedule (Tentative)
 | Date        | Topic |
 | ----------- | -------|
-| 10/6     | Form project groups. |
-| 10/13      | Project groups released! |
-| 10/27     | Last content bootcamp! |
-| 11/3       | Work sessions begin. |
-| 11/28        | Projects due!  |
-| 12/1        | Demo Day  |
+| 2/16        | Projects introduced.|
+| 3/2     | Form project groups in bootcamp social! |
+| 3/8     | Submit project group @ hodp.org/project-proposals |
+| 3/9      | Project groups released! |
+| 3/23     | Last content bootcamp! |
+| 3/30       | Work sessions begin. |
+| 4/18        | Projects due!  |
+| 4/20        | Demo Day  |
 
 <!---
 
