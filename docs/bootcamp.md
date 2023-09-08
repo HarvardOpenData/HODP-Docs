@@ -15,12 +15,10 @@ sidebar_label: Bootcamp Links
 | 5           | 10/10   | Visualizations                | [Slides](https://docs.google.com/presentation/d/1tE8mHAQvl0wYN083M7DhuZlXS1e7V28VwY_RVGSq_XU/edit?usp=sharing) |  |
 | 6           | 10/17   | Statistics                    | [Slides](https://docs.google.com/presentation/d/1FhR7j3hE8HrFFrZiKcd2ePNAea9pmL45baY70dHAHBg/edit?usp=sharing), [Deepnote](https://deepnote.com/workspace/matthew-qu-99db-01c8deb8-66c7-44e8-a492-a3963e7d8bf2/project/HODP-Stats-Bootcamp-4feaa098-03b4-4b07-a7cd-030cd8209284/notebook/notebook-4aee5ecef707401c80b782d6c179fda3) | [Inference](https://docs.hodp.org/docs/inference), [Regression](https://docs.hodp.org/docs/regression), [Hypothesis Testing](https://docs.hodp.org/docs/hypothesis-testing) |
 | 7           | 10/24   | Data Justice                      | [Slides](https://docs.google.com/presentation/d/13-NTZOdsHfOow-UjTCUTm8THVF4r75f2soNIG1ySJ6w/edit?usp=sharing) |  |
-| 8           | 10/31   | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1QX-tzP4yH3iCVaaCY8X-gM1z27FeL-U32E4BXj3aEe4/edit?usp=sharing) |  |
-| 9           | 11/7   | Work Session #2: Analysis/Vizzes | [Slides](https://docs.google.com/presentation/d/18F5R-guAvWY3Ldk7o_BTwCyfCcRlV4ewOO_krOhQXV0/edit?usp=sharing) |  |
-| 10          | 11/14   | Work Session #3: Articles/Presentations |  |  |
-| 11          | 11/21   | Work Session #3: Articles/Presentations |  |  |
-| 12          | 11/28   | Work Session #3: Articles/Presentations |  |  |
-| 13          | 12/5    | Demo Day! |  |  |
+| 8           | 11/7   | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1QX-tzP4yH3iCVaaCY8X-gM1z27FeL-U32E4BXj3aEe4/edit?usp=sharing) |  |
+| 9           | 11/14  | Work Session #2: Analysis/Vizzes | [Slides](https://docs.google.com/presentation/d/18F5R-guAvWY3Ldk7o_BTwCyfCcRlV4ewOO_krOhQXV0/edit?usp=sharing) |  |
+| 10          | 11/28   | Work Session #3: Articles/Presentations |  |  |
+| 11          | 12/5    | Demo Day! |  |  |
 
 <!---
 
@@ -65,14 +63,14 @@ For more information on requirements for the article, see the links in Project R
 ## Project Schedule (Tentative)
 | Date        | Topic |
 | ----------- | -------|
-| 2/16        | Projects introduced.|
-| 3/2     | Form project groups in bootcamp social! |
-| 3/8     | Submit project group @ hodp.org/project-proposals |
-| 3/9      | Project groups released! |
-| 3/23     | Last content bootcamp! |
-| 3/30       | Work sessions begin. |
-| 4/18        | Projects due!  |
-| 4/20        | Demo Day  |
+| 9/26        | Projects introduced.|
+| 10/10     | Form project groups in bootcamp social! |
+|       | Submit project group @ hodp.org/project-proposals |
+|       | Project groups released! |
+| 10/24     | Last content bootcamp! |
+| 11/7       | Work sessions begin. |
+| 12/3        | Projects due!  |
+| 12/5        | Demo Day  |
 
 <!---
 
