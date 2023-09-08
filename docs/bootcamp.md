@@ -37,14 +37,12 @@ sidebar_label: Bootcamp Links
 
 --->
 
-:::
-Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f22` directly!
-:::
+Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f23` directly!
 
 ## Administrative Links
 - **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
-- **Slack link (join #bootcamp-s22)**: [hodp.org/slack](http://hodp.org/joinslack)
+- **Slack link (join #bootcamp-f23)**: [hodp.org/slack](http://hodp.org/joinslack)
 
 ## Bootcamp Requirements
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
