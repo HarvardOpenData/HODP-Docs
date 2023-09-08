@@ -37,8 +37,8 @@ sidebar_label: Bootcamp Links
 
 --->
 
-:::tip
-If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f22` directly!
+:::
+Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f22` directly!
 :::
 
 ## Administrative Links
