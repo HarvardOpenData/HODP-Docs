@@ -1,5 +1,5 @@
 ---
-id: bootcamp
+id: Bootcamp
 title: Bootcamp Links
 sidebar_label: Bootcamp Links
 ---
