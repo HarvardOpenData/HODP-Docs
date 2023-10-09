@@ -8,7 +8,7 @@ By: Sahana Srinivasan and Alison Hu
 
 In this tutorial, you'll learn the types of articles you can write for HODP, the goal of our work, and what our publishing process looks like. We'll also learn general concepts about what data journalism is and how to write a data-driven article.
 
-At the end, you'll be a data journalist, ready to publish your work with HODP! TEST
+At the end, you'll be a data journalist, ready to publish your work with HODP!
 
 ---
 
