@@ -14,7 +14,7 @@ sidebar_label: Bootcamp Links
 | 4           | 10/3     | Graphs in Python              | [Slides](https://docs.google.com/presentation/u/1/d/1slNm2rw4vZp6RlbYMtRCT0gF_uo0TQcg4HmcI9FRsTQ/edit?usp=drive_link) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Graphs-in-Python-Bootcamp-cd78f215-7e16-4215-bdd0-1e42afda656f/notebook/notebook-9d1ceb3cb4a4428cae14b9f5d81a1618) |
 | 5           | 10/10   | Visualizations                | [Slides](https://docs.google.com/presentation/d/1nmqt3kloKm3Of89ock1RtS2QqXpP8ri-ksi6cr-o-eM/edit?usp=drive_link) |  |
 | 6           | 10/17   | Statistics                    | [Slides](https://docs.google.com/presentation/u/1/d/14D-V0-xwvTKR2oUvGogapuU2HtfZOxFRkTeZGdOz7VU/edit?usp=drive_link) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Stats-Bootcamp-4aa492f9-b571-4320-8527-7ac4df6ad85a/) |
-| 7           | 10/24   | Data Justice                      |  |  |
+| 7           | 10/24   | Data Justice                      | [Slides](https://docs.google.com/presentation/u/1/d/1K7jizfvugoymnwRNh30QDGu5t5J6gs0OlKwW0hZ_JUU/edit?usp=drive_link) |  |
 | 8           | 11/7   | Work Session #1: Cleaning/Wrangling |  |  |
 | 9           | 11/14  | Work Session #2: Analysis/Vizzes |  |  |
 | 10          | 11/28   | Work Session #3: Articles/Presentations |  |  |
