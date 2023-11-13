@@ -16,7 +16,7 @@ sidebar_label: Bootcamp Links
 | 6           | 10/17   | Statistics                    | [Slides](https://docs.google.com/presentation/u/1/d/14D-V0-xwvTKR2oUvGogapuU2HtfZOxFRkTeZGdOz7VU/edit?usp=drive_link) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Stats-Bootcamp-4aa492f9-b571-4320-8527-7ac4df6ad85a/) |
 | 7           | 10/24   | Data Justice                      | [Slides](https://docs.google.com/presentation/u/1/d/1K7jizfvugoymnwRNh30QDGu5t5J6gs0OlKwW0hZ_JUU/edit?usp=drive_link) |  |
 | 8           | 11/7   | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1it_IEijUZ872I7PF3ES66ylP2dIEhyWCcfukpXEkNCU/edit) |  |
-| 9           | 11/14  | Work Session #2: Analysis/Vizzes |  |  |
+| 9           | 11/14  | Work Session #2: Analysis/Vizzes | [Slides](https://docs.google.com/presentation/d/1UlGURouBngJhF55sXQ4q-Y_btYHtdJFO1-JkLUmiHic/edit#slide=id.p) |  |
 | 10          | 11/28   | Work Session #3: Articles/Presentations |  |  |
 | 11          | 12/5    | Demo Day! |  |  |
 
