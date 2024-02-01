@@ -12,7 +12,7 @@ sidebar_label: Bootcamp Links
 | 2           | 2/7    | Python                        |  |  |
 | 3           | 2/21     | Numpy/Pandas                  |   |  |
 | 4           | 2/28     | Graphs in Python              |  |  |
-| 5           | 3/6   | Visualizations                | ) |  |
+| 5           | 3/6   | Visualizations                |  |  |
 | 6           | 3/20   | Statistics                    |  |  |
 | 7           | 3/27   | Data Justice                      | |  |
 | 8           | 4/3   | Work Session #1: Cleaning/Wrangling |  |  |
