@@ -8,17 +8,17 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 9/12    | Introduction                  | [Slides](https://docs.google.com/presentation/d/1PR0BlLgpk496HTRkxE5U07qMxgRHpvXZyFz-j2EjlOQ/edit#slide=id.geca4259729_0_53) |  [Installation](https://docs.hodp.org/docs/installation)   |
-| 2           | 9/19    | Python                        | [Beginner](https://docs.google.com/presentation/d/16LAnzouip10PY-dmTnsCD95bMM3c9814Jbi2XOrBlio/edit), [Intermediate](https://docs.google.com/presentation/d/1tDLKBk8ezpIknYRlC45fHmLQ5sebd2-T0wDsgSIjScQ/edit) | [Beginner Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/notebook/Python%20Bootcamp%20Beginners-48e964df107640af9066591ee998018b), [Intermediate Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/notebook/Python%20Bootcamp%20Intermediate-3b7fcff286ba43799d83a1f7fd884545) |
-| 3           | 9/26     | Numpy/Pandas                  | [Beginner](https://docs.google.com/presentation/d/1PCvisVNLXSZLXd4IqPJrozEXN2Xiu-UWomnFdPr8ZpQ/edit), [Intermediate](https://docs.google.com/presentation/d/12cWm1NyXBSNjg4OkFzk1vNFS8fNOFqOQX0ZsIspxI9Q/edit)  | [Beginner Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Numpy-and-Pandas-Bootcamp-Duplicate-7784430b-15a6-450a-bbbd-c77aa7bbf7e7/notebook/numpy_pandas-f54c333f467b4713a56ec47d4030a523), [Intermediate Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Numpy-and-Pandas-Bootcamp-7784430b-15a6-450a-bbbd-c77aa7bbf7e7/notebook/SOLUTIONS%20-%20NumPy%20Pandas%20Intermediate-dbb302bd84f44777b745569184ecf598) |
-| 4           | 10/3     | Graphs in Python              | [Slides](https://docs.google.com/presentation/u/1/d/1slNm2rw4vZp6RlbYMtRCT0gF_uo0TQcg4HmcI9FRsTQ/edit?usp=drive_link) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Graphs-in-Python-Bootcamp-cd78f215-7e16-4215-bdd0-1e42afda656f/notebook/notebook-9d1ceb3cb4a4428cae14b9f5d81a1618) |
-| 5           | 10/10   | Visualizations                | [Slides](https://docs.google.com/presentation/d/1nmqt3kloKm3Of89ock1RtS2QqXpP8ri-ksi6cr-o-eM/edit?usp=drive_link) |  |
-| 6           | 10/17   | Statistics                    | [Slides](https://docs.google.com/presentation/u/1/d/14D-V0-xwvTKR2oUvGogapuU2HtfZOxFRkTeZGdOz7VU/edit?usp=drive_link) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Stats-Bootcamp-4aa492f9-b571-4320-8527-7ac4df6ad85a/) |
-| 7           | 10/24   | Data Justice                      | [Slides](https://docs.google.com/presentation/u/1/d/1K7jizfvugoymnwRNh30QDGu5t5J6gs0OlKwW0hZ_JUU/edit?usp=drive_link) |  |
-| 8           | 11/7   | Work Session #1: Cleaning/Wrangling | [Slides](https://docs.google.com/presentation/d/1it_IEijUZ872I7PF3ES66ylP2dIEhyWCcfukpXEkNCU/edit) |  |
-| 9           | 11/14  | Work Session #2: Analysis/Vizzes | [Slides](https://docs.google.com/presentation/d/1UlGURouBngJhF55sXQ4q-Y_btYHtdJFO1-JkLUmiHic/edit#slide=id.p) |  |
-| 10          | 11/28   | Work Session #3: Articles/Presentations |  |  |
-| 11          | 12/5    | Demo Day! |  |  |
+| 1           | 1/31    | Introduction                  | [Slides](https://docs.google.com/presentation/d/13u6YZTWGLDIsqHVE-JWX_2nUcoh4iNdBUwApfTKIqWM/edit#slide=id.gcb11d380f7_0_171) |     |
+| 2           | 2/7    | Python                        |  |  |
+| 3           | 2/21     | Numpy/Pandas                  |   |  |
+| 4           | 2/28     | Graphs in Python              |  |  |
+| 5           | 3/6   | Visualizations                | ) |  |
+| 6           | 3/20   | Statistics                    |  |  |
+| 7           | 3/27   | Data Justice                      | |  |
+| 8           | 4/3   | Work Session #1: Cleaning/Wrangling |  |  |
+| 9           | 4/10  | Work Session #2: Analysis/Vizzes | |  |
+| 10          | 4/17   | Work Session #3: Articles/Presentations |  |  |
+| 11          | 4/24    | Demo Day! |  |  |
 
 <!---
 
