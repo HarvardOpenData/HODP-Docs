@@ -37,7 +37,7 @@ sidebar_label: Bootcamp Links
 
 --->
 
-Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f23` directly!
+Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s24` directly!
 
 ## Administrative Links
 - **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
@@ -61,14 +61,14 @@ For more information on requirements for the article, see the links in Project R
 ## Project Schedule (Tentative)
 | Date        | Topic |
 | ----------- | -------|
-| 9/26        | Projects introduced.|
-| 10/10     | Form project groups in bootcamp social! |
+|          | Projects introduced.|
+|      | Form project groups in bootcamp social! |
 |       | Submit project group @ hodp.org/project-proposals |
 |       | Project groups released! |
-| 10/24     | Last content bootcamp! |
-| 11/7       | Work sessions begin. |
-| 12/3        | Projects due!  |
-| 12/5        | Demo Day  |
+|      | Last content bootcamp! |
+|        | Work sessions begin. |
+|         | Projects due!  |
+|         | Demo Day  |
 
 <!---
 
