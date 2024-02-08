@@ -8,8 +8,8 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 1/31    | Introduction                  | [Slides](https://docs.google.com/presentation/d/13u6YZTWGLDIsqHVE-JWX_2nUcoh4iNdBUwApfTKIqWM/edit#slide=id.gcb11d380f7_0_171) |     |
-| 2           | 2/7    | Python                        |  |  |
+| 1           | 1/31    | Introduction                  | [Slides](https://docs.google.com/presentation/d/13u6YZTWGLDIsqHVE-JWX_2nUcoh4iNdBUwApfTKIqWM/edit?usp=sharing) |     |
+| 2           | 2/7    | Python                        | [Beginner Slides](https://docs.google.com/presentation/d/1P-I0MmoJzJ0CnaimW3DKR0Jdh-5X-zFkCjkVAN2F_us/edit?usp=sharing), [Intermediate (Intro to ML) Slides](https://docs.google.com/presentation/d/1p6M-NEtFc7Xy0yWWbQ5qOFqBoyyaOjT6WjqP-npYJcU/edit?usp=sharing) | [Beginner Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/notebook/Python%20Bootcamp%20Beginners-48e964df107640af9066591ee998018b), [Intermediate Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Python-Bootcamp-339bd0cf-d857-4e0f-9a8a-5c0834a44ad4/notebook/Python%20Bootcamp%20Intermediate-3b7fcff286ba43799d83a1f7fd884545) |
 | 3           | 2/21     | Numpy/Pandas                  |   |  |
 | 4           | 2/28     | Graphs in Python              |  |  |
 | 5           | 3/6   | Visualizations                |  |  |
