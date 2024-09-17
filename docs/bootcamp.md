@@ -44,7 +44,7 @@ sidebar_label: Bootcamp Links
 Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f24` directly!
 
 ## Administrative Links (To Be Updated)
-- **Attendance form**: [hodp.org/attendance](http://hodp.org/attendance)
+- **Attendance form**: [Attendance Form](https://docs.google.com/forms/d/e/1FAIpQLSddEse-8SLbJy4YeDTkmHaMaERHYBQIB8mMEtkqx9Mp7a3Nig/viewform)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
 - **Slack link (join #bootcamp-f24)**: [hodp.org/slack](http://hodp.org/joinslack)
 
