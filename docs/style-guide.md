@@ -7,10 +7,9 @@ sidebar_label: Style Guide
 By: HODP Content Team
 
 For overall guidelines, refer to this document or ask the content team, particularly your lead editor, who will email you when the publishing process begins with an introduction.
-- Sahana (sahanasrinivasan@college.harvard.edu)
-- Alison (ahu@college.harvard.edu)
-- Asher (ashernoel@college.harvard.edu)
-- Henry (henryaustin@college.harvard.edu)
+- Sunshine (sunshinechen@college.harvard.edu)
+- Ricky (rickytruong@college.harvard.edu)
+- Samantha (sdwu@college.harvard.edu)
 
 ## Writing Your Article
 
