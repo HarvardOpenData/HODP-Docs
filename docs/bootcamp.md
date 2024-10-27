@@ -15,7 +15,7 @@ sidebar_label: Bootcamp Links
 | 5           | 10/8   | Visualizations                | [Slides](https://docs.google.com/presentation/d/1usZV9MhHITzz966zr2EFYGtT0YCRBKG4BUi5mNqIJ1Q/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Graphs-in-Python-Bootcamp-cd78f215-7e16-4215-bdd0-1e42afda656f/notebook/Graphs-in-Bootcamp-35dbc7c80599417ebcafafe5e16098c4) <br/> [Project Topics](https://hodp.org/project-topics) <br/> [Project Proposal](https://tinyurl.com/project-proposal-f24) |
 | 6           | 10/15   | Statistics                    | [Slides](https://docs.google.com/presentation/d/1G54NI1yiO8q8wEc94U4JXLtrbtqSJNToAR-g40VTRes/edit?usp=sharing)  |[Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Stats-Bootcamp-4aa492f9-b571-4320-8527-7ac4df6ad85a/notebook/Statistics-Latest-eb45c2762d894ba6a7fdebf33000edd0) |
 | 7           | 10/22   | Data Justice                      | [Slides](https://docs.google.com/presentation/d/1Hu5OJP1ZPI1tx0GbmJtF6o_JRJE7jDD3jFrkX6C78gc/edit?usp=sharing) |  |
-| 8           | 10/29   | Work Session #1: Journalism Process |  |  |
+| 8           | 10/29   | Work Session #1: Datathon Intro | [Slides](https://docs.google.com/presentation/d/1seUN-mu6ltiN7BR6rQciYJ7eaYowdfGI7xEKpLZsQG4/edit?usp=sharing) | [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) |
 | | 11/2 | Datathon! | | |
 | | 11/5 | Cancelled for Election Day | | |
 | 9           | 11/12  | Work Session #2: Data Analysis | |  |
