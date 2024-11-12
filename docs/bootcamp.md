@@ -18,7 +18,7 @@ sidebar_label: Bootcamp Links
 | 8           | 10/29   | Work Session #1: Datathon Intro | [Slides](https://docs.google.com/presentation/d/1seUN-mu6ltiN7BR6rQciYJ7eaYowdfGI7xEKpLZsQG4/edit?usp=sharing) | [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) |
 | | 11/2 | Datathon! | | |
 | | 11/5 | Cancelled for Election Day | | |
-| 9           | 11/12  | Work Session #2: Data Analysis | |  |
+| 9           | 11/12  | Work Session #2: Data Analysis | [Slides](https://docs.google.com/presentation/d/1YW8KFo9PXZRfkOIXnT25BPEIViTw3GBgfRLnlQINlD0/edit?usp=sharing) |  |
 | 10          | 11/19   | Work Session #3: Article Writing |  |  |
 | | 11/26 | Cancelled for Thanksgiving | | |
 | | 12/1 | **Projects Due**
