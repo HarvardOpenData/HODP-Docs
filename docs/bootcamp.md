@@ -19,7 +19,7 @@ sidebar_label: Bootcamp Links
 | | 11/2 | Datathon! | | |
 | | 11/5 | Cancelled for Election Day | | |
 | 9           | 11/12  | Work Session #2: Data Analysis | [Slides](https://docs.google.com/presentation/d/1YW8KFo9PXZRfkOIXnT25BPEIViTw3GBgfRLnlQINlD0/edit?usp=sharing) |  |
-| 10          | 11/19   | Work Session #3: Article Writing |  |  |
+| 10          | 11/19   | Work Session #3: Article Writing | [Slides](https://docs.google.com/presentation/d/1-EYEBH4A405J4i-yRs_xNYkYLeoHrXrMQPjdcvAFqwg/edit?usp=sharing) |  |
 | | 11/26 | Cancelled for Thanksgiving | | |
 | | 12/1 | **Projects Due**
 | 11          | 12/3    | Demo Day! |  |  |
