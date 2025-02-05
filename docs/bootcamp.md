@@ -5,7 +5,26 @@ sidebar_label: Bootcamp Links
 ---
 
 ## Bootcamp Schedule 
-Coming soon!
+
+| Week        | Date    | Topics                        | Slides         | Guide                                                      |
+| ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
+| 1           | 2/4    | Introduction                  |  |     |
+| 2           | 2/11    | Intro to Python / Webscraping                       |  |  |
+| 3           |  2/18    | Pandas I                 |  |  |
+| 4           | 2/25     | Pandas II             |  |  |
+| 5           | 3/4   | Visualizations (Matplotlib and Seaborn)                |  |  |
+| 6           | 3/11   | Guest Speaker!                    |  | |
+| | 3/18 | *Cancelled for Spring Break* | | |
+| 7           | 3/25   | Statistics                     |  |  |
+| 8           | 4/1   | Data Justice |  | |
+| | 4/5 | **Datathon!** | | |
+| 9           | 4/8  | Work Session and Content Team Check-In| |  |
+| 10          | 4/15   | Extra Session |  |  |
+| 11 | 4/22 | Work Session and Content Team Check-In | | |
+| | 4/27 | **Projects Due**
+| 12          | 4/29   | Demo Day! |  |  |
+
+
 <!---
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
@@ -48,7 +67,7 @@ Coming soon!
 Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s25` directly!
 
 ## Administrative Links (To Be Updated)
-- **Attendance form**: [Attendance Form](https://docs.google.com/forms/d/e/1FAIpQLSddEse-8SLbJy4YeDTkmHaMaERHYBQIB8mMEtkqx9Mp7a3Nig/viewform)
+- **Attendance form**: [Attendance Form](https://docs.google.com/forms/d/e/1FAIpQLSdG8fL61ZbrvU0D195k6BR7BaHFCdIw5wu26bmkMLPsKnB90A/viewform?usp=preview)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
 - **Slack link (join #bootcamp-s25)**: [hodp.org/slack](http://hodp.org/joinslack)
 
