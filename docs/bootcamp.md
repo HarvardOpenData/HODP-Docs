@@ -5,6 +5,8 @@ sidebar_label: Bootcamp Links
 ---
 
 ## Bootcamp Schedule 
+Coming soon!
+<!---
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
@@ -24,6 +26,8 @@ sidebar_label: Bootcamp Links
 | | 12/1 | **Projects Due**
 | 11          | 12/3    | Demo Day! |  |  |
 
+--->
+
 <!---
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
@@ -41,12 +45,12 @@ sidebar_label: Bootcamp Links
 
 --->
 
-Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-f24` directly!
+Tip: If you're ever confused, feel free to reach out to any board member on Slack! You can also send a message to `#bootcamp-s25` directly!
 
 ## Administrative Links (To Be Updated)
 - **Attendance form**: [Attendance Form](https://docs.google.com/forms/d/e/1FAIpQLSddEse-8SLbJy4YeDTkmHaMaERHYBQIB8mMEtkqx9Mp7a3Nig/viewform)
 - **HODP Calendar**: [hodp.org/calendar](http://hodp.org/calendar)
-- **Slack link (join #bootcamp-f24)**: [hodp.org/slack](http://hodp.org/joinslack)
+- **Slack link (join #bootcamp-s25)**: [hodp.org/slack](http://hodp.org/joinslack)
 
 ## Bootcamp Requirements
 - Our Bootcamp is completion-based (with no experience required). This means that as long as you attend bootcamps, complete a project, and publish it, you will become a HODP member!
@@ -63,6 +67,9 @@ More info on bootcamp projects will be released later!
 For more information on requirements for the article, see the links in Project Resources!
 
 ## Project Schedule (Tentative)
+Coming soon!
+
+<!---
 | Date        | Topic |
 | ----------- | -------|
 |          | Projects introduced.|
@@ -73,6 +80,7 @@ For more information on requirements for the article, see the links in Project R
 | 10/29       | Work sessions begin. |
 | 12/1        | Projects due!  |
 | 12/3        | Demo Day  |
+--->
 
 <!---
 
