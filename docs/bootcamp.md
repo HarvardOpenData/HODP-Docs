@@ -8,7 +8,7 @@ sidebar_label: Bootcamp Links
 
 | Week        | Date    | Topics                        | Slides         | Guide                                                      |
 | ----------- | ------- | ----------------------------- | -------------- | ---------------------------------------------------------- |
-| 1           | 2/4    | Introduction                  |  |     |
+| 1           | 2/4    | Introduction                  | [Slides](https://docs.google.com/presentation/d/1Ztt8ajmKT_cwHvWOKmGR4p9Ekkg1KhbB5JB6438rBsA/edit?usp=sharing) | [Python Crash Course](https://www.youtube.com/watch?v=fWjsdhR3z3c)    |
 | 2           | 2/11    | Intro to Python / Webscraping                       |  |  |
 | 3           |  2/18    | Pandas I                 |  |  |
 | 4           | 2/25     | Pandas II             |  |  |
