@@ -13,7 +13,7 @@ sidebar_label: Bootcamp Links
 | 3           |  2/18    | Pandas I                 | [Slides](https://docs.google.com/presentation/d/11EWn9qLnFrA1bM6EGufWBdWHzHMCrxZAFroRLOo7fTU/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/Harvard-Open-Data-Project-750167f0-7fe9-4720-b70f-903312daee43/project/Numpy-and-Pandas-Bootcamp-7784430b-15a6-450a-bbbd-c77aa7bbf7e7/notebook/Pandas-Fall-2024-Spring-2025-4fffc450ccf2453f92bc86de5a1a4904) |
 | 4           | 2/25     | Pandas II             | [Slides](https://docs.google.com/presentation/d/17IdeQrZbW3inyllGLZM5xrrZ9hpQv3llh2F-CIF3NJA/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/Harvard-Open-Data-Project-750167f0-7fe9-4720-b70f-903312daee43/project/Numpy-and-Pandas-Bootcamp-7784430b-15a6-450a-bbbd-c77aa7bbf7e7/notebook/Data-Cleaning-Fall-2024-Spring-2025-715b2387856d48cdaa6cba4fdfa66b29)  |
 | 5           | 3/4   | Visualizations (Matplotlib)                | [Slides](https://docs.google.com/presentation/d/1SXjztkYSrp77W9cdYIJrxFB16EXlVrQ_QbrtHT6ALys/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Graphs-in-Python-Bootcamp-cd78f215-7e16-4215-bdd0-1e42afda656f/notebook/Graphs-in-Bootcamp-Matplotlib-Spring-2025-1a2bae38d0be4eaca9ffab35ecd5ca19) |
-| 6           | 3/11   | Guest Speaker!                    |  | |
+| 6           | 3/11   | *Cancelled*                   |  | |
 | | 3/18 | *Cancelled for Spring Break* | | |
 | 7           | 3/25   | Statistics                     |  |  |
 | 8           | 4/1   | Data Justice |  | |
