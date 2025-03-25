@@ -15,7 +15,7 @@ sidebar_label: Bootcamp Links
 | 5           | 3/4   | Visualizations (Matplotlib)                | [Slides](https://docs.google.com/presentation/d/1SXjztkYSrp77W9cdYIJrxFB16EXlVrQ_QbrtHT6ALys/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Graphs-in-Python-Bootcamp-cd78f215-7e16-4215-bdd0-1e42afda656f/notebook/Graphs-in-Bootcamp-Matplotlib-Spring-2025-1a2bae38d0be4eaca9ffab35ecd5ca19) |
 | 6           | 3/11   | *Cancelled*                   |  | |
 | | 3/18 | *Cancelled for Spring Break* | | |
-| 7           | 3/25   | Statistics                     |  |  |
+| 7           | 3/25   | Statistics                     | [Slides](https://docs.google.com/presentation/d/1m4P5-ghnnF5oaS5LUS52kh2X0mnjhmtHpHe3Ja8A2T8/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Stats-Bootcamp-4aa492f9-b571-4320-8527-7ac4df6ad85a/notebook/Statistics-eb45c2762d894ba6a7fdebf33000edd0) |
 | 8           | 4/1   | Data Justice |  | |
 | | 4/5 | **Datathon!** | | |
 | 9           | 4/8  | Work Session and Content Team Check-In| |  |
