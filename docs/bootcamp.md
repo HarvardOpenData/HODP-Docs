@@ -17,7 +17,7 @@ sidebar_label: Bootcamp Links
 | | 3/18 | *Cancelled for Spring Break* | | |
 | 7           | 3/25   | Statistics                     | [Slides](https://docs.google.com/presentation/d/1m4P5-ghnnF5oaS5LUS52kh2X0mnjhmtHpHe3Ja8A2T8/edit?usp=sharing) | [Deepnote](https://deepnote.com/workspace/harvardopendata-750167f0-7fe9-4720-b70f-903312daee43/project/Stats-Bootcamp-4aa492f9-b571-4320-8527-7ac4df6ad85a/notebook/Statistics-eb45c2762d894ba6a7fdebf33000edd0) |
 | 8           | 4/1   | Data Justice | [Slides](https://docs.google.com/presentation/d/1dpfh50x0XaT_Uth4Vg9uuF42pUkn3cqxrN7YZY47l8I/edit?usp=sharing) | |
-| 9           | 4/8  | Work Session and Content Team Check-In| |  |
+| 9           | 4/8  | Work Session and Content Team Check-In| | [Python Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) |
 | 10          | 4/15   | Extra Session |  |  |
 | 11 | 4/22 | Work Session and Content Team Check-In | | |
 | | 4/27 | **Projects Due**
