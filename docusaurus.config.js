@@ -24,7 +24,7 @@ module.exports = {
         alt: 'HODP Docs',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {
           href: 'https://github.com/HarvardOpenData/HODP-Docs',
           label: 'GitHub',
